@@ -1,0 +1,7 @@
+# GitHub Linguist configuration
+# Mark curated offline database as generated/vendored data so it does not skew language statistics
+web/src/curatedData.js linguist-vendored
+
+# Ensure Kotlin files and Gradle Kotlin DSL are properly tracked
+*.kt linguist-detectable=true
+*.kts linguist-detectable=true

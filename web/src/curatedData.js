@@ -12700,6 +12700,7 @@ export const CURATED_MANGAS = [
   {
     "id": "curated-frieren",
     "mangadexId": "b0b721ff-c388-4486-aa0f-c2b0bb321512",
+    "komikandoSlug": "sousou-no-frieren",
     "title": "Sousou no Frieren",
     "altTitle": "Frieren: Beyond Journey's End",
     "author": "Kanehito Yamada, Tsukasa Abe",
@@ -12717,11 +12718,1226 @@ export const CURATED_MANGAS = [
     "banner": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80",
     "synopsis": "Raja Iblis telah dikalahkan, dan kelompok pahlawan kembali ke rumah dalam damai. Frieren, penyihir elf berumur ribuan tahun, menyaksikan rekan-rekannya menua dan meninggal dunia. Menyadari berharganya waktu dan ikatan manusia, Frieren memulai perjalanan baru menuju utara demi memahami perasaan sesama dan menghormati memori sang Pahlawan Himmel.",
     "type": "Manga",
-    "chapters": []
+    "chapters": [
+      {
+        "id": "sousou-no-frieren-1",
+        "number": "1",
+        "title": "Chapter 1",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-1/",
+        "lang": "id",
+        "pages": [
+          "https://imageainewgeneration.lol/data/141782/1/MiAu7TLqd2IkY5l/vKnVXfCcCGWjmZU01.jpg",
+          "https://himmga.lat/data/141782/1/MiAu7TLqd2IkY5l/ur3KxeiHvrhMeSi02.jpg",
+          "https://gaimgame.pics/data/141782/1/MiAu7TLqd2IkY5l/q60ZOvFtBojsG5B03.jpg",
+          "https://indocontentaising.lol/data/141782/1/MiAu7TLqd2IkY5l/O9Cs2RuZG5Pz7nw04.jpg",
+          "https://aicontentwow.lol/data/141782/1/MiAu7TLqd2IkY5l/FaEhsiKiM6WJqCV05.jpg",
+          "https://contentkerewnrorai.lat/data/141782/1/MiAu7TLqd2IkY5l/UEQ36dF5qGSVQ0V06.jpg",
+          "https://imageainewgeneration.lol/data/141782/1/MiAu7TLqd2IkY5l/pDJb6tBpjdZEzED07.jpg",
+          "https://himmga.lat/data/141782/1/MiAu7TLqd2IkY5l/RD7jISmcU4sVHKW08.jpg",
+          "https://gaimgame.pics/data/141782/1/MiAu7TLqd2IkY5l/TJPKPAoy9YLV7MG09.jpg",
+          "https://indocontentaising.lol/data/141782/1/MiAu7TLqd2IkY5l/eflphjEDolVCV5Y10.jpg",
+          "https://aicontentwow.lol/data/141782/1/MiAu7TLqd2IkY5l/GSYdutreUfEoVZZ11.jpg",
+          "https://contentkerewnrorai.lat/data/141782/1/MiAu7TLqd2IkY5l/v0xkSVNdZOqIlqB12.jpg",
+          "https://imageainewgeneration.lol/data/141782/1/MiAu7TLqd2IkY5l/ubv7joP5wk1sfEv13.jpg",
+          "https://himmga.lat/data/141782/1/MiAu7TLqd2IkY5l/5bWkPli6dFBC8pj14.jpg",
+          "https://gaimgame.pics/data/141782/1/MiAu7TLqd2IkY5l/4nfdRzTFZf8UOOg15.jpg",
+          "https://indocontentaising.lol/data/141782/1/MiAu7TLqd2IkY5l/H8fszCp4510hCmm16.jpg",
+          "https://aicontentwow.lol/data/141782/1/MiAu7TLqd2IkY5l/jpM2P6up981a9tu17.jpg",
+          "https://contentkerewnrorai.lat/data/141782/1/MiAu7TLqd2IkY5l/0L8bTihLkDnnpp818.jpg",
+          "https://imageainewgeneration.lol/data/141782/1/MiAu7TLqd2IkY5l/WJhBJsMJpI8MHcL19.jpg",
+          "https://himmga.lat/data/141782/1/MiAu7TLqd2IkY5l/NZHmSeyoxQxRiaF20.jpg",
+          "https://gaimgame.pics/data/141782/1/MiAu7TLqd2IkY5l/AHyF9WK4nb1gzJ921.jpg",
+          "https://indocontentaising.lol/data/141782/1/MiAu7TLqd2IkY5l/nYDah8g1avwGAlB22.jpg",
+          "https://aicontentwow.lol/data/141782/1/MiAu7TLqd2IkY5l/3bGXobUpUkwH4VX23.jpg",
+          "https://contentkerewnrorai.lat/data/141782/1/MiAu7TLqd2IkY5l/AcFKJtlNkTBqFue24.jpg",
+          "https://imageainewgeneration.lol/data/141782/1/MiAu7TLqd2IkY5l/yVG8Tc8q8uvZqCy25.jpg",
+          "https://himmga.lat/data/141782/1/MiAu7TLqd2IkY5l/wZfq7ZyFuvQKkHJ26.jpg",
+          "https://gaimgame.pics/data/141782/1/MiAu7TLqd2IkY5l/x013aLuOaPSmBBx27.jpg",
+          "https://indocontentaising.lol/data/141782/1/MiAu7TLqd2IkY5l/ABDknaF716kmexw28.jpg",
+          "https://aicontentwow.lol/data/141782/1/MiAu7TLqd2IkY5l/9HdglUc4fs5tk2G29.jpg",
+          "https://contentkerewnrorai.lat/data/141782/1/MiAu7TLqd2IkY5l/Kd8WDbfYOoE9GAK30.jpg",
+          "https://imageainewgeneration.lol/data/141782/1/MiAu7TLqd2IkY5l/OGY2m037cRRNiEV31.jpg",
+          "https://himmga.lat/data/141782/1/MiAu7TLqd2IkY5l/cOF4CS9YhB5YIm032.jpg",
+          "https://gaimgame.pics/data/141782/1/MiAu7TLqd2IkY5l/okOY7owPepWSWOp33.jpg",
+          "https://indocontentaising.lol/data/141782/1/MiAu7TLqd2IkY5l/Fl4A30DXBk1DfDR34.jpg",
+          "https://aicontentwow.lol/data/141782/1/MiAu7TLqd2IkY5l/CZnqPnz9ICXHUsj35.jpg",
+          "https://contentkerewnrorai.lat/data/141782/1/MiAu7TLqd2IkY5l/n8vhvFNdzzzHyMi36.jpg"
+        ]
+      },
+      {
+        "id": "sousou-no-frieren-2",
+        "number": "2",
+        "title": "Chapter 2",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-3",
+        "number": "3",
+        "title": "Chapter 3",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-3/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-4",
+        "number": "4",
+        "title": "Chapter 4",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-4/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-5",
+        "number": "5",
+        "title": "Chapter 5",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-6",
+        "number": "6",
+        "title": "Chapter 6",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-6/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-7",
+        "number": "7",
+        "title": "Chapter 7",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-7/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-8",
+        "number": "8",
+        "title": "Chapter 8",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-8/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-9",
+        "number": "9",
+        "title": "Chapter 9",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-9/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-10",
+        "number": "10",
+        "title": "Chapter 10",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-10/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-11",
+        "number": "11",
+        "title": "Chapter 11",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-11/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-12",
+        "number": "12",
+        "title": "Chapter 12",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-12/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-13",
+        "number": "13",
+        "title": "Chapter 13",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-13/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-14",
+        "number": "14",
+        "title": "Chapter 14",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-14/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-15",
+        "number": "15",
+        "title": "Chapter 15",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-15/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-16",
+        "number": "16",
+        "title": "Chapter 16",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-16/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-17",
+        "number": "17",
+        "title": "Chapter 17",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-17/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-18",
+        "number": "18",
+        "title": "Chapter 18",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-18/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-19",
+        "number": "19",
+        "title": "Chapter 19",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-19/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-20",
+        "number": "20",
+        "title": "Chapter 20",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-20/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-21",
+        "number": "21",
+        "title": "Chapter 21",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-21/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-22",
+        "number": "22",
+        "title": "Chapter 22",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-22/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-23",
+        "number": "23",
+        "title": "Chapter 23",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-23/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-24",
+        "number": "24",
+        "title": "Chapter 24",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-24/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-25",
+        "number": "25",
+        "title": "Chapter 25",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-25/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-26",
+        "number": "26",
+        "title": "Chapter 26",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-26/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-27",
+        "number": "27",
+        "title": "Chapter 27",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-27/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-28",
+        "number": "28",
+        "title": "Chapter 28",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-28/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-29",
+        "number": "29",
+        "title": "Chapter 29",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-29/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-30",
+        "number": "30",
+        "title": "Chapter 30",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-30/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-31",
+        "number": "31",
+        "title": "Chapter 31",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-31/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-32",
+        "number": "32",
+        "title": "Chapter 32",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-32/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-33",
+        "number": "33",
+        "title": "Chapter 33",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-33/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-34",
+        "number": "34",
+        "title": "Chapter 34",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-34/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-35",
+        "number": "35",
+        "title": "Chapter 35",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-35/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-36",
+        "number": "36",
+        "title": "Chapter 36",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-36/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-37",
+        "number": "37",
+        "title": "Chapter 37",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-37/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-38",
+        "number": "38",
+        "title": "Chapter 38",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-38/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-39",
+        "number": "39",
+        "title": "Chapter 39",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-39/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-40",
+        "number": "40",
+        "title": "Chapter 40",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-40/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-41",
+        "number": "41",
+        "title": "Chapter 41",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-41/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-42",
+        "number": "42",
+        "title": "Chapter 42",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-42/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-43",
+        "number": "43",
+        "title": "Chapter 43",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-43/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-44",
+        "number": "44",
+        "title": "Chapter 44",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-44/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-45",
+        "number": "45",
+        "title": "Chapter 45",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-45/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-46",
+        "number": "46",
+        "title": "Chapter 46",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-46/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-47",
+        "number": "47",
+        "title": "Chapter 47",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-47/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-48",
+        "number": "48",
+        "title": "Chapter 48",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-48/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-49",
+        "number": "49",
+        "title": "Chapter 49",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-49/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-50",
+        "number": "50",
+        "title": "Chapter 50",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-50/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-51",
+        "number": "51",
+        "title": "Chapter 51",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-51/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-52",
+        "number": "52",
+        "title": "Chapter 52",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-52/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-53",
+        "number": "53",
+        "title": "Chapter 53",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-53/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-54",
+        "number": "54",
+        "title": "Chapter 54",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-54/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-55",
+        "number": "55",
+        "title": "Chapter 55",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-55/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-56",
+        "number": "56",
+        "title": "Chapter 56",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-56/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-57",
+        "number": "57",
+        "title": "Chapter 57",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-57/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-58",
+        "number": "58",
+        "title": "Chapter 58",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-58/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-59",
+        "number": "59",
+        "title": "Chapter 59",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-59/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-60",
+        "number": "60",
+        "title": "Chapter 60",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-60/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-61",
+        "number": "61",
+        "title": "Chapter 61",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-61/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-62/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-63",
+        "number": "63",
+        "title": "Chapter 63",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-63/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-64",
+        "number": "64",
+        "title": "Chapter 64",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-64/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-65",
+        "number": "65",
+        "title": "Chapter 65",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-65/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-66",
+        "number": "66",
+        "title": "Chapter 66",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-66/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-67",
+        "number": "67",
+        "title": "Chapter 67",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-67/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-68",
+        "number": "68",
+        "title": "Chapter 68",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-68/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-69",
+        "number": "69",
+        "title": "Chapter 69",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-69/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-70",
+        "number": "70",
+        "title": "Chapter 70",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-70/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-71",
+        "number": "71",
+        "title": "Chapter 71",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-71/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-72",
+        "number": "72",
+        "title": "Chapter 72",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-72/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-73",
+        "number": "73",
+        "title": "Chapter 73",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-73/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-74",
+        "number": "74",
+        "title": "Chapter 74",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-74/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-75",
+        "number": "75",
+        "title": "Chapter 75",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-75/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-76",
+        "number": "76",
+        "title": "Chapter 76",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-76/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-77",
+        "number": "77",
+        "title": "Chapter 77",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-77/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-78",
+        "number": "78",
+        "title": "Chapter 78",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-78/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-79",
+        "number": "79",
+        "title": "Chapter 79",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-79/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-80",
+        "number": "80",
+        "title": "Chapter 80",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-80/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-81",
+        "number": "81",
+        "title": "Chapter 81",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-81/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-82",
+        "number": "82",
+        "title": "Chapter 82",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-82/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-83",
+        "number": "83",
+        "title": "Chapter 83",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-83/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-84",
+        "number": "84",
+        "title": "Chapter 84",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-84/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-85",
+        "number": "85",
+        "title": "Chapter 85",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-85/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-86",
+        "number": "86",
+        "title": "Chapter 86",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-86/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-87",
+        "number": "87",
+        "title": "Chapter 87",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-87/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-88",
+        "number": "88",
+        "title": "Chapter 88",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-88/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-89",
+        "number": "89",
+        "title": "Chapter 89",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-89/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-90",
+        "number": "90",
+        "title": "Chapter 90",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-90/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-91",
+        "number": "91",
+        "title": "Chapter 91",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-91/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-92",
+        "number": "92",
+        "title": "Chapter 92",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-92/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-93",
+        "number": "93",
+        "title": "Chapter 93",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-93/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-94",
+        "number": "94",
+        "title": "Chapter 94",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-94/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-95",
+        "number": "95",
+        "title": "Chapter 95",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-95/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-96",
+        "number": "96",
+        "title": "Chapter 96",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-96/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-97",
+        "number": "97",
+        "title": "Chapter 97",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-97/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-98",
+        "number": "98",
+        "title": "Chapter 98",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-98/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-99",
+        "number": "99",
+        "title": "Chapter 99",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-99/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-100",
+        "number": "100",
+        "title": "Chapter 100",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-100/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-101",
+        "number": "101",
+        "title": "Chapter 101",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-101/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-102",
+        "number": "102",
+        "title": "Chapter 102",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-102/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-103",
+        "number": "103",
+        "title": "Chapter 103",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-103/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-104",
+        "number": "104",
+        "title": "Chapter 104",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-104/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-105",
+        "number": "105",
+        "title": "Chapter 105",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-105/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-106",
+        "number": "106",
+        "title": "Chapter 106",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-106/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-107",
+        "number": "107",
+        "title": "Chapter 107",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-107/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-108",
+        "number": "108",
+        "title": "Chapter 108",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-108/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-109",
+        "number": "109",
+        "title": "Chapter 109",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-109/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-110",
+        "number": "110",
+        "title": "Chapter 110",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-110/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-111",
+        "number": "111",
+        "title": "Chapter 111",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-111/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-112",
+        "number": "112",
+        "title": "Chapter 112",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-112/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-113",
+        "number": "113",
+        "title": "Chapter 113",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-113/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-114",
+        "number": "114",
+        "title": "Chapter 114",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-114/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-115",
+        "number": "115",
+        "title": "Chapter 115",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-115/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-116",
+        "number": "116",
+        "title": "Chapter 116",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-116/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-117",
+        "number": "117",
+        "title": "Chapter 117",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-117/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-118",
+        "number": "118",
+        "title": "Chapter 118",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-118/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-119",
+        "number": "119",
+        "title": "Chapter 119",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-119/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-120",
+        "number": "120",
+        "title": "Chapter 120",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-120/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-121",
+        "number": "121",
+        "title": "Chapter 121",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-121/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-122",
+        "number": "122",
+        "title": "Chapter 122",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-122/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-123",
+        "number": "123",
+        "title": "Chapter 123",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-123/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-124",
+        "number": "124",
+        "title": "Chapter 124",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-124/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-125",
+        "number": "125",
+        "title": "Chapter 125",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-125/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-126",
+        "number": "126",
+        "title": "Chapter 126",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-126/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-127",
+        "number": "127",
+        "title": "Chapter 127",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-127/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-128",
+        "number": "128",
+        "title": "Chapter 128",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-128/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-129",
+        "number": "129",
+        "title": "Chapter 129",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-129/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-130",
+        "number": "130",
+        "title": "Chapter 130",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-130/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-131",
+        "number": "131",
+        "title": "Chapter 131",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-131/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-132",
+        "number": "132",
+        "title": "Chapter 132",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-132/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-133",
+        "number": "133",
+        "title": "Chapter 133",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-133/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-134",
+        "number": "134",
+        "title": "Chapter 134",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-134/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-135",
+        "number": "135",
+        "title": "Chapter 135",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-135/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-136",
+        "number": "136",
+        "title": "Chapter 136",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-136/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-137",
+        "number": "137",
+        "title": "Chapter 137",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-137/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-138",
+        "number": "138",
+        "title": "Chapter 138",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-138/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-139",
+        "number": "139",
+        "title": "Chapter 139",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-139/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-140",
+        "number": "140",
+        "title": "Chapter 140",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-140/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-141",
+        "number": "141",
+        "title": "Chapter 141",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-141/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-142",
+        "number": "142",
+        "title": "Chapter 142",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-142/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-143",
+        "number": "143",
+        "title": "Chapter 143",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-143/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-144",
+        "number": "144",
+        "title": "Chapter 144",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-144/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-145",
+        "number": "145",
+        "title": "Chapter 145",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-145/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-146",
+        "number": "146",
+        "title": "Chapter 146",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-146/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "sousou-no-frieren-147",
+        "number": "147",
+        "title": "Chapter 147",
+        "url": "https://komikindo.ch/sousou-no-frieren-chapter-147/",
+        "lang": "id",
+        "pages": null
+      }
+    ]
   },
   {
     "id": "curated-spy-family",
     "mangadexId": "6b958848-c885-4735-9201-12ee77abcb3c",
+    "komikandoSlug": "spy-x-family",
     "title": "SPY x FAMILY",
     "altTitle": "Misi Rahasia Keluarga Forger",
     "author": "Tatsuya Endo",
@@ -12739,7 +13955,1425 @@ export const CURATED_MANGAS = [
     "banner": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=1200&auto=format&fit=crop&q=80",
     "synopsis": "Mata-mata ulung berkode Twilight harus membangun keluarga palsu demi Operasi Strix menjaga perdamaian dunia barat dan timur. Tanpa sepengetahuannya, istri yang ia nikahi adalah pembunuh bayaran legendaris bernama Thorn Princess, dan putri cilik yang ia adopsi adalah esper pembaca pikiran bernama Anya!",
     "type": "Manga",
-    "chapters": []
+    "chapters": [
+      {
+        "id": "spy-x-family-01",
+        "number": "01",
+        "title": "Chapter 01",
+        "url": "https://komikindo.ch/spy-x-family-chapter-01/",
+        "lang": "id",
+        "pages": [
+          "https://imageainewgeneration.lol/data/404729/01/EwQefrFkOPIcB3l/R60ryuFlpXIcrTh001.webp",
+          "https://himmga.lat/data/404729/01/EwQefrFkOPIcB3l/vXvwQB8adwIv2yK002.webp",
+          "https://gaimgame.pics/data/404729/01/EwQefrFkOPIcB3l/5Oo2SgucFx69XDs003.webp",
+          "https://indocontentaising.lol/data/404729/01/EwQefrFkOPIcB3l/oWrgxSqmkf0s12y004.webp",
+          "https://aicontentwow.lol/data/404729/01/EwQefrFkOPIcB3l/MN4rrD7Mp2Tp3t2005.webp",
+          "https://contentkerewnrorai.lat/data/404729/01/EwQefrFkOPIcB3l/D80nUbb8ss9cVLF006.webp",
+          "https://imageainewgeneration.lol/data/404729/01/EwQefrFkOPIcB3l/46J8xtJ4DVvDujS007.webp",
+          "https://himmga.lat/data/404729/01/EwQefrFkOPIcB3l/LOB3dORZlebTTLQ008.webp",
+          "https://gaimgame.pics/data/404729/01/EwQefrFkOPIcB3l/8P6fVtsshiyU8hk009.webp",
+          "https://indocontentaising.lol/data/404729/01/EwQefrFkOPIcB3l/lhpwTXW9oXNqT6Z010.webp",
+          "https://aicontentwow.lol/data/404729/01/EwQefrFkOPIcB3l/1X58GNfQrGa1ua6011.webp",
+          "https://contentkerewnrorai.lat/data/404729/01/EwQefrFkOPIcB3l/zDIh1yISvOCE9AM012.webp",
+          "https://imageainewgeneration.lol/data/404729/01/EwQefrFkOPIcB3l/jvHc70jDU3aeMqg013.webp",
+          "https://himmga.lat/data/404729/01/EwQefrFkOPIcB3l/YVtOn74dcbKDiEu014.webp",
+          "https://gaimgame.pics/data/404729/01/EwQefrFkOPIcB3l/YXCtMMHmv83Li0S015.webp",
+          "https://indocontentaising.lol/data/404729/01/EwQefrFkOPIcB3l/541sp8XY9CR4avJ016.webp",
+          "https://aicontentwow.lol/data/404729/01/EwQefrFkOPIcB3l/AAjLvj2NMq5BrwV017.webp",
+          "https://contentkerewnrorai.lat/data/404729/01/EwQefrFkOPIcB3l/e2IBF9A8BwQ6Ere018.webp",
+          "https://imageainewgeneration.lol/data/404729/01/EwQefrFkOPIcB3l/TyvePOMjhXCBMlw019.webp",
+          "https://himmga.lat/data/404729/01/EwQefrFkOPIcB3l/3XKtSGgqDz45Hqf020.webp",
+          "https://gaimgame.pics/data/404729/01/EwQefrFkOPIcB3l/fq5IbV8nsYyrpkJ021.webp",
+          "https://indocontentaising.lol/data/404729/01/EwQefrFkOPIcB3l/f5iGt3Xt4S6LkIg022.webp",
+          "https://aicontentwow.lol/data/404729/01/EwQefrFkOPIcB3l/zFoQQivsYWxYX4J023.webp",
+          "https://contentkerewnrorai.lat/data/404729/01/EwQefrFkOPIcB3l/r4QjSZueaf4Y5bU024.webp",
+          "https://imageainewgeneration.lol/data/404729/01/EwQefrFkOPIcB3l/DVULAvTfXLirsUj025.webp",
+          "https://himmga.lat/data/404729/01/EwQefrFkOPIcB3l/mQBPPRwHMfdZBVD026.webp",
+          "https://gaimgame.pics/data/404729/01/EwQefrFkOPIcB3l/qxAjFKDbxovSJEK027.webp",
+          "https://indocontentaising.lol/data/404729/01/EwQefrFkOPIcB3l/sxpxUnHk8BbV3oA028.webp",
+          "https://aicontentwow.lol/data/404729/01/EwQefrFkOPIcB3l/EHc6n6KX8vXWQ9d029.webp",
+          "https://contentkerewnrorai.lat/data/404729/01/EwQefrFkOPIcB3l/8lu285aOq3Eicz4030.webp",
+          "https://imageainewgeneration.lol/data/404729/01/EwQefrFkOPIcB3l/I5Xbc3n96BEi86e031.webp",
+          "https://himmga.lat/data/404729/01/EwQefrFkOPIcB3l/DHk8FmoQrMX1kzH032.webp"
+        ]
+      },
+      {
+        "id": "spy-x-family-02",
+        "number": "02",
+        "title": "Chapter 02",
+        "url": "https://komikindo.ch/spy-x-family-chapter-02/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-03",
+        "number": "03",
+        "title": "Chapter 03",
+        "url": "https://komikindo.ch/spy-x-family-chapter-03/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-04",
+        "number": "04",
+        "title": "Chapter 04",
+        "url": "https://komikindo.ch/spy-x-family-chapter-04/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-05",
+        "number": "05",
+        "title": "Chapter 05",
+        "url": "https://komikindo.ch/spy-x-family-chapter-05/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-06",
+        "number": "06",
+        "title": "Chapter 06",
+        "url": "https://komikindo.ch/spy-x-family-chapter-06/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-07",
+        "number": "07",
+        "title": "Chapter 07",
+        "url": "https://komikindo.ch/spy-x-family-chapter-07/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-08",
+        "number": "08",
+        "title": "Chapter 08",
+        "url": "https://komikindo.ch/spy-x-family-chapter-08-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-08",
+        "number": "08",
+        "title": "Chapter 08",
+        "url": "https://komikindo.ch/spy-x-family-chapter-08/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-09",
+        "number": "09",
+        "title": "Chapter 09",
+        "url": "https://komikindo.ch/spy-x-family-chapter-09/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-10",
+        "number": "10",
+        "title": "Chapter 10",
+        "url": "https://komikindo.ch/spy-x-family-chapter-10/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-11",
+        "number": "11",
+        "title": "Chapter 11",
+        "url": "https://komikindo.ch/spy-x-family-chapter-11/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-12",
+        "number": "12",
+        "title": "Chapter 12",
+        "url": "https://komikindo.ch/spy-x-family-chapter-12/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-13",
+        "number": "13",
+        "title": "Chapter 13",
+        "url": "https://komikindo.ch/spy-x-family-chapter-13/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-14",
+        "number": "14",
+        "title": "Chapter 14",
+        "url": "https://komikindo.ch/spy-x-family-chapter-14/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-15",
+        "number": "15",
+        "title": "Chapter 15",
+        "url": "https://komikindo.ch/spy-x-family-chapter-15-6/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-15",
+        "number": "15",
+        "title": "Chapter 15",
+        "url": "https://komikindo.ch/spy-x-family-chapter-15-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-15",
+        "number": "15",
+        "title": "Chapter 15",
+        "url": "https://komikindo.ch/spy-x-family-chapter-15/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-16",
+        "number": "16",
+        "title": "Chapter 16",
+        "url": "https://komikindo.ch/spy-x-family-chapter-16/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-17",
+        "number": "17",
+        "title": "Chapter 17",
+        "url": "https://komikindo.ch/spy-x-family-chapter-17/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-18",
+        "number": "18",
+        "title": "Chapter 18",
+        "url": "https://komikindo.ch/spy-x-family-chapter-18-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-18",
+        "number": "18",
+        "title": "Chapter 18",
+        "url": "https://komikindo.ch/spy-x-family-chapter-18/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-19",
+        "number": "19",
+        "title": "Chapter 19",
+        "url": "https://komikindo.ch/spy-x-family-chapter-19/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-20",
+        "number": "20",
+        "title": "Chapter 20",
+        "url": "https://komikindo.ch/spy-x-family-chapter-20/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-21",
+        "number": "21",
+        "title": "Chapter 21",
+        "url": "https://komikindo.ch/spy-x-family-chapter-21/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-22",
+        "number": "22",
+        "title": "Chapter 22",
+        "url": "https://komikindo.ch/spy-x-family-chapter-22/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-23",
+        "number": "23",
+        "title": "Chapter 23",
+        "url": "https://komikindo.ch/spy-x-family-chapter-23/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-24",
+        "number": "24",
+        "title": "Chapter 24",
+        "url": "https://komikindo.ch/spy-x-family-chapter-24-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-24",
+        "number": "24",
+        "title": "Chapter 24",
+        "url": "https://komikindo.ch/spy-x-family-chapter-24/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-25",
+        "number": "25",
+        "title": "Chapter 25",
+        "url": "https://komikindo.ch/spy-x-family-chapter-25/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-26",
+        "number": "26",
+        "title": "Chapter 26",
+        "url": "https://komikindo.ch/spy-x-family-chapter-26/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-27",
+        "number": "27",
+        "title": "Chapter 27",
+        "url": "https://komikindo.ch/spy-x-family-chapter-27-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-27",
+        "number": "27",
+        "title": "Chapter 27",
+        "url": "https://komikindo.ch/spy-x-family-chapter-27/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-28",
+        "number": "28",
+        "title": "Chapter 28",
+        "url": "https://komikindo.ch/spy-x-family-chapter-28/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-29",
+        "number": "29",
+        "title": "Chapter 29",
+        "url": "https://komikindo.ch/spy-x-family-chapter-29-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-29",
+        "number": "29",
+        "title": "Chapter 29",
+        "url": "https://komikindo.ch/spy-x-family-chapter-29/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-30",
+        "number": "30",
+        "title": "Chapter 30",
+        "url": "https://komikindo.ch/spy-x-family-chapter-30/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-31",
+        "number": "31",
+        "title": "Chapter 31",
+        "url": "https://komikindo.ch/spy-x-family-chapter-31/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-32",
+        "number": "32",
+        "title": "Chapter 32",
+        "url": "https://komikindo.ch/spy-x-family-chapter-32/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-33",
+        "number": "33",
+        "title": "Chapter 33",
+        "url": "https://komikindo.ch/spy-x-family-chapter-33/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-34",
+        "number": "34",
+        "title": "Chapter 34",
+        "url": "https://komikindo.ch/spy-x-family-chapter-34/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-35",
+        "number": "35",
+        "title": "Chapter 35",
+        "url": "https://komikindo.ch/spy-x-family-chapter-35/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-36",
+        "number": "36",
+        "title": "Chapter 36",
+        "url": "https://komikindo.ch/spy-x-family-chapter-36-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-36",
+        "number": "36",
+        "title": "Chapter 36",
+        "url": "https://komikindo.ch/spy-x-family-chapter-36/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-37",
+        "number": "37",
+        "title": "Chapter 37",
+        "url": "https://komikindo.ch/spy-x-family-chapter-37-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-37",
+        "number": "37",
+        "title": "Chapter 37",
+        "url": "https://komikindo.ch/spy-x-family-chapter-37/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-38",
+        "number": "38",
+        "title": "Chapter 38",
+        "url": "https://komikindo.ch/spy-x-family-chapter-38/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-39",
+        "number": "39",
+        "title": "Chapter 39",
+        "url": "https://komikindo.ch/spy-x-family-chapter-39/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-40",
+        "number": "40",
+        "title": "Chapter 40",
+        "url": "https://komikindo.ch/spy-x-family-chapter-40-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-40",
+        "number": "40",
+        "title": "Chapter 40",
+        "url": "https://komikindo.ch/spy-x-family-chapter-40/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-41",
+        "number": "41",
+        "title": "Chapter 41",
+        "url": "https://komikindo.ch/spy-x-family-chapter-41/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-42",
+        "number": "42",
+        "title": "Chapter 42",
+        "url": "https://komikindo.ch/spy-x-family-chapter-42/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-43",
+        "number": "43",
+        "title": "Chapter 43",
+        "url": "https://komikindo.ch/spy-x-family-chapter-43-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-43",
+        "number": "43",
+        "title": "Chapter 43",
+        "url": "https://komikindo.ch/spy-x-family-chapter-43/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-44",
+        "number": "44",
+        "title": "Chapter 44",
+        "url": "https://komikindo.ch/spy-x-family-chapter-44/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-45",
+        "number": "45",
+        "title": "Chapter 45",
+        "url": "https://komikindo.ch/spy-x-family-chapter-45/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-46",
+        "number": "46",
+        "title": "Chapter 46",
+        "url": "https://komikindo.ch/spy-x-family-chapter-46/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-47",
+        "number": "47",
+        "title": "Chapter 47",
+        "url": "https://komikindo.ch/spy-x-family-chapter-47/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-48",
+        "number": "48",
+        "title": "Chapter 48",
+        "url": "https://komikindo.ch/spy-x-family-chapter-48/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-49",
+        "number": "49",
+        "title": "Chapter 49",
+        "url": "https://komikindo.ch/spy-x-family-chapter-49/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-50",
+        "number": "50",
+        "title": "Chapter 50",
+        "url": "https://komikindo.ch/spy-x-family-chapter-50/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-51",
+        "number": "51",
+        "title": "Chapter 51",
+        "url": "https://komikindo.ch/spy-x-family-chapter-51-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-51",
+        "number": "51",
+        "title": "Chapter 51",
+        "url": "https://komikindo.ch/spy-x-family-chapter-51/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-52",
+        "number": "52",
+        "title": "Chapter 52",
+        "url": "https://komikindo.ch/spy-x-family-chapter-52/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-53",
+        "number": "53",
+        "title": "Chapter 53",
+        "url": "https://komikindo.ch/spy-x-family-chapter-53/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-54",
+        "number": "54",
+        "title": "Chapter 54",
+        "url": "https://komikindo.ch/spy-x-family-chapter-54/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-55",
+        "number": "55",
+        "title": "Chapter 55",
+        "url": "https://komikindo.ch/spy-x-family-chapter-55/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-56",
+        "number": "56",
+        "title": "Chapter 56",
+        "url": "https://komikindo.ch/spy-x-family-chapter-56/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-57",
+        "number": "57",
+        "title": "Chapter 57",
+        "url": "https://komikindo.ch/spy-x-family-chapter-57/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-58",
+        "number": "58",
+        "title": "Chapter 58",
+        "url": "https://komikindo.ch/spy-x-family-chapter-58-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-58",
+        "number": "58",
+        "title": "Chapter 58",
+        "url": "https://komikindo.ch/spy-x-family-chapter-58-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-58",
+        "number": "58",
+        "title": "Chapter 58",
+        "url": "https://komikindo.ch/spy-x-family-chapter-58/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-59",
+        "number": "59",
+        "title": "Chapter 59",
+        "url": "https://komikindo.ch/spy-x-family-chapter-59/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-60",
+        "number": "60",
+        "title": "Chapter 60",
+        "url": "https://komikindo.ch/spy-x-family-chapter-60/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-61",
+        "number": "61",
+        "title": "Chapter 61",
+        "url": "https://komikindo.ch/spy-x-family-chapter-61/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/spy-x-family-chapter-62-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/spy-x-family-chapter-62-3/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/spy-x-family-chapter-62-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/spy-x-family-chapter-62/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-63",
+        "number": "63",
+        "title": "Chapter 63",
+        "url": "https://komikindo.ch/spy-x-family-chapter-63/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-64",
+        "number": "64",
+        "title": "Chapter 64",
+        "url": "https://komikindo.ch/spy-x-family-chapter-64-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-64",
+        "number": "64",
+        "title": "Chapter 64",
+        "url": "https://komikindo.ch/spy-x-family-chapter-64/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-65",
+        "number": "65",
+        "title": "Chapter 65",
+        "url": "https://komikindo.ch/spy-x-family-chapter-65/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-66",
+        "number": "66",
+        "title": "Chapter 66",
+        "url": "https://komikindo.ch/spy-x-family-chapter-66/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-67",
+        "number": "67",
+        "title": "Chapter 67",
+        "url": "https://komikindo.ch/spy-x-family-chapter-67-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-67",
+        "number": "67",
+        "title": "Chapter 67",
+        "url": "https://komikindo.ch/spy-x-family-chapter-67-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-68",
+        "number": "68",
+        "title": "Chapter 68",
+        "url": "https://komikindo.ch/spy-x-family-chapter-68-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-68",
+        "number": "68",
+        "title": "Chapter 68",
+        "url": "https://komikindo.ch/spy-x-family-chapter-68/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-69",
+        "number": "69",
+        "title": "Chapter 69",
+        "url": "https://komikindo.ch/spy-x-family-chapter-69/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-70",
+        "number": "70",
+        "title": "Chapter 70",
+        "url": "https://komikindo.ch/spy-x-family-chapter-70/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-71",
+        "number": "71",
+        "title": "Chapter 71",
+        "url": "https://komikindo.ch/spy-x-family-chapter-71-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-71",
+        "number": "71",
+        "title": "Chapter 71",
+        "url": "https://komikindo.ch/spy-x-family-chapter-71/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-72",
+        "number": "72",
+        "title": "Chapter 72",
+        "url": "https://komikindo.ch/spy-x-family-chapter-72/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-73",
+        "number": "73",
+        "title": "Chapter 73",
+        "url": "https://komikindo.ch/spy-x-family-chapter-73/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-74",
+        "number": "74",
+        "title": "Chapter 74",
+        "url": "https://komikindo.ch/spy-x-family-chapter-74/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-75",
+        "number": "75",
+        "title": "Chapter 75",
+        "url": "https://komikindo.ch/spy-x-family-chapter-75/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-76",
+        "number": "76",
+        "title": "Chapter 76",
+        "url": "https://komikindo.ch/spy-x-family-chapter-76/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-77",
+        "number": "77",
+        "title": "Chapter 77",
+        "url": "https://komikindo.ch/spy-x-family-chapter-77/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-78",
+        "number": "78",
+        "title": "Chapter 78",
+        "url": "https://komikindo.ch/spy-x-family-chapter-78-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-78",
+        "number": "78",
+        "title": "Chapter 78",
+        "url": "https://komikindo.ch/spy-x-family-chapter-78/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-79",
+        "number": "79",
+        "title": "Chapter 79",
+        "url": "https://komikindo.ch/spy-x-family-chapter-79/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-80",
+        "number": "80",
+        "title": "Chapter 80",
+        "url": "https://komikindo.ch/spy-x-family-chapter-80/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-81",
+        "number": "81",
+        "title": "Chapter 81",
+        "url": "https://komikindo.ch/spy-x-family-chapter-81/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-82",
+        "number": "82",
+        "title": "Chapter 82",
+        "url": "https://komikindo.ch/spy-x-family-chapter-82/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-83",
+        "number": "83",
+        "title": "Chapter 83",
+        "url": "https://komikindo.ch/spy-x-family-chapter-83/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-84",
+        "number": "84",
+        "title": "Chapter 84",
+        "url": "https://komikindo.ch/spy-x-family-chapter-84/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-85",
+        "number": "85",
+        "title": "Chapter 85",
+        "url": "https://komikindo.ch/spy-x-family-chapter-85/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-86",
+        "number": "86",
+        "title": "Chapter 86",
+        "url": "https://komikindo.ch/spy-x-family-chapter-86/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-87",
+        "number": "87",
+        "title": "Chapter 87",
+        "url": "https://komikindo.ch/spy-x-family-chapter-87/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-88",
+        "number": "88",
+        "title": "Chapter 88",
+        "url": "https://komikindo.ch/spy-x-family-chapter-88/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-89",
+        "number": "89",
+        "title": "Chapter 89",
+        "url": "https://komikindo.ch/spy-x-family-chapter-89/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-90",
+        "number": "90",
+        "title": "Chapter 90",
+        "url": "https://komikindo.ch/spy-x-family-chapter-90-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-90",
+        "number": "90",
+        "title": "Chapter 90",
+        "url": "https://komikindo.ch/spy-x-family-chapter-90/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-91",
+        "number": "91",
+        "title": "Chapter 91",
+        "url": "https://komikindo.ch/spy-x-family-chapter-91/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-92",
+        "number": "92",
+        "title": "Chapter 92",
+        "url": "https://komikindo.ch/spy-x-family-chapter-92/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-93",
+        "number": "93",
+        "title": "Chapter 93",
+        "url": "https://komikindo.ch/spy-x-family-chapter-93/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-94",
+        "number": "94",
+        "title": "Chapter 94",
+        "url": "https://komikindo.ch/spy-x-family-chapter-94/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-95",
+        "number": "95",
+        "title": "Chapter 95",
+        "url": "https://komikindo.ch/spy-x-family-chapter-95/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-96",
+        "number": "96",
+        "title": "Chapter 96",
+        "url": "https://komikindo.ch/spy-x-family-chapter-96-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-96",
+        "number": "96",
+        "title": "Chapter 96",
+        "url": "https://komikindo.ch/spy-x-family-chapter-96-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-96",
+        "number": "96",
+        "title": "Chapter 96",
+        "url": "https://komikindo.ch/spy-x-family-chapter-96/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-97",
+        "number": "97",
+        "title": "Chapter 97",
+        "url": "https://komikindo.ch/spy-x-family-chapter-97/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-98",
+        "number": "98",
+        "title": "Chapter 98",
+        "url": "https://komikindo.ch/spy-x-family-chapter-98/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-99",
+        "number": "99",
+        "title": "Chapter 99",
+        "url": "https://komikindo.ch/spy-x-family-chapter-99/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-100",
+        "number": "100",
+        "title": "Chapter 100",
+        "url": "https://komikindo.ch/spy-x-family-chapter-100/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-101",
+        "number": "101",
+        "title": "Chapter 101",
+        "url": "https://komikindo.ch/spy-x-family-chapter-101/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-102",
+        "number": "102",
+        "title": "Chapter 102",
+        "url": "https://komikindo.ch/spy-x-family-chapter-102/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-103",
+        "number": "103",
+        "title": "Chapter 103",
+        "url": "https://komikindo.ch/spy-x-family-chapter-103/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-104",
+        "number": "104",
+        "title": "Chapter 104",
+        "url": "https://komikindo.ch/spy-x-family-chapter-104/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-105",
+        "number": "105",
+        "title": "Chapter 105",
+        "url": "https://komikindo.ch/spy-x-family-chapter-105-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-105",
+        "number": "105",
+        "title": "Chapter 105",
+        "url": "https://komikindo.ch/spy-x-family-chapter-105/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-106",
+        "number": "106",
+        "title": "Chapter 106",
+        "url": "https://komikindo.ch/spy-x-family-chapter-106/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-107",
+        "number": "107",
+        "title": "Chapter 107",
+        "url": "https://komikindo.ch/spy-x-family-chapter-107/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-108",
+        "number": "108",
+        "title": "Chapter 108",
+        "url": "https://komikindo.ch/spy-x-family-chapter-108/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-109",
+        "number": "109",
+        "title": "Chapter 109",
+        "url": "https://komikindo.ch/spy-x-family-chapter-109/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-110",
+        "number": "110",
+        "title": "Chapter 110",
+        "url": "https://komikindo.ch/spy-x-family-chapter-110/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-111",
+        "number": "111",
+        "title": "Chapter 111",
+        "url": "https://komikindo.ch/spy-x-family-chapter-111/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-112",
+        "number": "112",
+        "title": "Chapter 112",
+        "url": "https://komikindo.ch/spy-x-family-chapter-112/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-113",
+        "number": "113",
+        "title": "Chapter 113",
+        "url": "https://komikindo.ch/spy-x-family-chapter-113/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-114",
+        "number": "114",
+        "title": "Chapter 114",
+        "url": "https://komikindo.ch/spy-x-family-chapter-114-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-114",
+        "number": "114",
+        "title": "Chapter 114",
+        "url": "https://komikindo.ch/spy-x-family-chapter-114/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-115",
+        "number": "115",
+        "title": "Chapter 115",
+        "url": "https://komikindo.ch/spy-x-family-chapter-115/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-116",
+        "number": "116",
+        "title": "Chapter 116",
+        "url": "https://komikindo.ch/spy-x-family-chapter-116-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-116",
+        "number": "116",
+        "title": "Chapter 116",
+        "url": "https://komikindo.ch/spy-x-family-chapter-116/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-117",
+        "number": "117",
+        "title": "Chapter 117",
+        "url": "https://komikindo.ch/spy-x-family-chapter-117/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-118",
+        "number": "118",
+        "title": "Chapter 118",
+        "url": "https://komikindo.ch/spy-x-family-chapter-118/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-119",
+        "number": "119",
+        "title": "Chapter 119",
+        "url": "https://komikindo.ch/spy-x-family-chapter-119/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-120",
+        "number": "120",
+        "title": "Chapter 120",
+        "url": "https://komikindo.ch/spy-x-family-chapter-120-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-120",
+        "number": "120",
+        "title": "Chapter 120",
+        "url": "https://komikindo.ch/spy-x-family-chapter-120/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-121",
+        "number": "121",
+        "title": "Chapter 121",
+        "url": "https://komikindo.ch/spy-x-family-chapter-121/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-122",
+        "number": "122",
+        "title": "Chapter 122",
+        "url": "https://komikindo.ch/spy-x-family-chapter-122/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-123",
+        "number": "123",
+        "title": "Chapter 123",
+        "url": "https://komikindo.ch/spy-x-family-chapter-123-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-123",
+        "number": "123",
+        "title": "Chapter 123",
+        "url": "https://komikindo.ch/spy-x-family-chapter-123-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-124",
+        "number": "124",
+        "title": "Chapter 124",
+        "url": "https://komikindo.ch/spy-x-family-chapter-124/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-125",
+        "number": "125",
+        "title": "Chapter 125",
+        "url": "https://komikindo.ch/spy-x-family-chapter-125/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-126",
+        "number": "126",
+        "title": "Chapter 126",
+        "url": "https://komikindo.ch/spy-x-family-chapter-126/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-127",
+        "number": "127",
+        "title": "Chapter 127",
+        "url": "https://komikindo.ch/spy-x-family-chapter-127-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-127",
+        "number": "127",
+        "title": "Chapter 127",
+        "url": "https://komikindo.ch/spy-x-family-chapter-127-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-127",
+        "number": "127",
+        "title": "Chapter 127",
+        "url": "https://komikindo.ch/spy-x-family-chapter-127-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-128",
+        "number": "128",
+        "title": "Chapter 128",
+        "url": "https://komikindo.ch/spy-x-family-chapter-128/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-129",
+        "number": "129",
+        "title": "Chapter 129",
+        "url": "https://komikindo.ch/spy-x-family-chapter-129/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-130",
+        "number": "130",
+        "title": "Chapter 130",
+        "url": "https://komikindo.ch/spy-x-family-chapter-130/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-131",
+        "number": "131",
+        "title": "Chapter 131",
+        "url": "https://komikindo.ch/spy-x-family-chapter-131/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-132",
+        "number": "132",
+        "title": "Chapter 132",
+        "url": "https://komikindo.ch/spy-x-family-chapter-132/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-133",
+        "number": "133",
+        "title": "Chapter 133",
+        "url": "https://komikindo.ch/spy-x-family-chapter-133/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-134",
+        "number": "134",
+        "title": "Chapter 134",
+        "url": "https://komikindo.ch/spy-x-family-chapter-134/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-135",
+        "number": "135",
+        "title": "Chapter 135",
+        "url": "https://komikindo.ch/spy-x-family-chapter-135/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-136",
+        "number": "136",
+        "title": "Chapter 136",
+        "url": "https://komikindo.ch/spy-x-family-chapter-136/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-137",
+        "number": "137",
+        "title": "Chapter 137",
+        "url": "https://komikindo.ch/spy-x-family-chapter-137/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-138",
+        "number": "138",
+        "title": "Chapter 138",
+        "url": "https://komikindo.ch/spy-x-family-chapter-138/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-139",
+        "number": "139",
+        "title": "Chapter 139",
+        "url": "https://komikindo.ch/spy-x-family-chapter-139/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-140",
+        "number": "140",
+        "title": "Chapter 140",
+        "url": "https://komikindo.ch/spy-x-family-chapter-140-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "spy-x-family-140",
+        "number": "140",
+        "title": "Chapter 140",
+        "url": "https://komikindo.ch/spy-x-family-chapter-140/",
+        "lang": "id",
+        "pages": null
+      }
+    ]
   },
   {
     "id": "curated-jujutsu-kaisen",
@@ -12760,7 +15394,7 @@ export const CURATED_MANGAS = [
     "rating": "9.3",
     "follows": "410,000",
     "cover": "https://uploads.mangadex.org/covers/c52b2ce3-7f95-469c-96b0-479524fb7a1a/7dc752c3-8c90-468e-8c75-6903e38d7c7f.jpg.512.jpg",
-    "banner": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=1200&auto=format&fit=crop&q=80",
+    "banner": "https://uploads.mangadex.org/covers/c52b2ce3-7f95-469c-96b0-479524fb7a1a/7dc752c3-8c90-468e-8c75-6903e38d7c7f.jpg.512.jpg",
     "synopsis": "Yuji Itadori adalah siswa SMA biasa dengan bakat atletik luar biasa. Suatu hari demi menyelamatkan teman-temannya dari roh kutukan jahat, ia menelan jari Ryomen Sukuna, Raja Kutukan legendaris. Kini berbagi tubuh dengan iblis terkuat, Yuji masuk ke SMA Jujutsu Tokyo di bawah bimbingan Satoru Gojo.",
     "type": "Manga",
     "chapters": [
@@ -15041,6 +17675,7 @@ export const CURATED_MANGAS = [
   {
     "id": "curated-chainsaw-man",
     "mangadexId": "a77742b1-befd-49a4-bff5-1ad4e6b0ef7b",
+    "komikandoSlug": "chainsaw-man",
     "title": "Chainsaw Man",
     "altTitle": "Denji Sang Manusia Gergaji Mesin",
     "author": "Tatsuki Fujimoto",
@@ -15059,11 +17694,1934 @@ export const CURATED_MANGAS = [
     "banner": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1200&auto=format&fit=crop&q=80",
     "synopsis": "Denji hidup dalam kemiskinan ekstrem menanggung utang mendiang ayahnya kepada Yakuza, berburu iblis bersama anjing iblis gergaji Pochita. Ketika dikhianati dan dibunuh, Pochita menyatu dengan jantungnya dan membangkitkan Denji sebagai Manusia Chainsaw yang mengerikan dan liar di bawah komando Keamanan Publik Makima.",
     "type": "Manga",
-    "chapters": []
+    "chapters": [
+      {
+        "id": "chainsaw-man-1",
+        "number": "1",
+        "title": "Chapter 1",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-1/",
+        "lang": "id",
+        "pages": [
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/emmugEnp4R26HXH001.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/XZsAGaoWpesl3Ec002.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/dY5c84QFtU3zZtk003.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/meRuK3dzKgNdK5J004.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/9IyV3SJ9Fm2bX7s005.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/MB4aETcZqxepQku006.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/ZFKPylpw8oFUJoA007.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/UJyFAMs2t3E2hay008.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/Hf3kjByY1rSlJYE009.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/ySBLMTccLjBDvXI010.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/78ZGTxAtTQY7tlq011.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/EIobodFogker6BQ012.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/UoSBGJwFt5bNbHy013.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/dOsOvtUu4WXcZqx014.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/Hcg0UYtyhA4rm1n015.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/KU1gNmsuYq2dyJI016.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/AagpWzvqMR5MC3T017.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/Q6eyeUaWM3KiWAO018.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/otONht0dabokGr8019.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/pfsNUC8Nj5oBF3W020.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/2SEmgBUH52Ah8hu021.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/iy8S4TSwse9qdeM022.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/xEycjaofoZcMeXt023.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/t7TxI86wu0FD4sB024.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/GZbP9Ta3ZyElDui025.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/HpiSFnQoHpR5wcp026.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/9EnkZzZNcy5I3mw027.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/uPiBDl9HXVb3JSk028.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/NkZss4tMa8NysLi029.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/OUSTIg9Z8MzLwxr030.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/ExiaGzxTKHbAfan031.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/3Xp7LmXjy491vaR032.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/S4qIqrUlRBFPIaT033.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/yz48u8cuoQld53x034.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/sXaaX6SOcCmRbEN035.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/oEXMI6VlvBMyYmg036.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/rDr3urbOYMvawzp037.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/fae8jq1GxgrzWad038.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/j7lf53e0nVJddgl039.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/n9YHrFuqPFsTanl040.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/bmiVUHwcCinfNt9041.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/S8B9sl47RBUTZUB042.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/2rKsHCEwkFRqu58043.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/ag23I8ky45OhADP044.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/70AEXiQvCDvsKM4045.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/ZyfbMSw5RuVAWgy046.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/GsOdi5BwVpigHca047.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/dczky1gMOkdwf6d048.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/Ls8e1t87qR3RMSg049.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/SJRFyYuHF1sh9iV050.jpg",
+          "https://gaimgame.pics/data/245679/1/QxHt3MhyhQwCHxS/jI8Da9CTanwoSFk051.jpg",
+          "https://indocontentaising.lol/data/245679/1/QxHt3MhyhQwCHxS/SnttyrzJ71Ynqr7052.jpg",
+          "https://aicontentwow.lol/data/245679/1/QxHt3MhyhQwCHxS/J8KilRTksB7tgEX053.jpg",
+          "https://contentkerewnrorai.lat/data/245679/1/QxHt3MhyhQwCHxS/ulkdTMmLvB0HURf054.jpg",
+          "https://imageainewgeneration.lol/data/245679/1/QxHt3MhyhQwCHxS/cZ8QCMlsfLMhMQr055.jpg",
+          "https://himmga.lat/data/245679/1/QxHt3MhyhQwCHxS/Exh8ElEwtBpSAfQ056.jpg"
+        ]
+      },
+      {
+        "id": "chainsaw-man-2",
+        "number": "2",
+        "title": "Chapter 2",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-3",
+        "number": "3",
+        "title": "Chapter 3",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-3/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-4",
+        "number": "4",
+        "title": "Chapter 4",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-4/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-5",
+        "number": "5",
+        "title": "Chapter 5",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-6",
+        "number": "6",
+        "title": "Chapter 6",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-6/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-7",
+        "number": "7",
+        "title": "Chapter 7",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-7/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-8",
+        "number": "8",
+        "title": "Chapter 8",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-8/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-9",
+        "number": "9",
+        "title": "Chapter 9",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-9/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-10",
+        "number": "10",
+        "title": "Chapter 10",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-10/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-11",
+        "number": "11",
+        "title": "Chapter 11",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-11/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-12",
+        "number": "12",
+        "title": "Chapter 12",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-12/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-13",
+        "number": "13",
+        "title": "Chapter 13",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-13/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-14",
+        "number": "14",
+        "title": "Chapter 14",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-14/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-15",
+        "number": "15",
+        "title": "Chapter 15",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-15/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-16",
+        "number": "16",
+        "title": "Chapter 16",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-16/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-17",
+        "number": "17",
+        "title": "Chapter 17",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-17/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-18",
+        "number": "18",
+        "title": "Chapter 18",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-18/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-19",
+        "number": "19",
+        "title": "Chapter 19",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-19/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-20",
+        "number": "20",
+        "title": "Chapter 20",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-20/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-21",
+        "number": "21",
+        "title": "Chapter 21",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-21/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-22",
+        "number": "22",
+        "title": "Chapter 22",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-22/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-23",
+        "number": "23",
+        "title": "Chapter 23",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-23/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-24",
+        "number": "24",
+        "title": "Chapter 24",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-24/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-25",
+        "number": "25",
+        "title": "Chapter 25",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-25/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-26",
+        "number": "26",
+        "title": "Chapter 26",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-26/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-27",
+        "number": "27",
+        "title": "Chapter 27",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-27/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-28",
+        "number": "28",
+        "title": "Chapter 28",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-28/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-29",
+        "number": "29",
+        "title": "Chapter 29",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-29/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-30",
+        "number": "30",
+        "title": "Chapter 30",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-30/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-31",
+        "number": "31",
+        "title": "Chapter 31",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-31/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-32",
+        "number": "32",
+        "title": "Chapter 32",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-32/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-33",
+        "number": "33",
+        "title": "Chapter 33",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-33/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-34",
+        "number": "34",
+        "title": "Chapter 34",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-34/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-35",
+        "number": "35",
+        "title": "Chapter 35",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-35/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-36",
+        "number": "36",
+        "title": "Chapter 36",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-36/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-37",
+        "number": "37",
+        "title": "Chapter 37",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-37/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-38",
+        "number": "38",
+        "title": "Chapter 38",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-38/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-39",
+        "number": "39",
+        "title": "Chapter 39",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-39/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-40",
+        "number": "40",
+        "title": "Chapter 40",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-40/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-41",
+        "number": "41",
+        "title": "Chapter 41",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-41/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-42",
+        "number": "42",
+        "title": "Chapter 42",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-42/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-43",
+        "number": "43",
+        "title": "Chapter 43",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-43/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-44",
+        "number": "44",
+        "title": "Chapter 44",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-44/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-45",
+        "number": "45",
+        "title": "Chapter 45",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-45/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-46",
+        "number": "46",
+        "title": "Chapter 46",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-46/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-47",
+        "number": "47",
+        "title": "Chapter 47",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-47/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-48",
+        "number": "48",
+        "title": "Chapter 48",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-48/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-49",
+        "number": "49",
+        "title": "Chapter 49",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-49/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-50",
+        "number": "50",
+        "title": "Chapter 50",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-50/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-51",
+        "number": "51",
+        "title": "Chapter 51",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-51/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-52",
+        "number": "52",
+        "title": "Chapter 52",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-52/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-53",
+        "number": "53",
+        "title": "Chapter 53",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-53/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-54",
+        "number": "54",
+        "title": "Chapter 54",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-54/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-55",
+        "number": "55",
+        "title": "Chapter 55",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-55/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-56",
+        "number": "56",
+        "title": "Chapter 56",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-56/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-57",
+        "number": "57",
+        "title": "Chapter 57",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-57/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-58",
+        "number": "58",
+        "title": "Chapter 58",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-58/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-59",
+        "number": "59",
+        "title": "Chapter 59",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-59/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-60",
+        "number": "60",
+        "title": "Chapter 60",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-60/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-61",
+        "number": "61",
+        "title": "Chapter 61",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-61/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-62/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-63",
+        "number": "63",
+        "title": "Chapter 63",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-63/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-64",
+        "number": "64",
+        "title": "Chapter 64",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-64/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-65",
+        "number": "65",
+        "title": "Chapter 65",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-65/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-66",
+        "number": "66",
+        "title": "Chapter 66",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-66/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-67",
+        "number": "67",
+        "title": "Chapter 67",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-67/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-68",
+        "number": "68",
+        "title": "Chapter 68",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-68/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-69",
+        "number": "69",
+        "title": "Chapter 69",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-69/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-70",
+        "number": "70",
+        "title": "Chapter 70",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-70/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-71",
+        "number": "71",
+        "title": "Chapter 71",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-71/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-72",
+        "number": "72",
+        "title": "Chapter 72",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-72/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-73",
+        "number": "73",
+        "title": "Chapter 73",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-73/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-74",
+        "number": "74",
+        "title": "Chapter 74",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-74/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-75",
+        "number": "75",
+        "title": "Chapter 75",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-75/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-76",
+        "number": "76",
+        "title": "Chapter 76",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-76/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-77",
+        "number": "77",
+        "title": "Chapter 77",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-77-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-77",
+        "number": "77",
+        "title": "Chapter 77",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-77/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-78",
+        "number": "78",
+        "title": "Chapter 78",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-78/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-79",
+        "number": "79",
+        "title": "Chapter 79",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-79/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-80",
+        "number": "80",
+        "title": "Chapter 80",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-80/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-81",
+        "number": "81",
+        "title": "Chapter 81",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-81/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-82",
+        "number": "82",
+        "title": "Chapter 82",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-82/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-83",
+        "number": "83",
+        "title": "Chapter 83",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-83/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-84",
+        "number": "84",
+        "title": "Chapter 84",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-84/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-85",
+        "number": "85",
+        "title": "Chapter 85",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-85/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-86",
+        "number": "86",
+        "title": "Chapter 86",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-86/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-87",
+        "number": "87",
+        "title": "Chapter 87",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-87/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-88",
+        "number": "88",
+        "title": "Chapter 88",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-88/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-89",
+        "number": "89",
+        "title": "Chapter 89",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-89/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-90",
+        "number": "90",
+        "title": "Chapter 90",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-90/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-91",
+        "number": "91",
+        "title": "Chapter 91",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-91/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-92",
+        "number": "92",
+        "title": "Chapter 92",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-92/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-93",
+        "number": "93",
+        "title": "Chapter 93",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-93/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-94",
+        "number": "94",
+        "title": "Chapter 94",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-94/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-95",
+        "number": "95",
+        "title": "Chapter 95",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-95/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-96",
+        "number": "96",
+        "title": "Chapter 96",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-96/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-97",
+        "number": "97",
+        "title": "Chapter 97",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-97-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-97",
+        "number": "97",
+        "title": "Chapter 97",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-97/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-98",
+        "number": "98",
+        "title": "Chapter 98",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-98/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-99",
+        "number": "99",
+        "title": "Chapter 99",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-99/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-100",
+        "number": "100",
+        "title": "Chapter 100",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-100/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-101",
+        "number": "101",
+        "title": "Chapter 101",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-101/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-102",
+        "number": "102",
+        "title": "Chapter 102",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-102/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-103",
+        "number": "103",
+        "title": "Chapter 103",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-103/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-104",
+        "number": "104",
+        "title": "Chapter 104",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-104/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-105",
+        "number": "105",
+        "title": "Chapter 105",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-105/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-106",
+        "number": "106",
+        "title": "Chapter 106",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-106/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-107",
+        "number": "107",
+        "title": "Chapter 107",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-107/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-108",
+        "number": "108",
+        "title": "Chapter 108",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-108/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-109",
+        "number": "109",
+        "title": "Chapter 109",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-109/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-110",
+        "number": "110",
+        "title": "Chapter 110",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-110/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-111",
+        "number": "111",
+        "title": "Chapter 111",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-111/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-112",
+        "number": "112",
+        "title": "Chapter 112",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-112/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-113",
+        "number": "113",
+        "title": "Chapter 113",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-113/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-114",
+        "number": "114",
+        "title": "Chapter 114",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-114/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-115",
+        "number": "115",
+        "title": "Chapter 115",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-115/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-116",
+        "number": "116",
+        "title": "Chapter 116",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-116/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-117",
+        "number": "117",
+        "title": "Chapter 117",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-117/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-118",
+        "number": "118",
+        "title": "Chapter 118",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-118/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-119",
+        "number": "119",
+        "title": "Chapter 119",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-119/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-120",
+        "number": "120",
+        "title": "Chapter 120",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-120/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-121",
+        "number": "121",
+        "title": "Chapter 121",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-121/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-122",
+        "number": "122",
+        "title": "Chapter 122",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-122/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-123",
+        "number": "123",
+        "title": "Chapter 123",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-123/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-124",
+        "number": "124",
+        "title": "Chapter 124",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-124/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-125",
+        "number": "125",
+        "title": "Chapter 125",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-125/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-126",
+        "number": "126",
+        "title": "Chapter 126",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-126/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-127",
+        "number": "127",
+        "title": "Chapter 127",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-127/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-128",
+        "number": "128",
+        "title": "Chapter 128",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-128/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-129",
+        "number": "129",
+        "title": "Chapter 129",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-129/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-130",
+        "number": "130",
+        "title": "Chapter 130",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-130/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-131",
+        "number": "131",
+        "title": "Chapter 131",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-131/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-132",
+        "number": "132",
+        "title": "Chapter 132",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-132/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-133",
+        "number": "133",
+        "title": "Chapter 133",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-133/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-134",
+        "number": "134",
+        "title": "Chapter 134",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-134/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-135",
+        "number": "135",
+        "title": "Chapter 135",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-135/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-136",
+        "number": "136",
+        "title": "Chapter 136",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-136/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-137",
+        "number": "137",
+        "title": "Chapter 137",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-137/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-138",
+        "number": "138",
+        "title": "Chapter 138",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-138/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-139",
+        "number": "139",
+        "title": "Chapter 139",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-139/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-140",
+        "number": "140",
+        "title": "Chapter 140",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-140/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-141",
+        "number": "141",
+        "title": "Chapter 141",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-141/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-142",
+        "number": "142",
+        "title": "Chapter 142",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-142/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-143",
+        "number": "143",
+        "title": "Chapter 143",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-143/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-144",
+        "number": "144",
+        "title": "Chapter 144",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-144/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-145",
+        "number": "145",
+        "title": "Chapter 145",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-145/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-146",
+        "number": "146",
+        "title": "Chapter 146",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-146/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-147",
+        "number": "147",
+        "title": "Chapter 147",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-147/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-148",
+        "number": "148",
+        "title": "Chapter 148",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-148/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-149",
+        "number": "149",
+        "title": "Chapter 149",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-149/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-150",
+        "number": "150",
+        "title": "Chapter 150",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-150/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-151",
+        "number": "151",
+        "title": "Chapter 151",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-151/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-152",
+        "number": "152",
+        "title": "Chapter 152",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-152/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-153",
+        "number": "153",
+        "title": "Chapter 153",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-153/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-154",
+        "number": "154",
+        "title": "Chapter 154",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-154/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-155",
+        "number": "155",
+        "title": "Chapter 155",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-155/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-156",
+        "number": "156",
+        "title": "Chapter 156",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-156/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-157",
+        "number": "157",
+        "title": "Chapter 157",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-157/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-158",
+        "number": "158",
+        "title": "Chapter 158",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-158/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-159",
+        "number": "159",
+        "title": "Chapter 159",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-159/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-160",
+        "number": "160",
+        "title": "Chapter 160",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-160/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-161",
+        "number": "161",
+        "title": "Chapter 161",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-161/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-162",
+        "number": "162",
+        "title": "Chapter 162",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-162/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-163",
+        "number": "163",
+        "title": "Chapter 163",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-163/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-164",
+        "number": "164",
+        "title": "Chapter 164",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-164/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-165",
+        "number": "165",
+        "title": "Chapter 165",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-165/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-166",
+        "number": "166",
+        "title": "Chapter 166",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-166/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-167",
+        "number": "167",
+        "title": "Chapter 167",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-167/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-168",
+        "number": "168",
+        "title": "Chapter 168",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-168/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-169",
+        "number": "169",
+        "title": "Chapter 169",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-169/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-170",
+        "number": "170",
+        "title": "Chapter 170",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-170/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-171",
+        "number": "171",
+        "title": "Chapter 171",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-171/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-172",
+        "number": "172",
+        "title": "Chapter 172",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-172/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-173",
+        "number": "173",
+        "title": "Chapter 173",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-173/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-174",
+        "number": "174",
+        "title": "Chapter 174",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-174/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-175",
+        "number": "175",
+        "title": "Chapter 175",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-175/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-176",
+        "number": "176",
+        "title": "Chapter 176",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-176/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-177",
+        "number": "177",
+        "title": "Chapter 177",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-177/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-178",
+        "number": "178",
+        "title": "Chapter 178",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-178/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-179",
+        "number": "179",
+        "title": "Chapter 179",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-179/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-180",
+        "number": "180",
+        "title": "Chapter 180",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-180/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-181",
+        "number": "181",
+        "title": "Chapter 181",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-181/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-182",
+        "number": "182",
+        "title": "Chapter 182",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-182/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-183",
+        "number": "183",
+        "title": "Chapter 183",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-183/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-184",
+        "number": "184",
+        "title": "Chapter 184",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-184/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-185",
+        "number": "185",
+        "title": "Chapter 185",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-185/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-186",
+        "number": "186",
+        "title": "Chapter 186",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-186/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-187",
+        "number": "187",
+        "title": "Chapter 187",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-187/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-188",
+        "number": "188",
+        "title": "Chapter 188",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-188/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-189",
+        "number": "189",
+        "title": "Chapter 189",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-189/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-190",
+        "number": "190",
+        "title": "Chapter 190",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-190/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-191",
+        "number": "191",
+        "title": "Chapter 191",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-191/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-192",
+        "number": "192",
+        "title": "Chapter 192",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-192/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-193",
+        "number": "193",
+        "title": "Chapter 193",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-193/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-194",
+        "number": "194",
+        "title": "Chapter 194",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-194/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-195",
+        "number": "195",
+        "title": "Chapter 195",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-195/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-196",
+        "number": "196",
+        "title": "Chapter 196",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-196/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-197",
+        "number": "197",
+        "title": "Chapter 197",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-197/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-198",
+        "number": "198",
+        "title": "Chapter 198",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-198/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-199",
+        "number": "199",
+        "title": "Chapter 199",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-199/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-200",
+        "number": "200",
+        "title": "Chapter 200",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-200/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-201",
+        "number": "201",
+        "title": "Chapter 201",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-201/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-202",
+        "number": "202",
+        "title": "Chapter 202",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-202/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-203",
+        "number": "203",
+        "title": "Chapter 203",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-203/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-204",
+        "number": "204",
+        "title": "Chapter 204",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-204/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-205",
+        "number": "205",
+        "title": "Chapter 205",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-205/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-206",
+        "number": "206",
+        "title": "Chapter 206",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-206/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-207",
+        "number": "207",
+        "title": "Chapter 207",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-207/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-208",
+        "number": "208",
+        "title": "Chapter 208",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-208/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-209",
+        "number": "209",
+        "title": "Chapter 209",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-209/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-210",
+        "number": "210",
+        "title": "Chapter 210",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-210/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-211",
+        "number": "211",
+        "title": "Chapter 211",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-211/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-212",
+        "number": "212",
+        "title": "Chapter 212",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-212/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-213",
+        "number": "213",
+        "title": "Chapter 213",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-213/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-214",
+        "number": "214",
+        "title": "Chapter 214",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-214/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-215",
+        "number": "215",
+        "title": "Chapter 215",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-215/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-216",
+        "number": "216",
+        "title": "Chapter 216",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-216/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-217",
+        "number": "217",
+        "title": "Chapter 217",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-217/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-218",
+        "number": "218",
+        "title": "Chapter 218",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-218/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-219",
+        "number": "219",
+        "title": "Chapter 219",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-219/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-220",
+        "number": "220",
+        "title": "Chapter 220",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-220/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-221",
+        "number": "221",
+        "title": "Chapter 221",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-221/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-222",
+        "number": "222",
+        "title": "Chapter 222",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-222/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-223",
+        "number": "223",
+        "title": "Chapter 223",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-223/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-224",
+        "number": "224",
+        "title": "Chapter 224",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-224/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-225",
+        "number": "225",
+        "title": "Chapter 225",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-225/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-226",
+        "number": "226",
+        "title": "Chapter 226",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-226/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-227",
+        "number": "227",
+        "title": "Chapter 227",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-227/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-229",
+        "number": "229",
+        "title": "Chapter 229",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-229/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-230",
+        "number": "230",
+        "title": "Chapter 230",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-230/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-231",
+        "number": "231",
+        "title": "Chapter 231",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-231/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "chainsaw-man-232",
+        "number": "232",
+        "title": "Chapter 232",
+        "url": "https://komikindo.ch/chainsaw-man-chapter-232/",
+        "lang": "id",
+        "pages": null
+      }
+    ]
   },
   {
     "id": "curated-kage-jitsuryokusha",
     "mangadexId": "77bee52c-d2d6-44ad-a33a-1734c1fe696a",
+    "komikandoSlug": "kage-no-jitsuryokusha-ni-naritakute",
     "title": "Kage no Jitsuryokusha ni Naritakute!",
     "altTitle": "The Eminence in Shadow",
     "author": "Aizawa Daisuke, Sakano Anri",
@@ -15079,14 +19637,808 @@ export const CURATED_MANGAS = [
     "rating": "9.4",
     "follows": "295,000",
     "cover": "https://uploads.mangadex.org/covers/77bee52c-d2d6-44ad-a33a-1734c1fe696a/6079dd31-838b-4d61-87c4-121f3ad19158.jpg.512.jpg",
-    "banner": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=1200&auto=format&fit=crop&q=80",
+    "banner": "https://uploads.mangadex.org/covers/77bee52c-d2d6-44ad-a33a-1734c1fe696a/6079dd31-838b-4d61-87c4-121f3ad19158.jpg.512.jpg",
     "synopsis": "Cid Kagenou terobsesi menjadi dalang di balik layar yang mengendalikan dunia dari kegelapan. Terlahir kembali di dunia sihir sebagai bangsawan biasa, Cid mendirikan organisasi rahasia Shadow Garden dan mengarang cerita tentang Kultus Diablos jahat. Tanpa ia sadari, semua bualannya ternyata 100% nyata dan bawahannya memujanya sebagai dewa!",
     "type": "Manga",
-    "chapters": []
+    "chapters": [
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-01",
+        "number": "01",
+        "title": "Chapter 01",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-01/",
+        "lang": "id",
+        "pages": [
+          "https://imageainewgeneration.lol/data/923915/01/YBHnCVEgXdjszia/da2larv9fPL36yt001.webp",
+          "https://himmga.lat/data/923915/01/YBHnCVEgXdjszia/gZDkEArcmm760z9002.webp",
+          "https://gaimgame.pics/data/923915/01/YBHnCVEgXdjszia/Dhhv4EepFeOy4rG003.webp",
+          "https://indocontentaising.lol/data/923915/01/YBHnCVEgXdjszia/ycA0wHF3CUfuTvE004.webp",
+          "https://aicontentwow.lol/data/923915/01/YBHnCVEgXdjszia/kejGVdcxV9twhl6005.webp",
+          "https://contentkerewnrorai.lat/data/923915/01/YBHnCVEgXdjszia/jZA0iTaz09sFldQ006.webp",
+          "https://imageainewgeneration.lol/data/923915/01/YBHnCVEgXdjszia/jiVSWEoD3m6TEEf007.webp",
+          "https://himmga.lat/data/923915/01/YBHnCVEgXdjszia/GtAu6IiC2QKhfij008.webp",
+          "https://gaimgame.pics/data/923915/01/YBHnCVEgXdjszia/yP3mUxpSQScldUC009.webp",
+          "https://indocontentaising.lol/data/923915/01/YBHnCVEgXdjszia/bWBw5vBxH28mWvV010.webp",
+          "https://aicontentwow.lol/data/923915/01/YBHnCVEgXdjszia/ig3bDkDcWF3Wz34011.webp",
+          "https://contentkerewnrorai.lat/data/923915/01/YBHnCVEgXdjszia/kpl1QFPOiRd7S1V012.webp",
+          "https://imageainewgeneration.lol/data/923915/01/YBHnCVEgXdjszia/8Ebegur3WIwzxIn013.webp",
+          "https://himmga.lat/data/923915/01/YBHnCVEgXdjszia/17UpePN2ovBDzuv014.webp",
+          "https://gaimgame.pics/data/923915/01/YBHnCVEgXdjszia/UZpnrG5mrgpqleg015.webp",
+          "https://indocontentaising.lol/data/923915/01/YBHnCVEgXdjszia/6OW1YwWFfm5oqJU016.webp",
+          "https://aicontentwow.lol/data/923915/01/YBHnCVEgXdjszia/hKqmVbT4smI6ght017.webp",
+          "https://contentkerewnrorai.lat/data/923915/01/YBHnCVEgXdjszia/kWcZwLEXTh7RfdQ018.webp",
+          "https://imageainewgeneration.lol/data/923915/01/YBHnCVEgXdjszia/ywEnJbTflZIOx9s019.webp",
+          "https://himmga.lat/data/923915/01/YBHnCVEgXdjszia/63FIIjs5dDnQaTA020.webp",
+          "https://gaimgame.pics/data/923915/01/YBHnCVEgXdjszia/X0EljYuhREtDt0C021.webp",
+          "https://indocontentaising.lol/data/923915/01/YBHnCVEgXdjszia/CF4uGgDe3UFsWxf022.webp",
+          "https://aicontentwow.lol/data/923915/01/YBHnCVEgXdjszia/elS3QphF0b9aBFn023.webp",
+          "https://contentkerewnrorai.lat/data/923915/01/YBHnCVEgXdjszia/QtUjj6azWnviC9e024.webp",
+          "https://imageainewgeneration.lol/data/923915/01/YBHnCVEgXdjszia/8Zmk63PQQ8VpTEj025.webp",
+          "https://himmga.lat/data/923915/01/YBHnCVEgXdjszia/48qfOkNHymoFq3b026.webp",
+          "https://gaimgame.pics/data/923915/01/YBHnCVEgXdjszia/XUvCZX72UjwoigS027.webp",
+          "https://indocontentaising.lol/data/923915/01/YBHnCVEgXdjszia/myMkQX3kbPow1bg028.webp",
+          "https://aicontentwow.lol/data/923915/01/YBHnCVEgXdjszia/gR4XiJUe6V3dRca029.webp",
+          "https://contentkerewnrorai.lat/data/923915/01/YBHnCVEgXdjszia/PxIgqKeeLAHj4zk030.webp",
+          "https://imageainewgeneration.lol/data/923915/01/YBHnCVEgXdjszia/AMXoLoxKSQJW9mT031.webp",
+          "https://himmga.lat/data/923915/01/YBHnCVEgXdjszia/yHKXQTYcsAtpHj3032.webp",
+          "https://gaimgame.pics/data/923915/01/YBHnCVEgXdjszia/CSypUMU1CnswtHL033.webp",
+          "https://indocontentaising.lol/data/923915/01/YBHnCVEgXdjszia/YBD6yhcddPsv71U034.webp",
+          "https://aicontentwow.lol/data/923915/01/YBHnCVEgXdjszia/XRvtu5VJEzPKqVq035.webp",
+          "https://contentkerewnrorai.lat/data/923915/01/YBHnCVEgXdjszia/AQ3bns2miMzcHTU036.webp",
+          "https://imageainewgeneration.lol/data/923915/01/YBHnCVEgXdjszia/C0LdUiGUfDMM5bG037.webp",
+          "https://himmga.lat/data/923915/01/YBHnCVEgXdjszia/EPybFDVNGHNjzyz038.webp",
+          "https://gaimgame.pics/data/923915/01/YBHnCVEgXdjszia/u1F7osyAtsUmoI7039.webp"
+        ]
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-02",
+        "number": "02",
+        "title": "Chapter 02",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-02/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-03",
+        "number": "03",
+        "title": "Chapter 03",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-03/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-04",
+        "number": "04",
+        "title": "Chapter 04",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-04/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-05",
+        "number": "05",
+        "title": "Chapter 05",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-05/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-06",
+        "number": "06",
+        "title": "Chapter 06",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-06/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-07",
+        "number": "07",
+        "title": "Chapter 07",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-07/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-08",
+        "number": "08",
+        "title": "Chapter 08",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-08/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-09",
+        "number": "09",
+        "title": "Chapter 09",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-09/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-10",
+        "number": "10",
+        "title": "Chapter 10",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-10-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-10",
+        "number": "10",
+        "title": "Chapter 10",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-10-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-11",
+        "number": "11",
+        "title": "Chapter 11",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-11/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-12",
+        "number": "12",
+        "title": "Chapter 12",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-12/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-13",
+        "number": "13",
+        "title": "Chapter 13",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-13/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-14",
+        "number": "14",
+        "title": "Chapter 14",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-14/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-15",
+        "number": "15",
+        "title": "Chapter 15",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-15/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-16",
+        "number": "16",
+        "title": "Chapter 16",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-16/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-17",
+        "number": "17",
+        "title": "Chapter 17",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-17/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-18",
+        "number": "18",
+        "title": "Chapter 18",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-18/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-19",
+        "number": "19",
+        "title": "Chapter 19",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-19/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-20",
+        "number": "20",
+        "title": "Chapter 20",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-20/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-21",
+        "number": "21",
+        "title": "Chapter 21",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-21/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-22",
+        "number": "22",
+        "title": "Chapter 22",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-22/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-23",
+        "number": "23",
+        "title": "Chapter 23",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-23/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-24",
+        "number": "24",
+        "title": "Chapter 24",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-24/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-25",
+        "number": "25",
+        "title": "Chapter 25",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-25/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-26",
+        "number": "26",
+        "title": "Chapter 26",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-26/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-27",
+        "number": "27",
+        "title": "Chapter 27",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-27/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-28",
+        "number": "28",
+        "title": "Chapter 28",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-28/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-29",
+        "number": "29",
+        "title": "Chapter 29",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-29/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-30",
+        "number": "30",
+        "title": "Chapter 30",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-30/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-31",
+        "number": "31",
+        "title": "Chapter 31",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-31/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-32",
+        "number": "32",
+        "title": "Chapter 32",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-32/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-33",
+        "number": "33",
+        "title": "Chapter 33",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-33/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-34",
+        "number": "34",
+        "title": "Chapter 34",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-34/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-35",
+        "number": "35",
+        "title": "Chapter 35",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-35/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-36",
+        "number": "36",
+        "title": "Chapter 36",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-36/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-37",
+        "number": "37",
+        "title": "Chapter 37",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-37/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-38",
+        "number": "38",
+        "title": "Chapter 38",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-38/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-39",
+        "number": "39",
+        "title": "Chapter 39",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-39/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-40",
+        "number": "40",
+        "title": "Chapter 40",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-40/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-41",
+        "number": "41",
+        "title": "Chapter 41",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-41/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-42",
+        "number": "42",
+        "title": "Chapter 42",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-42/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-43",
+        "number": "43",
+        "title": "Chapter 43",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-43/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-44",
+        "number": "44",
+        "title": "Chapter 44",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-44/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-45",
+        "number": "45",
+        "title": "Chapter 45",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-45/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-46",
+        "number": "46",
+        "title": "Chapter 46",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-46/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-47",
+        "number": "47",
+        "title": "Chapter 47",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-47/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-48",
+        "number": "48",
+        "title": "Chapter 48",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-48/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-49",
+        "number": "49",
+        "title": "Chapter 49",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-49/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-50",
+        "number": "50",
+        "title": "Chapter 50",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-50/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-51",
+        "number": "51",
+        "title": "Chapter 51",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-51/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-52",
+        "number": "52",
+        "title": "Chapter 52",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-52/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-53",
+        "number": "53",
+        "title": "Chapter 53",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-53/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-54",
+        "number": "54",
+        "title": "Chapter 54",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-54/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-55",
+        "number": "55",
+        "title": "Chapter 55",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-55/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-56",
+        "number": "56",
+        "title": "Chapter 56",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-56/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-57",
+        "number": "57",
+        "title": "Chapter 57",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-57/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-58",
+        "number": "58",
+        "title": "Chapter 58",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-58/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-59",
+        "number": "59",
+        "title": "Chapter 59",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-59/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-60",
+        "number": "60",
+        "title": "Chapter 60",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-60-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-60",
+        "number": "60",
+        "title": "Chapter 60",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-60-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-61",
+        "number": "61",
+        "title": "Chapter 61",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-61/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-62/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-63",
+        "number": "63",
+        "title": "Chapter 63",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-63/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-64",
+        "number": "64",
+        "title": "Chapter 64",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-64/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-65",
+        "number": "65",
+        "title": "Chapter 65",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-65/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-66",
+        "number": "66",
+        "title": "Chapter 66",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-66-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-66",
+        "number": "66",
+        "title": "Chapter 66",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-66-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-67",
+        "number": "67",
+        "title": "Chapter 67",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-67/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-68",
+        "number": "68",
+        "title": "Chapter 68",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-68/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-69",
+        "number": "69",
+        "title": "Chapter 69",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-69/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-70",
+        "number": "70",
+        "title": "Chapter 70",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-70/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-71",
+        "number": "71",
+        "title": "Chapter 71",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-71-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-71",
+        "number": "71",
+        "title": "Chapter 71",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-71-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-72",
+        "number": "72",
+        "title": "Chapter 72",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-72-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-72",
+        "number": "72",
+        "title": "Chapter 72",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-72-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-73",
+        "number": "73",
+        "title": "Chapter 73",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-73-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-73",
+        "number": "73",
+        "title": "Chapter 73",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-73-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-74",
+        "number": "74",
+        "title": "Chapter 74",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-74/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-75",
+        "number": "75",
+        "title": "Chapter 75",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-75/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-76",
+        "number": "76",
+        "title": "Chapter 76",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-76-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-76",
+        "number": "76",
+        "title": "Chapter 76",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-76-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-77",
+        "number": "77",
+        "title": "Chapter 77",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-77/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-78",
+        "number": "78",
+        "title": "Chapter 78",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-78/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-79",
+        "number": "79",
+        "title": "Chapter 79",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-79-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-79",
+        "number": "79",
+        "title": "Chapter 79",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-79-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-80",
+        "number": "80",
+        "title": "Chapter 80",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-80/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-81",
+        "number": "81",
+        "title": "Chapter 81",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-81/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-82",
+        "number": "82",
+        "title": "Chapter 82",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-82-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-82",
+        "number": "82",
+        "title": "Chapter 82",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-82-1/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-83",
+        "number": "83",
+        "title": "Chapter 83",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-83/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-84",
+        "number": "84",
+        "title": "Chapter 84",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-84/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "kage-no-jitsuryokusha-ni-naritakute-85",
+        "number": "85",
+        "title": "Chapter 85",
+        "url": "https://komikindo.ch/kage-no-jitsuryokusha-ni-naritakute-chapter-85/",
+        "lang": "id",
+        "pages": null
+      }
+    ]
   },
   {
     "id": "curated-iruma-kun",
     "mangadexId": "d7037b2a-874a-4360-8a7b-07f2899152fd",
+    "komikandoSlug": "mairimashita-iruma-kun",
     "title": "Mairimashita! Iruma-kun",
     "altTitle": "Welcome to Demon School! Iruma-kun",
     "author": "Nishi Osamu",
@@ -15105,6 +20457,12308 @@ export const CURATED_MANGAS = [
     "banner": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1200&auto=format&fit=crop&q=80",
     "synopsis": "Suzuki Iruma yang malang dijual oleh orang tuanya yang serakah kepada iblis Sullivan. Namun sang iblis malah mengangkat Iruma sebagai cucu kesayangannya yang dimanjakan dan mengirimnya ke sekolah iblis Babyls. Di sana, Iruma harus merahasiakan identitas manusianya agar tidak dimakan oleh teman-teman iblisnya!",
     "type": "Manga",
-    "chapters": []
+    "chapters": [
+      {
+        "id": "mairimashita-iruma-kun-1",
+        "number": "1",
+        "title": "Chapter 1",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-1/",
+        "lang": "id",
+        "pages": [
+          "https://imageainewgeneration.lol/data/837206/1/njUwyjhN3fT6iv6/xrScUmkB8nQoEPF001.webp",
+          "https://himmga.lat/data/837206/1/njUwyjhN3fT6iv6/njZ6cY7Ft8NHjoX002.webp",
+          "https://gaimgame.pics/data/837206/1/njUwyjhN3fT6iv6/jvNySr94ySmylx3003.webp",
+          "https://indocontentaising.lol/data/837206/1/njUwyjhN3fT6iv6/sfDtERl4Ge2ktre004.webp",
+          "https://aicontentwow.lol/data/837206/1/njUwyjhN3fT6iv6/5qypYhdWHEkJcZl005.webp",
+          "https://contentkerewnrorai.lat/data/837206/1/njUwyjhN3fT6iv6/ZwkgDSnX4L3G0Yk006.webp",
+          "https://imageainewgeneration.lol/data/837206/1/njUwyjhN3fT6iv6/mQfgwfwBBP23C0U007.webp",
+          "https://himmga.lat/data/837206/1/njUwyjhN3fT6iv6/8BuDuumHFEngkeV008.webp",
+          "https://gaimgame.pics/data/837206/1/njUwyjhN3fT6iv6/IRhGa4wc82AfEty009.webp",
+          "https://indocontentaising.lol/data/837206/1/njUwyjhN3fT6iv6/6dlC8oCUcEk4E2d010.webp",
+          "https://aicontentwow.lol/data/837206/1/njUwyjhN3fT6iv6/f83qxp5dtmxN4Py011.webp",
+          "https://contentkerewnrorai.lat/data/837206/1/njUwyjhN3fT6iv6/DSVbCkwJidHKeez012.webp",
+          "https://imageainewgeneration.lol/data/837206/1/njUwyjhN3fT6iv6/amPlNIoPQZSpDjm013.webp",
+          "https://himmga.lat/data/837206/1/njUwyjhN3fT6iv6/brHfbNSGf4Mfpqu014.webp",
+          "https://gaimgame.pics/data/837206/1/njUwyjhN3fT6iv6/R0BZAnMb0ERNdxO015.webp",
+          "https://indocontentaising.lol/data/837206/1/njUwyjhN3fT6iv6/zKFEyJzrfUi1gTE016.webp",
+          "https://aicontentwow.lol/data/837206/1/njUwyjhN3fT6iv6/WodWtZk8wREyXYe017.webp",
+          "https://contentkerewnrorai.lat/data/837206/1/njUwyjhN3fT6iv6/2FkPlsYZC06AKZ3018.webp",
+          "https://imageainewgeneration.lol/data/837206/1/njUwyjhN3fT6iv6/Hkow0EC2v2Z3XaZ019.webp",
+          "https://himmga.lat/data/837206/1/njUwyjhN3fT6iv6/cuqmbnrL8ZluRPR020.webp",
+          "https://gaimgame.pics/data/837206/1/njUwyjhN3fT6iv6/hbcolsTbKEAhsir021.webp",
+          "https://indocontentaising.lol/data/837206/1/njUwyjhN3fT6iv6/bzYqwQMY8KF0KpL022.webp",
+          "https://aicontentwow.lol/data/837206/1/njUwyjhN3fT6iv6/MF7Hl2WG6PCsMXU023.webp",
+          "https://contentkerewnrorai.lat/data/837206/1/njUwyjhN3fT6iv6/eCwdnOztvWgT73w024.webp",
+          "https://imageainewgeneration.lol/data/837206/1/njUwyjhN3fT6iv6/GP9cl6p3bqm1W3Z025.webp",
+          "https://himmga.lat/data/837206/1/njUwyjhN3fT6iv6/sxtcShJALDeA2x9026.webp",
+          "https://gaimgame.pics/data/837206/1/njUwyjhN3fT6iv6/VPvZyGtZRPEdh85027.webp",
+          "https://indocontentaising.lol/data/837206/1/njUwyjhN3fT6iv6/oGzCXvtEAqcmgsk028.webp",
+          "https://aicontentwow.lol/data/837206/1/njUwyjhN3fT6iv6/SDVFwaXAoS3GxNu029.webp",
+          "https://contentkerewnrorai.lat/data/837206/1/njUwyjhN3fT6iv6/z0cnafrSErYf9W2030.webp",
+          "https://imageainewgeneration.lol/data/837206/1/njUwyjhN3fT6iv6/V5X4yWU3gzBQWEk031.webp",
+          "https://himmga.lat/data/837206/1/njUwyjhN3fT6iv6/qjjFNQHf2OVk3fJ032.webp",
+          "https://gaimgame.pics/data/837206/1/njUwyjhN3fT6iv6/ngt2IPYyzcPG5IU033.webp",
+          "https://indocontentaising.lol/data/837206/1/njUwyjhN3fT6iv6/6erKSqHtbHV2Qh1034.webp",
+          "https://aicontentwow.lol/data/837206/1/njUwyjhN3fT6iv6/Vy468ciCnTHZ8uZ035.webp",
+          "https://contentkerewnrorai.lat/data/837206/1/njUwyjhN3fT6iv6/1RqHIMKM9ap7z4c036.webp",
+          "https://imageainewgeneration.lol/data/837206/1/njUwyjhN3fT6iv6/8F1JRdkNqufn6M8037.webp",
+          "https://himmga.lat/data/837206/1/njUwyjhN3fT6iv6/2NK6cxh2YNIzSLb038.webp",
+          "https://gaimgame.pics/data/837206/1/njUwyjhN3fT6iv6/cod1m4OON54TTH2039.webp",
+          "https://indocontentaising.lol/data/837206/1/njUwyjhN3fT6iv6/L49luMr61aIb3zE040.webp",
+          "https://aicontentwow.lol/data/837206/1/njUwyjhN3fT6iv6/kYaLiR2lFLtkHJo041.webp",
+          "https://contentkerewnrorai.lat/data/837206/1/njUwyjhN3fT6iv6/laTmDJKXRMf7QsD042.webp",
+          "https://imageainewgeneration.lol/data/837206/1/njUwyjhN3fT6iv6/r0o9mdOiXrh4UCJ043.webp",
+          "https://himmga.lat/data/837206/1/njUwyjhN3fT6iv6/2aV3uisK05qqrdL044.webp"
+        ]
+      },
+      {
+        "id": "mairimashita-iruma-kun-2",
+        "number": "2",
+        "title": "Chapter 2",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-3",
+        "number": "3",
+        "title": "Chapter 3",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-3/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-4",
+        "number": "4",
+        "title": "Chapter 4",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-4/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-5",
+        "number": "5",
+        "title": "Chapter 5",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-6",
+        "number": "6",
+        "title": "Chapter 6",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-6/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-7",
+        "number": "7",
+        "title": "Chapter 7",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-7/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-8",
+        "number": "8",
+        "title": "Chapter 8",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-8/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-9",
+        "number": "9",
+        "title": "Chapter 9",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-9/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-10",
+        "number": "10",
+        "title": "Chapter 10",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-10/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-11",
+        "number": "11",
+        "title": "Chapter 11",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-11/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-12",
+        "number": "12",
+        "title": "Chapter 12",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-12/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-13",
+        "number": "13",
+        "title": "Chapter 13",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-13/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-14",
+        "number": "14",
+        "title": "Chapter 14",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-14/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-15",
+        "number": "15",
+        "title": "Chapter 15",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-15/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-16",
+        "number": "16",
+        "title": "Chapter 16",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-16/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-17",
+        "number": "17",
+        "title": "Chapter 17",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-17-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-17",
+        "number": "17",
+        "title": "Chapter 17",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-17/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-18",
+        "number": "18",
+        "title": "Chapter 18",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-18/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-19",
+        "number": "19",
+        "title": "Chapter 19",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-19/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-20",
+        "number": "20",
+        "title": "Chapter 20",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-20/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-21",
+        "number": "21",
+        "title": "Chapter 21",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-21/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-22",
+        "number": "22",
+        "title": "Chapter 22",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-22/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-23",
+        "number": "23",
+        "title": "Chapter 23",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-23/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-24",
+        "number": "24",
+        "title": "Chapter 24",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-24/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-25",
+        "number": "25",
+        "title": "Chapter 25",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-25/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-26",
+        "number": "26",
+        "title": "Chapter 26",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-26/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-27",
+        "number": "27",
+        "title": "Chapter 27",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-27/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-28",
+        "number": "28",
+        "title": "Chapter 28",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-28/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-29",
+        "number": "29",
+        "title": "Chapter 29",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-29/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-30",
+        "number": "30",
+        "title": "Chapter 30",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-30/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-31",
+        "number": "31",
+        "title": "Chapter 31",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-31/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-32",
+        "number": "32",
+        "title": "Chapter 32",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-32/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-33",
+        "number": "33",
+        "title": "Chapter 33",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-33/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-34",
+        "number": "34",
+        "title": "Chapter 34",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-34/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-35",
+        "number": "35",
+        "title": "Chapter 35",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-35/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-36",
+        "number": "36",
+        "title": "Chapter 36",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-36/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-37",
+        "number": "37",
+        "title": "Chapter 37",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-37/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-38",
+        "number": "38",
+        "title": "Chapter 38",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-38/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-39",
+        "number": "39",
+        "title": "Chapter 39",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-39/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-40",
+        "number": "40",
+        "title": "Chapter 40",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-40/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-41",
+        "number": "41",
+        "title": "Chapter 41",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-41/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-42",
+        "number": "42",
+        "title": "Chapter 42",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-42/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-43",
+        "number": "43",
+        "title": "Chapter 43",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-43/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-44",
+        "number": "44",
+        "title": "Chapter 44",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-44/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-45",
+        "number": "45",
+        "title": "Chapter 45",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-45/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-46",
+        "number": "46",
+        "title": "Chapter 46",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-46/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-47",
+        "number": "47",
+        "title": "Chapter 47",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-47/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-48",
+        "number": "48",
+        "title": "Chapter 48",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-48/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-49",
+        "number": "49",
+        "title": "Chapter 49",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-49/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-50",
+        "number": "50",
+        "title": "Chapter 50",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-50/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-51",
+        "number": "51",
+        "title": "Chapter 51",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-51/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-52",
+        "number": "52",
+        "title": "Chapter 52",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-52-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-52",
+        "number": "52",
+        "title": "Chapter 52",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-52/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-53",
+        "number": "53",
+        "title": "Chapter 53",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-53/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-54",
+        "number": "54",
+        "title": "Chapter 54",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-54/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-55",
+        "number": "55",
+        "title": "Chapter 55",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-55/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-56",
+        "number": "56",
+        "title": "Chapter 56",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-56/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-57",
+        "number": "57",
+        "title": "Chapter 57",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-57/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-58",
+        "number": "58",
+        "title": "Chapter 58",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-58/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-59",
+        "number": "59",
+        "title": "Chapter 59",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-59/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-60",
+        "number": "60",
+        "title": "Chapter 60",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-60/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-61",
+        "number": "61",
+        "title": "Chapter 61",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-61/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-62/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-63",
+        "number": "63",
+        "title": "Chapter 63",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-63/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-64",
+        "number": "64",
+        "title": "Chapter 64",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-64/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-65",
+        "number": "65",
+        "title": "Chapter 65",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-65/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-66",
+        "number": "66",
+        "title": "Chapter 66",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-66/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-67",
+        "number": "67",
+        "title": "Chapter 67",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-67/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-68",
+        "number": "68",
+        "title": "Chapter 68",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-68/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-69",
+        "number": "69",
+        "title": "Chapter 69",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-69/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-70",
+        "number": "70",
+        "title": "Chapter 70",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-70/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-71",
+        "number": "71",
+        "title": "Chapter 71",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-71/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-72",
+        "number": "72",
+        "title": "Chapter 72",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-72/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-73",
+        "number": "73",
+        "title": "Chapter 73",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-73/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-74",
+        "number": "74",
+        "title": "Chapter 74",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-74/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-75",
+        "number": "75",
+        "title": "Chapter 75",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-75/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-76",
+        "number": "76",
+        "title": "Chapter 76",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-76/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-77",
+        "number": "77",
+        "title": "Chapter 77",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-77/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-78",
+        "number": "78",
+        "title": "Chapter 78",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-78/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-79",
+        "number": "79",
+        "title": "Chapter 79",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-79-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-79",
+        "number": "79",
+        "title": "Chapter 79",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-79/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-80",
+        "number": "80",
+        "title": "Chapter 80",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-80/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-81",
+        "number": "81",
+        "title": "Chapter 81",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-81/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-82",
+        "number": "82",
+        "title": "Chapter 82",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-82/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-83",
+        "number": "83",
+        "title": "Chapter 83",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-83/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-84",
+        "number": "84",
+        "title": "Chapter 84",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-84/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-85",
+        "number": "85",
+        "title": "Chapter 85",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-85-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-85",
+        "number": "85",
+        "title": "Chapter 85",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-85/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-86",
+        "number": "86",
+        "title": "Chapter 86",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-86/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-87",
+        "number": "87",
+        "title": "Chapter 87",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-87/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-88",
+        "number": "88",
+        "title": "Chapter 88",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-88-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-88",
+        "number": "88",
+        "title": "Chapter 88",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-88/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-89",
+        "number": "89",
+        "title": "Chapter 89",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-89/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-90",
+        "number": "90",
+        "title": "Chapter 90",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-90/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-91",
+        "number": "91",
+        "title": "Chapter 91",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-91/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-92",
+        "number": "92",
+        "title": "Chapter 92",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-92/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-93",
+        "number": "93",
+        "title": "Chapter 93",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-93/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-94",
+        "number": "94",
+        "title": "Chapter 94",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-94/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-95",
+        "number": "95",
+        "title": "Chapter 95",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-95/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-96",
+        "number": "96",
+        "title": "Chapter 96",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-96/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-97",
+        "number": "97",
+        "title": "Chapter 97",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-97-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-97",
+        "number": "97",
+        "title": "Chapter 97",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-97/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-98",
+        "number": "98",
+        "title": "Chapter 98",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-98/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-99",
+        "number": "99",
+        "title": "Chapter 99",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-99/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-100",
+        "number": "100",
+        "title": "Chapter 100",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-100/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-101",
+        "number": "101",
+        "title": "Chapter 101",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-101/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-102",
+        "number": "102",
+        "title": "Chapter 102",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-102/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-103",
+        "number": "103",
+        "title": "Chapter 103",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-103/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-104",
+        "number": "104",
+        "title": "Chapter 104",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-104/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-105",
+        "number": "105",
+        "title": "Chapter 105",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-105/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-106",
+        "number": "106",
+        "title": "Chapter 106",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-106-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-106",
+        "number": "106",
+        "title": "Chapter 106",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-106/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-107",
+        "number": "107",
+        "title": "Chapter 107",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-107/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-108",
+        "number": "108",
+        "title": "Chapter 108",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-108/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-109",
+        "number": "109",
+        "title": "Chapter 109",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-109/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-110",
+        "number": "110",
+        "title": "Chapter 110",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-110/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-111",
+        "number": "111",
+        "title": "Chapter 111",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-111/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-112",
+        "number": "112",
+        "title": "Chapter 112",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-112/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-113",
+        "number": "113",
+        "title": "Chapter 113",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-113/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-114",
+        "number": "114",
+        "title": "Chapter 114",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-114/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-115",
+        "number": "115",
+        "title": "Chapter 115",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-115-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-115",
+        "number": "115",
+        "title": "Chapter 115",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-115/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-116",
+        "number": "116",
+        "title": "Chapter 116",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-116/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-117",
+        "number": "117",
+        "title": "Chapter 117",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-117/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-118",
+        "number": "118",
+        "title": "Chapter 118",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-118/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-119",
+        "number": "119",
+        "title": "Chapter 119",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-119/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-120",
+        "number": "120",
+        "title": "Chapter 120",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-120/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-121",
+        "number": "121",
+        "title": "Chapter 121",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-121/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-122",
+        "number": "122",
+        "title": "Chapter 122",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-122/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-123",
+        "number": "123",
+        "title": "Chapter 123",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-123/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-124",
+        "number": "124",
+        "title": "Chapter 124",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-124-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-124",
+        "number": "124",
+        "title": "Chapter 124",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-124/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-125",
+        "number": "125",
+        "title": "Chapter 125",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-125/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-126",
+        "number": "126",
+        "title": "Chapter 126",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-126/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-127",
+        "number": "127",
+        "title": "Chapter 127",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-127/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-128",
+        "number": "128",
+        "title": "Chapter 128",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-128/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-129",
+        "number": "129",
+        "title": "Chapter 129",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-129/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-130",
+        "number": "130",
+        "title": "Chapter 130",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-130/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-131",
+        "number": "131",
+        "title": "Chapter 131",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-131/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-132",
+        "number": "132",
+        "title": "Chapter 132",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-132/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-133",
+        "number": "133",
+        "title": "Chapter 133",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-133-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-133",
+        "number": "133",
+        "title": "Chapter 133",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-133/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-134",
+        "number": "134",
+        "title": "Chapter 134",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-134/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-135",
+        "number": "135",
+        "title": "Chapter 135",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-135/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-136",
+        "number": "136",
+        "title": "Chapter 136",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-136/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-137",
+        "number": "137",
+        "title": "Chapter 137",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-137/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-138",
+        "number": "138",
+        "title": "Chapter 138",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-138/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-139",
+        "number": "139",
+        "title": "Chapter 139",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-139/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-140",
+        "number": "140",
+        "title": "Chapter 140",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-140/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-141",
+        "number": "141",
+        "title": "Chapter 141",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-141/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-142",
+        "number": "142",
+        "title": "Chapter 142",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-142-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-142",
+        "number": "142",
+        "title": "Chapter 142",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-142/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-143",
+        "number": "143",
+        "title": "Chapter 143",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-143/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-144",
+        "number": "144",
+        "title": "Chapter 144",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-144/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-145",
+        "number": "145",
+        "title": "Chapter 145",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-145/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-146",
+        "number": "146",
+        "title": "Chapter 146",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-146/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-147",
+        "number": "147",
+        "title": "Chapter 147",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-147/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-148",
+        "number": "148",
+        "title": "Chapter 148",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-148/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-149",
+        "number": "149",
+        "title": "Chapter 149",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-149/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-150",
+        "number": "150",
+        "title": "Chapter 150",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-150/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-151",
+        "number": "151",
+        "title": "Chapter 151",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-151/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-152",
+        "number": "152",
+        "title": "Chapter 152",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-152/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-153",
+        "number": "153",
+        "title": "Chapter 153",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-153/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-154",
+        "number": "154",
+        "title": "Chapter 154",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-154/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-155",
+        "number": "155",
+        "title": "Chapter 155",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-155/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-156",
+        "number": "156",
+        "title": "Chapter 156",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-156/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-157",
+        "number": "157",
+        "title": "Chapter 157",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-157/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-158",
+        "number": "158",
+        "title": "Chapter 158",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-158/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-159",
+        "number": "159",
+        "title": "Chapter 159",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-159/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-160",
+        "number": "160",
+        "title": "Chapter 160",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-160-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-160",
+        "number": "160",
+        "title": "Chapter 160",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-160/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-161",
+        "number": "161",
+        "title": "Chapter 161",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-161/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-162",
+        "number": "162",
+        "title": "Chapter 162",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-162/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-163",
+        "number": "163",
+        "title": "Chapter 163",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-163/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-164",
+        "number": "164",
+        "title": "Chapter 164",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-164/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-165",
+        "number": "165",
+        "title": "Chapter 165",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-165/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-166",
+        "number": "166",
+        "title": "Chapter 166",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-166/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-167",
+        "number": "167",
+        "title": "Chapter 167",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-167/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-168",
+        "number": "168",
+        "title": "Chapter 168",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-168/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-169",
+        "number": "169",
+        "title": "Chapter 169",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-169/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-170",
+        "number": "170",
+        "title": "Chapter 170",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-170/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-171",
+        "number": "171",
+        "title": "Chapter 171",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-171/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-172",
+        "number": "172",
+        "title": "Chapter 172",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-172/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-173",
+        "number": "173",
+        "title": "Chapter 173",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-173/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-174",
+        "number": "174",
+        "title": "Chapter 174",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-174/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-175",
+        "number": "175",
+        "title": "Chapter 175",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-175/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-176",
+        "number": "176",
+        "title": "Chapter 176",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-176/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-177",
+        "number": "177",
+        "title": "Chapter 177",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-177/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-178",
+        "number": "178",
+        "title": "Chapter 178",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-178/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-179",
+        "number": "179",
+        "title": "Chapter 179",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-179/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-180",
+        "number": "180",
+        "title": "Chapter 180",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-180/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-181",
+        "number": "181",
+        "title": "Chapter 181",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-181/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-182",
+        "number": "182",
+        "title": "Chapter 182",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-182/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-183",
+        "number": "183",
+        "title": "Chapter 183",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-183/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-184",
+        "number": "184",
+        "title": "Chapter 184",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-184/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-185",
+        "number": "185",
+        "title": "Chapter 185",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-185/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-186",
+        "number": "186",
+        "title": "Chapter 186",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-186/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-187",
+        "number": "187",
+        "title": "Chapter 187",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-187/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-188",
+        "number": "188",
+        "title": "Chapter 188",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-188/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-189",
+        "number": "189",
+        "title": "Chapter 189",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-189/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-190",
+        "number": "190",
+        "title": "Chapter 190",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-190/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-191",
+        "number": "191",
+        "title": "Chapter 191",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-191/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-192",
+        "number": "192",
+        "title": "Chapter 192",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-192/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-193",
+        "number": "193",
+        "title": "Chapter 193",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-193/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-194",
+        "number": "194",
+        "title": "Chapter 194",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-194/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-195",
+        "number": "195",
+        "title": "Chapter 195",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-195/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-196",
+        "number": "196",
+        "title": "Chapter 196",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-196/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-197",
+        "number": "197",
+        "title": "Chapter 197",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-197/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-198",
+        "number": "198",
+        "title": "Chapter 198",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-198/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-199",
+        "number": "199",
+        "title": "Chapter 199",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-199/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-200",
+        "number": "200",
+        "title": "Chapter 200",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-200/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-201",
+        "number": "201",
+        "title": "Chapter 201",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-201/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-202",
+        "number": "202",
+        "title": "Chapter 202",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-202/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-203",
+        "number": "203",
+        "title": "Chapter 203",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-203/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-204",
+        "number": "204",
+        "title": "Chapter 204",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-204/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-205",
+        "number": "205",
+        "title": "Chapter 205",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-205/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-206",
+        "number": "206",
+        "title": "Chapter 206",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-206/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-207",
+        "number": "207",
+        "title": "Chapter 207",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-207/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-208",
+        "number": "208",
+        "title": "Chapter 208",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-208/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-209",
+        "number": "209",
+        "title": "Chapter 209",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-209/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-210",
+        "number": "210",
+        "title": "Chapter 210",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-210/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-211",
+        "number": "211",
+        "title": "Chapter 211",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-211/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-212",
+        "number": "212",
+        "title": "Chapter 212",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-212/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-213",
+        "number": "213",
+        "title": "Chapter 213",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-213/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-214",
+        "number": "214",
+        "title": "Chapter 214",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-214/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-215",
+        "number": "215",
+        "title": "Chapter 215",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-215/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-216",
+        "number": "216",
+        "title": "Chapter 216",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-216/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-217",
+        "number": "217",
+        "title": "Chapter 217",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-217/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-218",
+        "number": "218",
+        "title": "Chapter 218",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-218/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-219",
+        "number": "219",
+        "title": "Chapter 219",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-219/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-220",
+        "number": "220",
+        "title": "Chapter 220",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-220/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-221",
+        "number": "221",
+        "title": "Chapter 221",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-221/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-222",
+        "number": "222",
+        "title": "Chapter 222",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-222/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-223",
+        "number": "223",
+        "title": "Chapter 223",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-223/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-224",
+        "number": "224",
+        "title": "Chapter 224",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-224/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-225",
+        "number": "225",
+        "title": "Chapter 225",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-225/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-226",
+        "number": "226",
+        "title": "Chapter 226",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-226/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-227",
+        "number": "227",
+        "title": "Chapter 227",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-227/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-228",
+        "number": "228",
+        "title": "Chapter 228",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-228/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-229",
+        "number": "229",
+        "title": "Chapter 229",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-229/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-230",
+        "number": "230",
+        "title": "Chapter 230",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-230/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-231",
+        "number": "231",
+        "title": "Chapter 231",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-231/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-232",
+        "number": "232",
+        "title": "Chapter 232",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-232/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-233",
+        "number": "233",
+        "title": "Chapter 233",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-233/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-234",
+        "number": "234",
+        "title": "Chapter 234",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-234/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-235",
+        "number": "235",
+        "title": "Chapter 235",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-235/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-236",
+        "number": "236",
+        "title": "Chapter 236",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-236/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-237",
+        "number": "237",
+        "title": "Chapter 237",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-237/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-238",
+        "number": "238",
+        "title": "Chapter 238",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-238/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-239",
+        "number": "239",
+        "title": "Chapter 239",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-239/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-240",
+        "number": "240",
+        "title": "Chapter 240",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-240/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-241",
+        "number": "241",
+        "title": "Chapter 241",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-241/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-242",
+        "number": "242",
+        "title": "Chapter 242",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-242/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-243",
+        "number": "243",
+        "title": "Chapter 243",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-243/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-244",
+        "number": "244",
+        "title": "Chapter 244",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-244/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-245",
+        "number": "245",
+        "title": "Chapter 245",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-245/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-246",
+        "number": "246",
+        "title": "Chapter 246",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-246/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-247",
+        "number": "247",
+        "title": "Chapter 247",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-247/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-248",
+        "number": "248",
+        "title": "Chapter 248",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-248/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-249",
+        "number": "249",
+        "title": "Chapter 249",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-249/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-250",
+        "number": "250",
+        "title": "Chapter 250",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-250/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-251",
+        "number": "251",
+        "title": "Chapter 251",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-251/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-252",
+        "number": "252",
+        "title": "Chapter 252",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-252/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-253",
+        "number": "253",
+        "title": "Chapter 253",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-253/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-254",
+        "number": "254",
+        "title": "Chapter 254",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-254/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-255",
+        "number": "255",
+        "title": "Chapter 255",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-255/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-256",
+        "number": "256",
+        "title": "Chapter 256",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-256/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-257",
+        "number": "257",
+        "title": "Chapter 257",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-257/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-258",
+        "number": "258",
+        "title": "Chapter 258",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-258/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-259",
+        "number": "259",
+        "title": "Chapter 259",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-259/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-260",
+        "number": "260",
+        "title": "Chapter 260",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-260/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-261",
+        "number": "261",
+        "title": "Chapter 261",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-261/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-262",
+        "number": "262",
+        "title": "Chapter 262",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-262/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-263",
+        "number": "263",
+        "title": "Chapter 263",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-263/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-264",
+        "number": "264",
+        "title": "Chapter 264",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-264/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-265",
+        "number": "265",
+        "title": "Chapter 265",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-265/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-266",
+        "number": "266",
+        "title": "Chapter 266",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-266/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-267",
+        "number": "267",
+        "title": "Chapter 267",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-267/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-268",
+        "number": "268",
+        "title": "Chapter 268",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-268/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-269",
+        "number": "269",
+        "title": "Chapter 269",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-269/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-270",
+        "number": "270",
+        "title": "Chapter 270",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-270/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-271",
+        "number": "271",
+        "title": "Chapter 271",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-271/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-272",
+        "number": "272",
+        "title": "Chapter 272",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-272/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-273",
+        "number": "273",
+        "title": "Chapter 273",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-273/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-274",
+        "number": "274",
+        "title": "Chapter 274",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-274/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-275",
+        "number": "275",
+        "title": "Chapter 275",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-275/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-276",
+        "number": "276",
+        "title": "Chapter 276",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-276/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-277",
+        "number": "277",
+        "title": "Chapter 277",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-277/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-278",
+        "number": "278",
+        "title": "Chapter 278",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-278/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-279",
+        "number": "279",
+        "title": "Chapter 279",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-279/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-280",
+        "number": "280",
+        "title": "Chapter 280",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-280/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-281",
+        "number": "281",
+        "title": "Chapter 281",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-281/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-282",
+        "number": "282",
+        "title": "Chapter 282",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-282/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-283",
+        "number": "283",
+        "title": "Chapter 283",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-283/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-284",
+        "number": "284",
+        "title": "Chapter 284",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-284/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-285",
+        "number": "285",
+        "title": "Chapter 285",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-285/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-286",
+        "number": "286",
+        "title": "Chapter 286",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-286/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-287",
+        "number": "287",
+        "title": "Chapter 287",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-287/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-288",
+        "number": "288",
+        "title": "Chapter 288",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-288/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-289",
+        "number": "289",
+        "title": "Chapter 289",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-289/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-290",
+        "number": "290",
+        "title": "Chapter 290",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-290/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-291",
+        "number": "291",
+        "title": "Chapter 291",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-291/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-292",
+        "number": "292",
+        "title": "Chapter 292",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-292/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-293",
+        "number": "293",
+        "title": "Chapter 293",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-293/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-294",
+        "number": "294",
+        "title": "Chapter 294",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-294/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-295",
+        "number": "295",
+        "title": "Chapter 295",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-295/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-296",
+        "number": "296",
+        "title": "Chapter 296",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-296/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-297",
+        "number": "297",
+        "title": "Chapter 297",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-297/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-298",
+        "number": "298",
+        "title": "Chapter 298",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-298/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-299",
+        "number": "299",
+        "title": "Chapter 299",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-299/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-300",
+        "number": "300",
+        "title": "Chapter 300",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-300/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-301",
+        "number": "301",
+        "title": "Chapter 301",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-301/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-302",
+        "number": "302",
+        "title": "Chapter 302",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-302/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-303",
+        "number": "303",
+        "title": "Chapter 303",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-303/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-304",
+        "number": "304",
+        "title": "Chapter 304",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-304/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-305",
+        "number": "305",
+        "title": "Chapter 305",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-305/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-306",
+        "number": "306",
+        "title": "Chapter 306",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-306/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-307",
+        "number": "307",
+        "title": "Chapter 307",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-307/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-308",
+        "number": "308",
+        "title": "Chapter 308",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-308/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-309",
+        "number": "309",
+        "title": "Chapter 309",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-309/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-310",
+        "number": "310",
+        "title": "Chapter 310",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-310/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-311",
+        "number": "311",
+        "title": "Chapter 311",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-311/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-312",
+        "number": "312",
+        "title": "Chapter 312",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-312/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-313",
+        "number": "313",
+        "title": "Chapter 313",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-313/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-314",
+        "number": "314",
+        "title": "Chapter 314",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-314/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-315",
+        "number": "315",
+        "title": "Chapter 315",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-315/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-316",
+        "number": "316",
+        "title": "Chapter 316",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-316/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-317",
+        "number": "317",
+        "title": "Chapter 317",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-317/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-318",
+        "number": "318",
+        "title": "Chapter 318",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-318/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-319",
+        "number": "319",
+        "title": "Chapter 319",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-319/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-320",
+        "number": "320",
+        "title": "Chapter 320",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-320/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-321",
+        "number": "321",
+        "title": "Chapter 321",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-321/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-322",
+        "number": "322",
+        "title": "Chapter 322",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-322/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-323",
+        "number": "323",
+        "title": "Chapter 323",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-323/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-324",
+        "number": "324",
+        "title": "Chapter 324",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-324/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-325",
+        "number": "325",
+        "title": "Chapter 325",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-325/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-326",
+        "number": "326",
+        "title": "Chapter 326",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-326/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-327",
+        "number": "327",
+        "title": "Chapter 327",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-327/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-328",
+        "number": "328",
+        "title": "Chapter 328",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-328/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-329",
+        "number": "329",
+        "title": "Chapter 329",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-329/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-330",
+        "number": "330",
+        "title": "Chapter 330",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-330/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-331",
+        "number": "331",
+        "title": "Chapter 331",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-331/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-332",
+        "number": "332",
+        "title": "Chapter 332",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-332/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-333",
+        "number": "333",
+        "title": "Chapter 333",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-333/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-334",
+        "number": "334",
+        "title": "Chapter 334",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-334/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-335",
+        "number": "335",
+        "title": "Chapter 335",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-335/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-336",
+        "number": "336",
+        "title": "Chapter 336",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-336/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-337",
+        "number": "337",
+        "title": "Chapter 337",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-337/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-338",
+        "number": "338",
+        "title": "Chapter 338",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-338/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-339",
+        "number": "339",
+        "title": "Chapter 339",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-339/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-340",
+        "number": "340",
+        "title": "Chapter 340",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-340/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-341",
+        "number": "341",
+        "title": "Chapter 341",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-341/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-342",
+        "number": "342",
+        "title": "Chapter 342",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-342/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-343",
+        "number": "343",
+        "title": "Chapter 343",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-343/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-344",
+        "number": "344",
+        "title": "Chapter 344",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-344/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-345",
+        "number": "345",
+        "title": "Chapter 345",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-345/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-346",
+        "number": "346",
+        "title": "Chapter 346",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-346/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-347",
+        "number": "347",
+        "title": "Chapter 347",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-347/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-348",
+        "number": "348",
+        "title": "Chapter 348",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-348/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-349",
+        "number": "349",
+        "title": "Chapter 349",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-349/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-350",
+        "number": "350",
+        "title": "Chapter 350",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-350/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-351",
+        "number": "351",
+        "title": "Chapter 351",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-351/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-352",
+        "number": "352",
+        "title": "Chapter 352",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-352/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-353",
+        "number": "353",
+        "title": "Chapter 353",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-353/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-354",
+        "number": "354",
+        "title": "Chapter 354",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-354/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-355",
+        "number": "355",
+        "title": "Chapter 355",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-355/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-356",
+        "number": "356",
+        "title": "Chapter 356",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-356/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-357",
+        "number": "357",
+        "title": "Chapter 357",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-357/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-358",
+        "number": "358",
+        "title": "Chapter 358",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-358/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-359",
+        "number": "359",
+        "title": "Chapter 359",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-359/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-360",
+        "number": "360",
+        "title": "Chapter 360",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-360/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-361",
+        "number": "361",
+        "title": "Chapter 361",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-361/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-362",
+        "number": "362",
+        "title": "Chapter 362",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-362/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-363",
+        "number": "363",
+        "title": "Chapter 363",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-363/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-364",
+        "number": "364",
+        "title": "Chapter 364",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-364/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-365",
+        "number": "365",
+        "title": "Chapter 365",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-365/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-366",
+        "number": "366",
+        "title": "Chapter 366",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-366/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-367",
+        "number": "367",
+        "title": "Chapter 367",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-367/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-368",
+        "number": "368",
+        "title": "Chapter 368",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-368/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-369",
+        "number": "369",
+        "title": "Chapter 369",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-369/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-370",
+        "number": "370",
+        "title": "Chapter 370",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-370/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-371",
+        "number": "371",
+        "title": "Chapter 371",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-371/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-372",
+        "number": "372",
+        "title": "Chapter 372",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-372/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-373",
+        "number": "373",
+        "title": "Chapter 373",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-373/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-374",
+        "number": "374",
+        "title": "Chapter 374",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-374/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-375",
+        "number": "375",
+        "title": "Chapter 375",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-375/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-376",
+        "number": "376",
+        "title": "Chapter 376",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-376/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-377",
+        "number": "377",
+        "title": "Chapter 377",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-377/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-378",
+        "number": "378",
+        "title": "Chapter 378",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-378/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-379",
+        "number": "379",
+        "title": "Chapter 379",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-379/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-380",
+        "number": "380",
+        "title": "Chapter 380",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-380/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-381",
+        "number": "381",
+        "title": "Chapter 381",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-381/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-382",
+        "number": "382",
+        "title": "Chapter 382",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-382/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-383",
+        "number": "383",
+        "title": "Chapter 383",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-383/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-384",
+        "number": "384",
+        "title": "Chapter 384",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-384/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-385",
+        "number": "385",
+        "title": "Chapter 385",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-385/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-386",
+        "number": "386",
+        "title": "Chapter 386",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-386/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-387",
+        "number": "387",
+        "title": "Chapter 387",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-387/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-388",
+        "number": "388",
+        "title": "Chapter 388",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-388/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-389",
+        "number": "389",
+        "title": "Chapter 389",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-389/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-390",
+        "number": "390",
+        "title": "Chapter 390",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-390/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-391",
+        "number": "391",
+        "title": "Chapter 391",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-391/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-392",
+        "number": "392",
+        "title": "Chapter 392",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-392/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-393",
+        "number": "393",
+        "title": "Chapter 393",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-393/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-394",
+        "number": "394",
+        "title": "Chapter 394",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-394/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-395",
+        "number": "395",
+        "title": "Chapter 395",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-395/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-396",
+        "number": "396",
+        "title": "Chapter 396",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-396/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-397",
+        "number": "397",
+        "title": "Chapter 397",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-397/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-398",
+        "number": "398",
+        "title": "Chapter 398",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-398/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-399",
+        "number": "399",
+        "title": "Chapter 399",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-399/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-400",
+        "number": "400",
+        "title": "Chapter 400",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-400/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-401",
+        "number": "401",
+        "title": "Chapter 401",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-401/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-402",
+        "number": "402",
+        "title": "Chapter 402",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-402/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-403",
+        "number": "403",
+        "title": "Chapter 403",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-403/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-404",
+        "number": "404",
+        "title": "Chapter 404",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-404/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-405",
+        "number": "405",
+        "title": "Chapter 405",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-405/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-406",
+        "number": "406",
+        "title": "Chapter 406",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-406/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-407",
+        "number": "407",
+        "title": "Chapter 407",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-407/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-408",
+        "number": "408",
+        "title": "Chapter 408",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-408/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-409",
+        "number": "409",
+        "title": "Chapter 409",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-409/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-410",
+        "number": "410",
+        "title": "Chapter 410",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-410/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-411",
+        "number": "411",
+        "title": "Chapter 411",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-411/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-412",
+        "number": "412",
+        "title": "Chapter 412",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-412/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-413",
+        "number": "413",
+        "title": "Chapter 413",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-413/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-414",
+        "number": "414",
+        "title": "Chapter 414",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-414/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-415",
+        "number": "415",
+        "title": "Chapter 415",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-415/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-416",
+        "number": "416",
+        "title": "Chapter 416",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-416/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-417",
+        "number": "417",
+        "title": "Chapter 417",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-417/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-418",
+        "number": "418",
+        "title": "Chapter 418",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-418/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-419",
+        "number": "419",
+        "title": "Chapter 419",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-419/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-420",
+        "number": "420",
+        "title": "Chapter 420",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-420/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-421",
+        "number": "421",
+        "title": "Chapter 421",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-421/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-422",
+        "number": "422",
+        "title": "Chapter 422",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-422/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-423",
+        "number": "423",
+        "title": "Chapter 423",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-423/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-424",
+        "number": "424",
+        "title": "Chapter 424",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-424/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-425",
+        "number": "425",
+        "title": "Chapter 425",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-425/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-426",
+        "number": "426",
+        "title": "Chapter 426",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-426/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-427",
+        "number": "427",
+        "title": "Chapter 427",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-427/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-428",
+        "number": "428",
+        "title": "Chapter 428",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-428/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-429",
+        "number": "429",
+        "title": "Chapter 429",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-429/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-430",
+        "number": "430",
+        "title": "Chapter 430",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-430/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-431",
+        "number": "431",
+        "title": "Chapter 431",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-431/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-432",
+        "number": "432",
+        "title": "Chapter 432",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-432/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-433",
+        "number": "433",
+        "title": "Chapter 433",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-433/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-434",
+        "number": "434",
+        "title": "Chapter 434",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-434/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-435",
+        "number": "435",
+        "title": "Chapter 435",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-435/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-436",
+        "number": "436",
+        "title": "Chapter 436",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-436/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-437",
+        "number": "437",
+        "title": "Chapter 437",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-437/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-438",
+        "number": "438",
+        "title": "Chapter 438",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-438/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-439",
+        "number": "439",
+        "title": "Chapter 439",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-439/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-440",
+        "number": "440",
+        "title": "Chapter 440",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-440/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-441",
+        "number": "441",
+        "title": "Chapter 441",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-441/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-442",
+        "number": "442",
+        "title": "Chapter 442",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-442/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-443",
+        "number": "443",
+        "title": "Chapter 443",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-443-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-443",
+        "number": "443",
+        "title": "Chapter 443",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-443/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-444",
+        "number": "444",
+        "title": "Chapter 444",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-444/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-445",
+        "number": "445",
+        "title": "Chapter 445",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-445/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-446",
+        "number": "446",
+        "title": "Chapter 446",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-446/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-447",
+        "number": "447",
+        "title": "Chapter 447",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-447/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-448",
+        "number": "448",
+        "title": "Chapter 448",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-448/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-449",
+        "number": "449",
+        "title": "Chapter 449",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-449/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-450",
+        "number": "450",
+        "title": "Chapter 450",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-450/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-451",
+        "number": "451",
+        "title": "Chapter 451",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-451/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-452",
+        "number": "452",
+        "title": "Chapter 452",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-452/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-453",
+        "number": "453",
+        "title": "Chapter 453",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-453/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-454",
+        "number": "454",
+        "title": "Chapter 454",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-454/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-455",
+        "number": "455",
+        "title": "Chapter 455",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-455/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-456",
+        "number": "456",
+        "title": "Chapter 456",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-456/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-457",
+        "number": "457",
+        "title": "Chapter 457",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-457/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-458",
+        "number": "458",
+        "title": "Chapter 458",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-458/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-459",
+        "number": "459",
+        "title": "Chapter 459",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-459/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "mairimashita-iruma-kun-460",
+        "number": "460",
+        "title": "Chapter 460",
+        "url": "https://komikindo.ch/mairimashita-iruma-kun-chapter-460/",
+        "lang": "id",
+        "pages": null
+      }
+    ]
+  },
+  {
+    "id": "curated-naruto",
+    "mangadexId": "6b1eb93e-473a-4ab3-9922-1a66d2a29a4a",
+    "komikandoSlug": "naruto",
+    "title": "Naruto",
+    "altTitle": "Naruto Shippuden",
+    "author": "Masashi Kishimoto",
+    "status": "Completed",
+    "statusId": "Tamat",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Martial Arts",
+      "Shounen"
+    ],
+    "rating": "9.4",
+    "follows": "580,000",
+    "cover": "https://uploads.mangadex.org/covers/6b1eb93e-473a-4ab3-9922-1a66d2a29a4a/f52c1e62-c174-4b55-a0ca-74431e5f8f53.jpg.512.jpg",
+    "banner": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=1200&auto=format&fit=crop&q=80",
+    "synopsis": "Naruto Uzumaki, seorang ninja yatim piatu yang menyimpan Rubah Ekor Sembilan dalam tubuhnya, berjuang untuk diakui oleh penduduk desa dan bercita-cita menjadi Hokage pemimpin tertinggi desa Konohagakure.",
+    "type": "Manga",
+    "chapters": [
+      {
+        "id": "naruto-1",
+        "number": "1",
+        "title": "Chapter 1",
+        "url": "https://komikindo.ch/naruto-chapter-1/",
+        "lang": "id",
+        "pages": [
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/KwA0zqWV4UP1PHB001.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/SjysHtZuBrH4hDL002.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/BdUSesPBNLGhNtB003.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/tPEZGeKrupPPyYQ004.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/RxbK5gsUzXzgAeD005.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/K4yo39XHiKtxh9q006.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/a8INZoQuEVsDX4B007.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/gXvKU5Tnqmc0EIJ008.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/ic7dXMrNashdwWr009.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/EorOqD3EGVfcTpe010.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/UjHRfELeoLwBJli011.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/4GTCIbimBgTvna2012.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/Vhx8H9BcX7uX7FG013.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/i4FOXXRHyuFZu1g014.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/FKwgM1GxpCk3gev015.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/0j4fEjDZyj9j5Bm016.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/qD3EXWLT96Sh6zd017.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/7jbZUPXTxL8ajYe018.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/odTHLIwv2lPu2t2019.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/KtRq9DZ8TixtLbC020.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/IUSoGRP5AYBycVl021.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/VrbUoEkpVvC6BFA022.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/PjEE3DDwqKGR0oD023.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/V7Dv6pycOPBfrji024.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/QWVcagoWLTl2RxY025.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/Afw09laINIy27po026.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/9DlLVYGbfsREiGU027.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/drY2G5GAB0DfbTx028.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/4jNeZR3vYtsLONN029.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/D7XhqAS5SB9oP5d030.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/RD6sUek18ep1LaU031.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/CvIcKUqrV0UWmlY032.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/YeRRQ6uHSZ76OSB033.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/fROprKZ3AoxoXqj034.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/uRz6dvOc09nHAHl035.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/C7oQhyOAR65wuR4036.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/bV8cxVLDu9SXkyp037.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/TGtu9kWSLItx8qC038.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/ZZ2nwgi6k7vqhmG039.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/3y3HRxrOLc3SfeN040.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/dkWjSdUK0rFKuM0041.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/VeyfiGnMVuysq7x042.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/KXxhhfifgqYsy0r043.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/EHpwcT9mib0SMjc044.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/WPNjgTwK5vOAdrv045.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/ctaO0gc2UbGs9wu046.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/NllDu3ZTGIi8MGi047.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/6bs6NvQmmGZcgNl048.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/r0iVXpzyrpoy9Kg049.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/TUp8cTRjcs9GmlJ050.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/aEBWjlBuboCjiJK051.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/d2Yi79TNvV9fQBW052.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/5DkvXig60avStk8053.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/kJKkwuj1y9O45nf054.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/CTIbyaxJoc0ni9v055.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/jhOFTvwIFRUrSYQ056.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/QSN7FDg4Z5w0odr057.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/LkloiTRxHrfFdGp058.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/E2DS6We7JqW2UU8059.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/uXtaGXS7Ne9TX1N060.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/403By5m1xRxPGgR061.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/eFEUMkoFeanU1DV062.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/iPiIfz5LGqc1Sud063.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/j3svTMLwf5KbHpi064.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/c63DYWipE8PCWEN065.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/NixvIVhii87sPr0066.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/PWOBILMmcBlNlqi067.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/0KWL5AAvRj4eGmW068.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/4NfWZWq4ixTAEA8069.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/E0f6E918uEoPFew070.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/fFtIkFrkPS4ctYp071.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/42s78jNaww54Cn8072.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/fNh79LwU9zM3oFm073.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/AzAPwGIqfC5IiYF074.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/Q1HpB7CPydUwvKz075.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/wvwK0RzscdKc3Le076.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/V5bZDuo3cVKBuQT077.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/RmSBttJIZ4Y8aAd078.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/b2mdrJueEBMNWJj079.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/KrTgCVF0pZcPVAY080.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/2Nfz8rZHtlGhb3a081.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/yOQyh2WAcnBy3H1082.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/LtVemEvnWVrasoy083.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/RSFMkRGCWe52f7x084.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/NepJxUnK5vNzs8d085.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/IkmWv8zi3vddCiK086.jpg",
+          "https://gaimgame.pics/data/883347/1/JXskgNPbd66c451/dwj3yjbhk4MBcLr087.jpg",
+          "https://indocontentaising.lol/data/883347/1/JXskgNPbd66c451/TQeeJnZl8v2AYfY088.jpg",
+          "https://aicontentwow.lol/data/883347/1/JXskgNPbd66c451/94uQyoGC6h1tO6K089.jpg",
+          "https://contentkerewnrorai.lat/data/883347/1/JXskgNPbd66c451/e7h3znfuo92dHq5090.jpg",
+          "https://imageainewgeneration.lol/data/883347/1/JXskgNPbd66c451/W03zOK8PwWi0H4a091.jpg",
+          "https://himmga.lat/data/883347/1/JXskgNPbd66c451/TzFTq4JzbOUO8qW092.jpg"
+        ]
+      },
+      {
+        "id": "naruto-2",
+        "number": "2",
+        "title": "Chapter 2",
+        "url": "https://komikindo.ch/naruto-chapter-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-3",
+        "number": "3",
+        "title": "Chapter 3",
+        "url": "https://komikindo.ch/naruto-chapter-3/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-4",
+        "number": "4",
+        "title": "Chapter 4",
+        "url": "https://komikindo.ch/naruto-chapter-4/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-5",
+        "number": "5",
+        "title": "Chapter 5",
+        "url": "https://komikindo.ch/naruto-chapter-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-6",
+        "number": "6",
+        "title": "Chapter 6",
+        "url": "https://komikindo.ch/naruto-chapter-6/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-7",
+        "number": "7",
+        "title": "Chapter 7",
+        "url": "https://komikindo.ch/naruto-chapter-7/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-8",
+        "number": "8",
+        "title": "Chapter 8",
+        "url": "https://komikindo.ch/naruto-chapter-8/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-9",
+        "number": "9",
+        "title": "Chapter 9",
+        "url": "https://komikindo.ch/naruto-chapter-9/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-10",
+        "number": "10",
+        "title": "Chapter 10",
+        "url": "https://komikindo.ch/naruto-chapter-10/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-11",
+        "number": "11",
+        "title": "Chapter 11",
+        "url": "https://komikindo.ch/naruto-chapter-11/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-12",
+        "number": "12",
+        "title": "Chapter 12",
+        "url": "https://komikindo.ch/naruto-chapter-12/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-13",
+        "number": "13",
+        "title": "Chapter 13",
+        "url": "https://komikindo.ch/naruto-chapter-13/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-14",
+        "number": "14",
+        "title": "Chapter 14",
+        "url": "https://komikindo.ch/naruto-chapter-14/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-15",
+        "number": "15",
+        "title": "Chapter 15",
+        "url": "https://komikindo.ch/naruto-chapter-15/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-16",
+        "number": "16",
+        "title": "Chapter 16",
+        "url": "https://komikindo.ch/naruto-chapter-16/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-17",
+        "number": "17",
+        "title": "Chapter 17",
+        "url": "https://komikindo.ch/naruto-chapter-17/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-18",
+        "number": "18",
+        "title": "Chapter 18",
+        "url": "https://komikindo.ch/naruto-chapter-18/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-19",
+        "number": "19",
+        "title": "Chapter 19",
+        "url": "https://komikindo.ch/naruto-chapter-19/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-20",
+        "number": "20",
+        "title": "Chapter 20",
+        "url": "https://komikindo.ch/naruto-chapter-20/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-21",
+        "number": "21",
+        "title": "Chapter 21",
+        "url": "https://komikindo.ch/naruto-chapter-21/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-22",
+        "number": "22",
+        "title": "Chapter 22",
+        "url": "https://komikindo.ch/naruto-chapter-22/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-23",
+        "number": "23",
+        "title": "Chapter 23",
+        "url": "https://komikindo.ch/naruto-chapter-23/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-24",
+        "number": "24",
+        "title": "Chapter 24",
+        "url": "https://komikindo.ch/naruto-chapter-24/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-25",
+        "number": "25",
+        "title": "Chapter 25",
+        "url": "https://komikindo.ch/naruto-chapter-25/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-26",
+        "number": "26",
+        "title": "Chapter 26",
+        "url": "https://komikindo.ch/naruto-chapter-26/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-27",
+        "number": "27",
+        "title": "Chapter 27",
+        "url": "https://komikindo.ch/naruto-chapter-27/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-28",
+        "number": "28",
+        "title": "Chapter 28",
+        "url": "https://komikindo.ch/naruto-chapter-28/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-29",
+        "number": "29",
+        "title": "Chapter 29",
+        "url": "https://komikindo.ch/naruto-chapter-29/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-30",
+        "number": "30",
+        "title": "Chapter 30",
+        "url": "https://komikindo.ch/naruto-chapter-30/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-31",
+        "number": "31",
+        "title": "Chapter 31",
+        "url": "https://komikindo.ch/naruto-chapter-31/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-32",
+        "number": "32",
+        "title": "Chapter 32",
+        "url": "https://komikindo.ch/naruto-chapter-32/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-33",
+        "number": "33",
+        "title": "Chapter 33",
+        "url": "https://komikindo.ch/naruto-chapter-33/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-34",
+        "number": "34",
+        "title": "Chapter 34",
+        "url": "https://komikindo.ch/naruto-chapter-34/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-35",
+        "number": "35",
+        "title": "Chapter 35",
+        "url": "https://komikindo.ch/naruto-chapter-35/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-36",
+        "number": "36",
+        "title": "Chapter 36",
+        "url": "https://komikindo.ch/naruto-chapter-36/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-37",
+        "number": "37",
+        "title": "Chapter 37",
+        "url": "https://komikindo.ch/naruto-chapter-37/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-38",
+        "number": "38",
+        "title": "Chapter 38",
+        "url": "https://komikindo.ch/naruto-chapter-38/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-39",
+        "number": "39",
+        "title": "Chapter 39",
+        "url": "https://komikindo.ch/naruto-chapter-39/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-40",
+        "number": "40",
+        "title": "Chapter 40",
+        "url": "https://komikindo.ch/naruto-chapter-40/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-41",
+        "number": "41",
+        "title": "Chapter 41",
+        "url": "https://komikindo.ch/naruto-chapter-41/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-42",
+        "number": "42",
+        "title": "Chapter 42",
+        "url": "https://komikindo.ch/naruto-chapter-42/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-43",
+        "number": "43",
+        "title": "Chapter 43",
+        "url": "https://komikindo.ch/naruto-chapter-43/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-44",
+        "number": "44",
+        "title": "Chapter 44",
+        "url": "https://komikindo.ch/naruto-chapter-44/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-45",
+        "number": "45",
+        "title": "Chapter 45",
+        "url": "https://komikindo.ch/naruto-chapter-45/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-46",
+        "number": "46",
+        "title": "Chapter 46",
+        "url": "https://komikindo.ch/naruto-chapter-46/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-47",
+        "number": "47",
+        "title": "Chapter 47",
+        "url": "https://komikindo.ch/naruto-chapter-47/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-48",
+        "number": "48",
+        "title": "Chapter 48",
+        "url": "https://komikindo.ch/naruto-chapter-48/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-49",
+        "number": "49",
+        "title": "Chapter 49",
+        "url": "https://komikindo.ch/naruto-chapter-49/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-50",
+        "number": "50",
+        "title": "Chapter 50",
+        "url": "https://komikindo.ch/naruto-chapter-50/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-51",
+        "number": "51",
+        "title": "Chapter 51",
+        "url": "https://komikindo.ch/naruto-chapter-51/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-52",
+        "number": "52",
+        "title": "Chapter 52",
+        "url": "https://komikindo.ch/naruto-chapter-52/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-53",
+        "number": "53",
+        "title": "Chapter 53",
+        "url": "https://komikindo.ch/naruto-chapter-53/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-54",
+        "number": "54",
+        "title": "Chapter 54",
+        "url": "https://komikindo.ch/naruto-chapter-54/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-55",
+        "number": "55",
+        "title": "Chapter 55",
+        "url": "https://komikindo.ch/naruto-chapter-55/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-56",
+        "number": "56",
+        "title": "Chapter 56",
+        "url": "https://komikindo.ch/naruto-chapter-56/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-57",
+        "number": "57",
+        "title": "Chapter 57",
+        "url": "https://komikindo.ch/naruto-chapter-57/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-58",
+        "number": "58",
+        "title": "Chapter 58",
+        "url": "https://komikindo.ch/naruto-chapter-58/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-59",
+        "number": "59",
+        "title": "Chapter 59",
+        "url": "https://komikindo.ch/naruto-chapter-59/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-60",
+        "number": "60",
+        "title": "Chapter 60",
+        "url": "https://komikindo.ch/naruto-chapter-60/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-61",
+        "number": "61",
+        "title": "Chapter 61",
+        "url": "https://komikindo.ch/naruto-chapter-61/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-62",
+        "number": "62",
+        "title": "Chapter 62",
+        "url": "https://komikindo.ch/naruto-chapter-62/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-63",
+        "number": "63",
+        "title": "Chapter 63",
+        "url": "https://komikindo.ch/naruto-chapter-63/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-64",
+        "number": "64",
+        "title": "Chapter 64",
+        "url": "https://komikindo.ch/naruto-chapter-64/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-65",
+        "number": "65",
+        "title": "Chapter 65",
+        "url": "https://komikindo.ch/naruto-chapter-65/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-66",
+        "number": "66",
+        "title": "Chapter 66",
+        "url": "https://komikindo.ch/naruto-chapter-66/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-67",
+        "number": "67",
+        "title": "Chapter 67",
+        "url": "https://komikindo.ch/naruto-chapter-67/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-68",
+        "number": "68",
+        "title": "Chapter 68",
+        "url": "https://komikindo.ch/naruto-chapter-68/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-69",
+        "number": "69",
+        "title": "Chapter 69",
+        "url": "https://komikindo.ch/naruto-chapter-69/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-70",
+        "number": "70",
+        "title": "Chapter 70",
+        "url": "https://komikindo.ch/naruto-chapter-70/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-71",
+        "number": "71",
+        "title": "Chapter 71",
+        "url": "https://komikindo.ch/naruto-chapter-71/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-72",
+        "number": "72",
+        "title": "Chapter 72",
+        "url": "https://komikindo.ch/naruto-chapter-72/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-73",
+        "number": "73",
+        "title": "Chapter 73",
+        "url": "https://komikindo.ch/naruto-chapter-73/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-74",
+        "number": "74",
+        "title": "Chapter 74",
+        "url": "https://komikindo.ch/naruto-chapter-74/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-75",
+        "number": "75",
+        "title": "Chapter 75",
+        "url": "https://komikindo.ch/naruto-chapter-75/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-76",
+        "number": "76",
+        "title": "Chapter 76",
+        "url": "https://komikindo.ch/naruto-chapter-76/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-77",
+        "number": "77",
+        "title": "Chapter 77",
+        "url": "https://komikindo.ch/naruto-chapter-77/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-78",
+        "number": "78",
+        "title": "Chapter 78",
+        "url": "https://komikindo.ch/naruto-chapter-78/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-79",
+        "number": "79",
+        "title": "Chapter 79",
+        "url": "https://komikindo.ch/naruto-chapter-79/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-80",
+        "number": "80",
+        "title": "Chapter 80",
+        "url": "https://komikindo.ch/naruto-chapter-80/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-81",
+        "number": "81",
+        "title": "Chapter 81",
+        "url": "https://komikindo.ch/naruto-chapter-81/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-82",
+        "number": "82",
+        "title": "Chapter 82",
+        "url": "https://komikindo.ch/naruto-chapter-82/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-83",
+        "number": "83",
+        "title": "Chapter 83",
+        "url": "https://komikindo.ch/naruto-chapter-83/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-84",
+        "number": "84",
+        "title": "Chapter 84",
+        "url": "https://komikindo.ch/naruto-chapter-84/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-85",
+        "number": "85",
+        "title": "Chapter 85",
+        "url": "https://komikindo.ch/naruto-chapter-85/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-86",
+        "number": "86",
+        "title": "Chapter 86",
+        "url": "https://komikindo.ch/naruto-chapter-86/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-87",
+        "number": "87",
+        "title": "Chapter 87",
+        "url": "https://komikindo.ch/naruto-chapter-87/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-89",
+        "number": "89",
+        "title": "Chapter 89",
+        "url": "https://komikindo.ch/naruto-chapter-89/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-90",
+        "number": "90",
+        "title": "Chapter 90",
+        "url": "https://komikindo.ch/naruto-chapter-90/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-92",
+        "number": "92",
+        "title": "Chapter 92",
+        "url": "https://komikindo.ch/naruto-chapter-92/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-93",
+        "number": "93",
+        "title": "Chapter 93",
+        "url": "https://komikindo.ch/naruto-chapter-93/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-94",
+        "number": "94",
+        "title": "Chapter 94",
+        "url": "https://komikindo.ch/naruto-chapter-94/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-95",
+        "number": "95",
+        "title": "Chapter 95",
+        "url": "https://komikindo.ch/naruto-chapter-95/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-96",
+        "number": "96",
+        "title": "Chapter 96",
+        "url": "https://komikindo.ch/naruto-chapter-96/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-97",
+        "number": "97",
+        "title": "Chapter 97",
+        "url": "https://komikindo.ch/naruto-chapter-97/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-98",
+        "number": "98",
+        "title": "Chapter 98",
+        "url": "https://komikindo.ch/naruto-chapter-98/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-100",
+        "number": "100",
+        "title": "Chapter 100",
+        "url": "https://komikindo.ch/naruto-chapter-100/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-101",
+        "number": "101",
+        "title": "Chapter 101",
+        "url": "https://komikindo.ch/naruto-chapter-101/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-104",
+        "number": "104",
+        "title": "Chapter 104",
+        "url": "https://komikindo.ch/naruto-chapter-104/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-105",
+        "number": "105",
+        "title": "Chapter 105",
+        "url": "https://komikindo.ch/naruto-chapter-105/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-107",
+        "number": "107",
+        "title": "Chapter 107",
+        "url": "https://komikindo.ch/naruto-chapter-107/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-108",
+        "number": "108",
+        "title": "Chapter 108",
+        "url": "https://komikindo.ch/naruto-chapter-108/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-109",
+        "number": "109",
+        "title": "Chapter 109",
+        "url": "https://komikindo.ch/naruto-chapter-109/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-110",
+        "number": "110",
+        "title": "Chapter 110",
+        "url": "https://komikindo.ch/naruto-chapter-110/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-112",
+        "number": "112",
+        "title": "Chapter 112",
+        "url": "https://komikindo.ch/naruto-chapter-112/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-113",
+        "number": "113",
+        "title": "Chapter 113",
+        "url": "https://komikindo.ch/naruto-chapter-113/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-114",
+        "number": "114",
+        "title": "Chapter 114",
+        "url": "https://komikindo.ch/naruto-chapter-114/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-115",
+        "number": "115",
+        "title": "Chapter 115",
+        "url": "https://komikindo.ch/naruto-chapter-115/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-116",
+        "number": "116",
+        "title": "Chapter 116",
+        "url": "https://komikindo.ch/naruto-chapter-116/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-117",
+        "number": "117",
+        "title": "Chapter 117",
+        "url": "https://komikindo.ch/naruto-chapter-117/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-119",
+        "number": "119",
+        "title": "Chapter 119",
+        "url": "https://komikindo.ch/naruto-chapter-119/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-120",
+        "number": "120",
+        "title": "Chapter 120",
+        "url": "https://komikindo.ch/naruto-chapter-120/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-121",
+        "number": "121",
+        "title": "Chapter 121",
+        "url": "https://komikindo.ch/naruto-chapter-121/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-122",
+        "number": "122",
+        "title": "Chapter 122",
+        "url": "https://komikindo.ch/naruto-chapter-122/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-123",
+        "number": "123",
+        "title": "Chapter 123",
+        "url": "https://komikindo.ch/naruto-chapter-123/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-125",
+        "number": "125",
+        "title": "Chapter 125",
+        "url": "https://komikindo.ch/naruto-chapter-125/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-126",
+        "number": "126",
+        "title": "Chapter 126",
+        "url": "https://komikindo.ch/naruto-chapter-126/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-127",
+        "number": "127",
+        "title": "Chapter 127",
+        "url": "https://komikindo.ch/naruto-chapter-127/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-128",
+        "number": "128",
+        "title": "Chapter 128",
+        "url": "https://komikindo.ch/naruto-chapter-128/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-129",
+        "number": "129",
+        "title": "Chapter 129",
+        "url": "https://komikindo.ch/naruto-chapter-129/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-130",
+        "number": "130",
+        "title": "Chapter 130",
+        "url": "https://komikindo.ch/naruto-chapter-130/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-131",
+        "number": "131",
+        "title": "Chapter 131",
+        "url": "https://komikindo.ch/naruto-chapter-131/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-132",
+        "number": "132",
+        "title": "Chapter 132",
+        "url": "https://komikindo.ch/naruto-chapter-132/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-133",
+        "number": "133",
+        "title": "Chapter 133",
+        "url": "https://komikindo.ch/naruto-chapter-133/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-134",
+        "number": "134",
+        "title": "Chapter 134",
+        "url": "https://komikindo.ch/naruto-chapter-134/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-135",
+        "number": "135",
+        "title": "Chapter 135",
+        "url": "https://komikindo.ch/naruto-chapter-135/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-136",
+        "number": "136",
+        "title": "Chapter 136",
+        "url": "https://komikindo.ch/naruto-chapter-136/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-137",
+        "number": "137",
+        "title": "Chapter 137",
+        "url": "https://komikindo.ch/naruto-chapter-137/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-138",
+        "number": "138",
+        "title": "Chapter 138",
+        "url": "https://komikindo.ch/naruto-chapter-138/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-139",
+        "number": "139",
+        "title": "Chapter 139",
+        "url": "https://komikindo.ch/naruto-chapter-139/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-140",
+        "number": "140",
+        "title": "Chapter 140",
+        "url": "https://komikindo.ch/naruto-chapter-140/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-141",
+        "number": "141",
+        "title": "Chapter 141",
+        "url": "https://komikindo.ch/naruto-chapter-141/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-142",
+        "number": "142",
+        "title": "Chapter 142",
+        "url": "https://komikindo.ch/naruto-chapter-142/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-143",
+        "number": "143",
+        "title": "Chapter 143",
+        "url": "https://komikindo.ch/naruto-chapter-143/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-144",
+        "number": "144",
+        "title": "Chapter 144",
+        "url": "https://komikindo.ch/naruto-chapter-144/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-145",
+        "number": "145",
+        "title": "Chapter 145",
+        "url": "https://komikindo.ch/naruto-chapter-145/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-146",
+        "number": "146",
+        "title": "Chapter 146",
+        "url": "https://komikindo.ch/naruto-chapter-146/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-147",
+        "number": "147",
+        "title": "Chapter 147",
+        "url": "https://komikindo.ch/naruto-chapter-147/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-148",
+        "number": "148",
+        "title": "Chapter 148",
+        "url": "https://komikindo.ch/naruto-chapter-148/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-149",
+        "number": "149",
+        "title": "Chapter 149",
+        "url": "https://komikindo.ch/naruto-chapter-149/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-152",
+        "number": "152",
+        "title": "Chapter 152",
+        "url": "https://komikindo.ch/naruto-chapter-152/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-154",
+        "number": "154",
+        "title": "Chapter 154",
+        "url": "https://komikindo.ch/naruto-chapter-154/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-155",
+        "number": "155",
+        "title": "Chapter 155",
+        "url": "https://komikindo.ch/naruto-chapter-155/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-157",
+        "number": "157",
+        "title": "Chapter 157",
+        "url": "https://komikindo.ch/naruto-chapter-157/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-158",
+        "number": "158",
+        "title": "Chapter 158",
+        "url": "https://komikindo.ch/naruto-chapter-158/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-159",
+        "number": "159",
+        "title": "Chapter 159",
+        "url": "https://komikindo.ch/naruto-chapter-159/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-160",
+        "number": "160",
+        "title": "Chapter 160",
+        "url": "https://komikindo.ch/naruto-chapter-160/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-161",
+        "number": "161",
+        "title": "Chapter 161",
+        "url": "https://komikindo.ch/naruto-chapter-161/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-162",
+        "number": "162",
+        "title": "Chapter 162",
+        "url": "https://komikindo.ch/naruto-chapter-162/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-164",
+        "number": "164",
+        "title": "Chapter 164",
+        "url": "https://komikindo.ch/naruto-chapter-164/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-165",
+        "number": "165",
+        "title": "Chapter 165",
+        "url": "https://komikindo.ch/naruto-chapter-165/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-166",
+        "number": "166",
+        "title": "Chapter 166",
+        "url": "https://komikindo.ch/naruto-chapter-166/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-167",
+        "number": "167",
+        "title": "Chapter 167",
+        "url": "https://komikindo.ch/naruto-chapter-167/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-168",
+        "number": "168",
+        "title": "Chapter 168",
+        "url": "https://komikindo.ch/naruto-chapter-168/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-169",
+        "number": "169",
+        "title": "Chapter 169",
+        "url": "https://komikindo.ch/naruto-chapter-169/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-170",
+        "number": "170",
+        "title": "Chapter 170",
+        "url": "https://komikindo.ch/naruto-chapter-170/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-171",
+        "number": "171",
+        "title": "Chapter 171",
+        "url": "https://komikindo.ch/naruto-chapter-171/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-172",
+        "number": "172",
+        "title": "Chapter 172",
+        "url": "https://komikindo.ch/naruto-chapter-172/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-173",
+        "number": "173",
+        "title": "Chapter 173",
+        "url": "https://komikindo.ch/naruto-chapter-173/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-174",
+        "number": "174",
+        "title": "Chapter 174",
+        "url": "https://komikindo.ch/naruto-chapter-174/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-176",
+        "number": "176",
+        "title": "Chapter 176",
+        "url": "https://komikindo.ch/naruto-chapter-176/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-177",
+        "number": "177",
+        "title": "Chapter 177",
+        "url": "https://komikindo.ch/naruto-chapter-177/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-178",
+        "number": "178",
+        "title": "Chapter 178",
+        "url": "https://komikindo.ch/naruto-chapter-178/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-179",
+        "number": "179",
+        "title": "Chapter 179",
+        "url": "https://komikindo.ch/naruto-chapter-179/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-180",
+        "number": "180",
+        "title": "Chapter 180",
+        "url": "https://komikindo.ch/naruto-chapter-180/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-181",
+        "number": "181",
+        "title": "Chapter 181",
+        "url": "https://komikindo.ch/naruto-chapter-181/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-182",
+        "number": "182",
+        "title": "Chapter 182",
+        "url": "https://komikindo.ch/naruto-chapter-182/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-183",
+        "number": "183",
+        "title": "Chapter 183",
+        "url": "https://komikindo.ch/naruto-chapter-183/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-184",
+        "number": "184",
+        "title": "Chapter 184",
+        "url": "https://komikindo.ch/naruto-chapter-184/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-185",
+        "number": "185",
+        "title": "Chapter 185",
+        "url": "https://komikindo.ch/naruto-chapter-185/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-187",
+        "number": "187",
+        "title": "Chapter 187",
+        "url": "https://komikindo.ch/naruto-chapter-187/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-188",
+        "number": "188",
+        "title": "Chapter 188",
+        "url": "https://komikindo.ch/naruto-chapter-188/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-189",
+        "number": "189",
+        "title": "Chapter 189",
+        "url": "https://komikindo.ch/naruto-chapter-189/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-190",
+        "number": "190",
+        "title": "Chapter 190",
+        "url": "https://komikindo.ch/naruto-chapter-190/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-191",
+        "number": "191",
+        "title": "Chapter 191",
+        "url": "https://komikindo.ch/naruto-chapter-191/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-193",
+        "number": "193",
+        "title": "Chapter 193",
+        "url": "https://komikindo.ch/naruto-chapter-193/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-195",
+        "number": "195",
+        "title": "Chapter 195",
+        "url": "https://komikindo.ch/naruto-chapter-195/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-196",
+        "number": "196",
+        "title": "Chapter 196",
+        "url": "https://komikindo.ch/naruto-chapter-196/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-197",
+        "number": "197",
+        "title": "Chapter 197",
+        "url": "https://komikindo.ch/naruto-chapter-197/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-199",
+        "number": "199",
+        "title": "Chapter 199",
+        "url": "https://komikindo.ch/naruto-chapter-199/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-200",
+        "number": "200",
+        "title": "Chapter 200",
+        "url": "https://komikindo.ch/naruto-chapter-200/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-201",
+        "number": "201",
+        "title": "Chapter 201",
+        "url": "https://komikindo.ch/naruto-chapter-201/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-202",
+        "number": "202",
+        "title": "Chapter 202",
+        "url": "https://komikindo.ch/naruto-chapter-202/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-204",
+        "number": "204",
+        "title": "Chapter 204",
+        "url": "https://komikindo.ch/naruto-chapter-204/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-205",
+        "number": "205",
+        "title": "Chapter 205",
+        "url": "https://komikindo.ch/naruto-chapter-205/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-206",
+        "number": "206",
+        "title": "Chapter 206",
+        "url": "https://komikindo.ch/naruto-chapter-206/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-207",
+        "number": "207",
+        "title": "Chapter 207",
+        "url": "https://komikindo.ch/naruto-chapter-207/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-208",
+        "number": "208",
+        "title": "Chapter 208",
+        "url": "https://komikindo.ch/naruto-chapter-208/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-209",
+        "number": "209",
+        "title": "Chapter 209",
+        "url": "https://komikindo.ch/naruto-chapter-209/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-210",
+        "number": "210",
+        "title": "Chapter 210",
+        "url": "https://komikindo.ch/naruto-chapter-210/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-211",
+        "number": "211",
+        "title": "Chapter 211",
+        "url": "https://komikindo.ch/naruto-chapter-211/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-213",
+        "number": "213",
+        "title": "Chapter 213",
+        "url": "https://komikindo.ch/naruto-chapter-213/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-214",
+        "number": "214",
+        "title": "Chapter 214",
+        "url": "https://komikindo.ch/naruto-chapter-214/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-215",
+        "number": "215",
+        "title": "Chapter 215",
+        "url": "https://komikindo.ch/naruto-chapter-215/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-216",
+        "number": "216",
+        "title": "Chapter 216",
+        "url": "https://komikindo.ch/naruto-chapter-216/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-217",
+        "number": "217",
+        "title": "Chapter 217",
+        "url": "https://komikindo.ch/naruto-chapter-217/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-219",
+        "number": "219",
+        "title": "Chapter 219",
+        "url": "https://komikindo.ch/naruto-chapter-219/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-220",
+        "number": "220",
+        "title": "Chapter 220",
+        "url": "https://komikindo.ch/naruto-chapter-220/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-221",
+        "number": "221",
+        "title": "Chapter 221",
+        "url": "https://komikindo.ch/naruto-chapter-221/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-222",
+        "number": "222",
+        "title": "Chapter 222",
+        "url": "https://komikindo.ch/naruto-chapter-222/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-223",
+        "number": "223",
+        "title": "Chapter 223",
+        "url": "https://komikindo.ch/naruto-chapter-223/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-224",
+        "number": "224",
+        "title": "Chapter 224",
+        "url": "https://komikindo.ch/naruto-chapter-224/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-225",
+        "number": "225",
+        "title": "Chapter 225",
+        "url": "https://komikindo.ch/naruto-chapter-225/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-226",
+        "number": "226",
+        "title": "Chapter 226",
+        "url": "https://komikindo.ch/naruto-chapter-226/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-227",
+        "number": "227",
+        "title": "Chapter 227",
+        "url": "https://komikindo.ch/naruto-chapter-227/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-228",
+        "number": "228",
+        "title": "Chapter 228",
+        "url": "https://komikindo.ch/naruto-chapter-228/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-229",
+        "number": "229",
+        "title": "Chapter 229",
+        "url": "https://komikindo.ch/naruto-chapter-229/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-230",
+        "number": "230",
+        "title": "Chapter 230",
+        "url": "https://komikindo.ch/naruto-chapter-230/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-231",
+        "number": "231",
+        "title": "Chapter 231",
+        "url": "https://komikindo.ch/naruto-chapter-231/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-234",
+        "number": "234",
+        "title": "Chapter 234",
+        "url": "https://komikindo.ch/naruto-chapter-234/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-235",
+        "number": "235",
+        "title": "Chapter 235",
+        "url": "https://komikindo.ch/naruto-chapter-235/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-236",
+        "number": "236",
+        "title": "Chapter 236",
+        "url": "https://komikindo.ch/naruto-chapter-236/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-237",
+        "number": "237",
+        "title": "Chapter 237",
+        "url": "https://komikindo.ch/naruto-chapter-237/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-238",
+        "number": "238",
+        "title": "Chapter 238",
+        "url": "https://komikindo.ch/naruto-chapter-238/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-240",
+        "number": "240",
+        "title": "Chapter 240",
+        "url": "https://komikindo.ch/naruto-chapter-240/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-241",
+        "number": "241",
+        "title": "Chapter 241",
+        "url": "https://komikindo.ch/naruto-chapter-241/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-244",
+        "number": "244",
+        "title": "Chapter 244",
+        "url": "https://komikindo.ch/naruto-chapter-244/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-245",
+        "number": "245",
+        "title": "Chapter 245",
+        "url": "https://komikindo.ch/naruto-chapter-245/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-246",
+        "number": "246",
+        "title": "Chapter 246",
+        "url": "https://komikindo.ch/naruto-chapter-246/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-247",
+        "number": "247",
+        "title": "Chapter 247",
+        "url": "https://komikindo.ch/naruto-chapter-247/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-248",
+        "number": "248",
+        "title": "Chapter 248",
+        "url": "https://komikindo.ch/naruto-chapter-248/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-249",
+        "number": "249",
+        "title": "Chapter 249",
+        "url": "https://komikindo.ch/naruto-chapter-249/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-250",
+        "number": "250",
+        "title": "Chapter 250",
+        "url": "https://komikindo.ch/naruto-chapter-250/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-251",
+        "number": "251",
+        "title": "Chapter 251",
+        "url": "https://komikindo.ch/naruto-chapter-251/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-252",
+        "number": "252",
+        "title": "Chapter 252",
+        "url": "https://komikindo.ch/naruto-chapter-252/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-253",
+        "number": "253",
+        "title": "Chapter 253",
+        "url": "https://komikindo.ch/naruto-chapter-253/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-254",
+        "number": "254",
+        "title": "Chapter 254",
+        "url": "https://komikindo.ch/naruto-chapter-254/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-255",
+        "number": "255",
+        "title": "Chapter 255",
+        "url": "https://komikindo.ch/naruto-chapter-255/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-256",
+        "number": "256",
+        "title": "Chapter 256",
+        "url": "https://komikindo.ch/naruto-chapter-256/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-257",
+        "number": "257",
+        "title": "Chapter 257",
+        "url": "https://komikindo.ch/naruto-chapter-257/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-258",
+        "number": "258",
+        "title": "Chapter 258",
+        "url": "https://komikindo.ch/naruto-chapter-258/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-259",
+        "number": "259",
+        "title": "Chapter 259",
+        "url": "https://komikindo.ch/naruto-chapter-259/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-260",
+        "number": "260",
+        "title": "Chapter 260",
+        "url": "https://komikindo.ch/naruto-chapter-260/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-261",
+        "number": "261",
+        "title": "Chapter 261",
+        "url": "https://komikindo.ch/naruto-chapter-261/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-262",
+        "number": "262",
+        "title": "Chapter 262",
+        "url": "https://komikindo.ch/naruto-chapter-262/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-263",
+        "number": "263",
+        "title": "Chapter 263",
+        "url": "https://komikindo.ch/naruto-chapter-263/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-264",
+        "number": "264",
+        "title": "Chapter 264",
+        "url": "https://komikindo.ch/naruto-chapter-264/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-265",
+        "number": "265",
+        "title": "Chapter 265",
+        "url": "https://komikindo.ch/naruto-chapter-265/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-266",
+        "number": "266",
+        "title": "Chapter 266",
+        "url": "https://komikindo.ch/naruto-chapter-266/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-267",
+        "number": "267",
+        "title": "Chapter 267",
+        "url": "https://komikindo.ch/naruto-chapter-267/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-268",
+        "number": "268",
+        "title": "Chapter 268",
+        "url": "https://komikindo.ch/naruto-chapter-268/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-269",
+        "number": "269",
+        "title": "Chapter 269",
+        "url": "https://komikindo.ch/naruto-chapter-269/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-270",
+        "number": "270",
+        "title": "Chapter 270",
+        "url": "https://komikindo.ch/naruto-chapter-270/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-271",
+        "number": "271",
+        "title": "Chapter 271",
+        "url": "https://komikindo.ch/naruto-chapter-271/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-272",
+        "number": "272",
+        "title": "Chapter 272",
+        "url": "https://komikindo.ch/naruto-chapter-272/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-273",
+        "number": "273",
+        "title": "Chapter 273",
+        "url": "https://komikindo.ch/naruto-chapter-273/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-274",
+        "number": "274",
+        "title": "Chapter 274",
+        "url": "https://komikindo.ch/naruto-chapter-274/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-275",
+        "number": "275",
+        "title": "Chapter 275",
+        "url": "https://komikindo.ch/naruto-chapter-275/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-276",
+        "number": "276",
+        "title": "Chapter 276",
+        "url": "https://komikindo.ch/naruto-chapter-276/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-277",
+        "number": "277",
+        "title": "Chapter 277",
+        "url": "https://komikindo.ch/naruto-chapter-277/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-278",
+        "number": "278",
+        "title": "Chapter 278",
+        "url": "https://komikindo.ch/naruto-chapter-278/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-279",
+        "number": "279",
+        "title": "Chapter 279",
+        "url": "https://komikindo.ch/naruto-chapter-279/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-280",
+        "number": "280",
+        "title": "Chapter 280",
+        "url": "https://komikindo.ch/naruto-chapter-280/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-281",
+        "number": "281",
+        "title": "Chapter 281",
+        "url": "https://komikindo.ch/naruto-chapter-281/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-282",
+        "number": "282",
+        "title": "Chapter 282",
+        "url": "https://komikindo.ch/naruto-chapter-282/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-283",
+        "number": "283",
+        "title": "Chapter 283",
+        "url": "https://komikindo.ch/naruto-chapter-283/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-284",
+        "number": "284",
+        "title": "Chapter 284",
+        "url": "https://komikindo.ch/naruto-chapter-284/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-285",
+        "number": "285",
+        "title": "Chapter 285",
+        "url": "https://komikindo.ch/naruto-chapter-285/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-286",
+        "number": "286",
+        "title": "Chapter 286",
+        "url": "https://komikindo.ch/naruto-chapter-286/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-287",
+        "number": "287",
+        "title": "Chapter 287",
+        "url": "https://komikindo.ch/naruto-chapter-287/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-288",
+        "number": "288",
+        "title": "Chapter 288",
+        "url": "https://komikindo.ch/naruto-chapter-288/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-289",
+        "number": "289",
+        "title": "Chapter 289",
+        "url": "https://komikindo.ch/naruto-chapter-289/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-290",
+        "number": "290",
+        "title": "Chapter 290",
+        "url": "https://komikindo.ch/naruto-chapter-290/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-291",
+        "number": "291",
+        "title": "Chapter 291",
+        "url": "https://komikindo.ch/naruto-chapter-291/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-292",
+        "number": "292",
+        "title": "Chapter 292",
+        "url": "https://komikindo.ch/naruto-chapter-292/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-293",
+        "number": "293",
+        "title": "Chapter 293",
+        "url": "https://komikindo.ch/naruto-chapter-293/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-294",
+        "number": "294",
+        "title": "Chapter 294",
+        "url": "https://komikindo.ch/naruto-chapter-294/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-295",
+        "number": "295",
+        "title": "Chapter 295",
+        "url": "https://komikindo.ch/naruto-chapter-295/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-296",
+        "number": "296",
+        "title": "Chapter 296",
+        "url": "https://komikindo.ch/naruto-chapter-296/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-297",
+        "number": "297",
+        "title": "Chapter 297",
+        "url": "https://komikindo.ch/naruto-chapter-297/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-298",
+        "number": "298",
+        "title": "Chapter 298",
+        "url": "https://komikindo.ch/naruto-chapter-298/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-299",
+        "number": "299",
+        "title": "Chapter 299",
+        "url": "https://komikindo.ch/naruto-chapter-299/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-300",
+        "number": "300",
+        "title": "Chapter 300",
+        "url": "https://komikindo.ch/naruto-chapter-300/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-301",
+        "number": "301",
+        "title": "Chapter 301",
+        "url": "https://komikindo.ch/naruto-chapter-301/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-302",
+        "number": "302",
+        "title": "Chapter 302",
+        "url": "https://komikindo.ch/naruto-chapter-302/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-303",
+        "number": "303",
+        "title": "Chapter 303",
+        "url": "https://komikindo.ch/naruto-chapter-303/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-304",
+        "number": "304",
+        "title": "Chapter 304",
+        "url": "https://komikindo.ch/naruto-chapter-304/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-305",
+        "number": "305",
+        "title": "Chapter 305",
+        "url": "https://komikindo.ch/naruto-chapter-305/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-306",
+        "number": "306",
+        "title": "Chapter 306",
+        "url": "https://komikindo.ch/naruto-chapter-306/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-307",
+        "number": "307",
+        "title": "Chapter 307",
+        "url": "https://komikindo.ch/naruto-chapter-307/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-308",
+        "number": "308",
+        "title": "Chapter 308",
+        "url": "https://komikindo.ch/naruto-chapter-308/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-311",
+        "number": "311",
+        "title": "Chapter 311",
+        "url": "https://komikindo.ch/naruto-chapter-311/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-312",
+        "number": "312",
+        "title": "Chapter 312",
+        "url": "https://komikindo.ch/naruto-chapter-312/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-313",
+        "number": "313",
+        "title": "Chapter 313",
+        "url": "https://komikindo.ch/naruto-chapter-313/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-314",
+        "number": "314",
+        "title": "Chapter 314",
+        "url": "https://komikindo.ch/naruto-chapter-314/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-315",
+        "number": "315",
+        "title": "Chapter 315",
+        "url": "https://komikindo.ch/naruto-chapter-315/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-316",
+        "number": "316",
+        "title": "Chapter 316",
+        "url": "https://komikindo.ch/naruto-chapter-316/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-317",
+        "number": "317",
+        "title": "Chapter 317",
+        "url": "https://komikindo.ch/naruto-chapter-317/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-318",
+        "number": "318",
+        "title": "Chapter 318",
+        "url": "https://komikindo.ch/naruto-chapter-318/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-319",
+        "number": "319",
+        "title": "Chapter 319",
+        "url": "https://komikindo.ch/naruto-chapter-319/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-320",
+        "number": "320",
+        "title": "Chapter 320",
+        "url": "https://komikindo.ch/naruto-chapter-320/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-321",
+        "number": "321",
+        "title": "Chapter 321",
+        "url": "https://komikindo.ch/naruto-chapter-321/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-322",
+        "number": "322",
+        "title": "Chapter 322",
+        "url": "https://komikindo.ch/naruto-chapter-322/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-323",
+        "number": "323",
+        "title": "Chapter 323",
+        "url": "https://komikindo.ch/naruto-chapter-323/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-325",
+        "number": "325",
+        "title": "Chapter 325",
+        "url": "https://komikindo.ch/naruto-chapter-325/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-326",
+        "number": "326",
+        "title": "Chapter 326",
+        "url": "https://komikindo.ch/naruto-chapter-326/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-327",
+        "number": "327",
+        "title": "Chapter 327",
+        "url": "https://komikindo.ch/naruto-chapter-327/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-328",
+        "number": "328",
+        "title": "Chapter 328",
+        "url": "https://komikindo.ch/naruto-chapter-328/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-329",
+        "number": "329",
+        "title": "Chapter 329",
+        "url": "https://komikindo.ch/naruto-chapter-329/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-331",
+        "number": "331",
+        "title": "Chapter 331",
+        "url": "https://komikindo.ch/naruto-chapter-331/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-332",
+        "number": "332",
+        "title": "Chapter 332",
+        "url": "https://komikindo.ch/naruto-chapter-332/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-333",
+        "number": "333",
+        "title": "Chapter 333",
+        "url": "https://komikindo.ch/naruto-chapter-333/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-334",
+        "number": "334",
+        "title": "Chapter 334",
+        "url": "https://komikindo.ch/naruto-chapter-334/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-335",
+        "number": "335",
+        "title": "Chapter 335",
+        "url": "https://komikindo.ch/naruto-chapter-335/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-336",
+        "number": "336",
+        "title": "Chapter 336",
+        "url": "https://komikindo.ch/naruto-chapter-336/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-337",
+        "number": "337",
+        "title": "Chapter 337",
+        "url": "https://komikindo.ch/naruto-chapter-337/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-338",
+        "number": "338",
+        "title": "Chapter 338",
+        "url": "https://komikindo.ch/naruto-chapter-338/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-339",
+        "number": "339",
+        "title": "Chapter 339",
+        "url": "https://komikindo.ch/naruto-chapter-339/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-340",
+        "number": "340",
+        "title": "Chapter 340",
+        "url": "https://komikindo.ch/naruto-chapter-340/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-341",
+        "number": "341",
+        "title": "Chapter 341",
+        "url": "https://komikindo.ch/naruto-chapter-341/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-342",
+        "number": "342",
+        "title": "Chapter 342",
+        "url": "https://komikindo.ch/naruto-chapter-342/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-343",
+        "number": "343",
+        "title": "Chapter 343",
+        "url": "https://komikindo.ch/naruto-chapter-343/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-344",
+        "number": "344",
+        "title": "Chapter 344",
+        "url": "https://komikindo.ch/naruto-chapter-344/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-345",
+        "number": "345",
+        "title": "Chapter 345",
+        "url": "https://komikindo.ch/naruto-chapter-345/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-346",
+        "number": "346",
+        "title": "Chapter 346",
+        "url": "https://komikindo.ch/naruto-chapter-346/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-347",
+        "number": "347",
+        "title": "Chapter 347",
+        "url": "https://komikindo.ch/naruto-chapter-347/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-349",
+        "number": "349",
+        "title": "Chapter 349",
+        "url": "https://komikindo.ch/naruto-chapter-349/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-350",
+        "number": "350",
+        "title": "Chapter 350",
+        "url": "https://komikindo.ch/naruto-chapter-350/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-351",
+        "number": "351",
+        "title": "Chapter 351",
+        "url": "https://komikindo.ch/naruto-chapter-351/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-352",
+        "number": "352",
+        "title": "Chapter 352",
+        "url": "https://komikindo.ch/naruto-chapter-352/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-353",
+        "number": "353",
+        "title": "Chapter 353",
+        "url": "https://komikindo.ch/naruto-chapter-353/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-354",
+        "number": "354",
+        "title": "Chapter 354",
+        "url": "https://komikindo.ch/naruto-chapter-354/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-355",
+        "number": "355",
+        "title": "Chapter 355",
+        "url": "https://komikindo.ch/naruto-chapter-355/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-356",
+        "number": "356",
+        "title": "Chapter 356",
+        "url": "https://komikindo.ch/naruto-chapter-356/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-357",
+        "number": "357",
+        "title": "Chapter 357",
+        "url": "https://komikindo.ch/naruto-chapter-357/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-358",
+        "number": "358",
+        "title": "Chapter 358",
+        "url": "https://komikindo.ch/naruto-chapter-358/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-359",
+        "number": "359",
+        "title": "Chapter 359",
+        "url": "https://komikindo.ch/naruto-chapter-359/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-360",
+        "number": "360",
+        "title": "Chapter 360",
+        "url": "https://komikindo.ch/naruto-chapter-360/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-361",
+        "number": "361",
+        "title": "Chapter 361",
+        "url": "https://komikindo.ch/naruto-chapter-361/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-362",
+        "number": "362",
+        "title": "Chapter 362",
+        "url": "https://komikindo.ch/naruto-chapter-362/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-363",
+        "number": "363",
+        "title": "Chapter 363",
+        "url": "https://komikindo.ch/naruto-chapter-363/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-364",
+        "number": "364",
+        "title": "Chapter 364",
+        "url": "https://komikindo.ch/naruto-chapter-364/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-365",
+        "number": "365",
+        "title": "Chapter 365",
+        "url": "https://komikindo.ch/naruto-chapter-365/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-366",
+        "number": "366",
+        "title": "Chapter 366",
+        "url": "https://komikindo.ch/naruto-chapter-366/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-367",
+        "number": "367",
+        "title": "Chapter 367",
+        "url": "https://komikindo.ch/naruto-chapter-367/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-368",
+        "number": "368",
+        "title": "Chapter 368",
+        "url": "https://komikindo.ch/naruto-chapter-368/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-369",
+        "number": "369",
+        "title": "Chapter 369",
+        "url": "https://komikindo.ch/naruto-chapter-369/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-370",
+        "number": "370",
+        "title": "Chapter 370",
+        "url": "https://komikindo.ch/naruto-chapter-370/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-371",
+        "number": "371",
+        "title": "Chapter 371",
+        "url": "https://komikindo.ch/naruto-chapter-371/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-372",
+        "number": "372",
+        "title": "Chapter 372",
+        "url": "https://komikindo.ch/naruto-chapter-372/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-373",
+        "number": "373",
+        "title": "Chapter 373",
+        "url": "https://komikindo.ch/naruto-chapter-373/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-374",
+        "number": "374",
+        "title": "Chapter 374",
+        "url": "https://komikindo.ch/naruto-chapter-374/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-375",
+        "number": "375",
+        "title": "Chapter 375",
+        "url": "https://komikindo.ch/naruto-chapter-375/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-376",
+        "number": "376",
+        "title": "Chapter 376",
+        "url": "https://komikindo.ch/naruto-chapter-376/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-377",
+        "number": "377",
+        "title": "Chapter 377",
+        "url": "https://komikindo.ch/naruto-chapter-377/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-378",
+        "number": "378",
+        "title": "Chapter 378",
+        "url": "https://komikindo.ch/naruto-chapter-378/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-379",
+        "number": "379",
+        "title": "Chapter 379",
+        "url": "https://komikindo.ch/naruto-chapter-379/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-380",
+        "number": "380",
+        "title": "Chapter 380",
+        "url": "https://komikindo.ch/naruto-chapter-380/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-381",
+        "number": "381",
+        "title": "Chapter 381",
+        "url": "https://komikindo.ch/naruto-chapter-381/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-382",
+        "number": "382",
+        "title": "Chapter 382",
+        "url": "https://komikindo.ch/naruto-chapter-382/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-383",
+        "number": "383",
+        "title": "Chapter 383",
+        "url": "https://komikindo.ch/naruto-chapter-383/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-384",
+        "number": "384",
+        "title": "Chapter 384",
+        "url": "https://komikindo.ch/naruto-chapter-384/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-385",
+        "number": "385",
+        "title": "Chapter 385",
+        "url": "https://komikindo.ch/naruto-chapter-385/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-386",
+        "number": "386",
+        "title": "Chapter 386",
+        "url": "https://komikindo.ch/naruto-chapter-386/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-387",
+        "number": "387",
+        "title": "Chapter 387",
+        "url": "https://komikindo.ch/naruto-chapter-387/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-388",
+        "number": "388",
+        "title": "Chapter 388",
+        "url": "https://komikindo.ch/naruto-chapter-388/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-389",
+        "number": "389",
+        "title": "Chapter 389",
+        "url": "https://komikindo.ch/naruto-chapter-389/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-390",
+        "number": "390",
+        "title": "Chapter 390",
+        "url": "https://komikindo.ch/naruto-chapter-390/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-391",
+        "number": "391",
+        "title": "Chapter 391",
+        "url": "https://komikindo.ch/naruto-chapter-391/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-392",
+        "number": "392",
+        "title": "Chapter 392",
+        "url": "https://komikindo.ch/naruto-chapter-392/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-393",
+        "number": "393",
+        "title": "Chapter 393",
+        "url": "https://komikindo.ch/naruto-chapter-393/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-394",
+        "number": "394",
+        "title": "Chapter 394",
+        "url": "https://komikindo.ch/naruto-chapter-394/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-395",
+        "number": "395",
+        "title": "Chapter 395",
+        "url": "https://komikindo.ch/naruto-chapter-395/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-396",
+        "number": "396",
+        "title": "Chapter 396",
+        "url": "https://komikindo.ch/naruto-chapter-396/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-397",
+        "number": "397",
+        "title": "Chapter 397",
+        "url": "https://komikindo.ch/naruto-chapter-397/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-398",
+        "number": "398",
+        "title": "Chapter 398",
+        "url": "https://komikindo.ch/naruto-chapter-398/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-399",
+        "number": "399",
+        "title": "Chapter 399",
+        "url": "https://komikindo.ch/naruto-chapter-399/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-400",
+        "number": "400",
+        "title": "Chapter 400",
+        "url": "https://komikindo.ch/naruto-chapter-400/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-401",
+        "number": "401",
+        "title": "Chapter 401",
+        "url": "https://komikindo.ch/naruto-chapter-401/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-402",
+        "number": "402",
+        "title": "Chapter 402",
+        "url": "https://komikindo.ch/naruto-chapter-402/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-403",
+        "number": "403",
+        "title": "Chapter 403",
+        "url": "https://komikindo.ch/naruto-chapter-403/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-404",
+        "number": "404",
+        "title": "Chapter 404",
+        "url": "https://komikindo.ch/naruto-chapter-404/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-405",
+        "number": "405",
+        "title": "Chapter 405",
+        "url": "https://komikindo.ch/naruto-chapter-405/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-406",
+        "number": "406",
+        "title": "Chapter 406",
+        "url": "https://komikindo.ch/naruto-chapter-406/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-407",
+        "number": "407",
+        "title": "Chapter 407",
+        "url": "https://komikindo.ch/naruto-chapter-407/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-408",
+        "number": "408",
+        "title": "Chapter 408",
+        "url": "https://komikindo.ch/naruto-chapter-408/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-409",
+        "number": "409",
+        "title": "Chapter 409",
+        "url": "https://komikindo.ch/naruto-chapter-409/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-410",
+        "number": "410",
+        "title": "Chapter 410",
+        "url": "https://komikindo.ch/naruto-chapter-410/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-411",
+        "number": "411",
+        "title": "Chapter 411",
+        "url": "https://komikindo.ch/naruto-chapter-411/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-412",
+        "number": "412",
+        "title": "Chapter 412",
+        "url": "https://komikindo.ch/naruto-chapter-412/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-413",
+        "number": "413",
+        "title": "Chapter 413",
+        "url": "https://komikindo.ch/naruto-chapter-413/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-414",
+        "number": "414",
+        "title": "Chapter 414",
+        "url": "https://komikindo.ch/naruto-chapter-414/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-415",
+        "number": "415",
+        "title": "Chapter 415",
+        "url": "https://komikindo.ch/naruto-chapter-415/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-416",
+        "number": "416",
+        "title": "Chapter 416",
+        "url": "https://komikindo.ch/naruto-chapter-416/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-417",
+        "number": "417",
+        "title": "Chapter 417",
+        "url": "https://komikindo.ch/naruto-chapter-417/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-418",
+        "number": "418",
+        "title": "Chapter 418",
+        "url": "https://komikindo.ch/naruto-chapter-418/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-419",
+        "number": "419",
+        "title": "Chapter 419",
+        "url": "https://komikindo.ch/naruto-chapter-419/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-420",
+        "number": "420",
+        "title": "Chapter 420",
+        "url": "https://komikindo.ch/naruto-chapter-420/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-421",
+        "number": "421",
+        "title": "Chapter 421",
+        "url": "https://komikindo.ch/naruto-chapter-421/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-422",
+        "number": "422",
+        "title": "Chapter 422",
+        "url": "https://komikindo.ch/naruto-chapter-422/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-423",
+        "number": "423",
+        "title": "Chapter 423",
+        "url": "https://komikindo.ch/naruto-chapter-423/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-424",
+        "number": "424",
+        "title": "Chapter 424",
+        "url": "https://komikindo.ch/naruto-chapter-424/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-425",
+        "number": "425",
+        "title": "Chapter 425",
+        "url": "https://komikindo.ch/naruto-chapter-425/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-426",
+        "number": "426",
+        "title": "Chapter 426",
+        "url": "https://komikindo.ch/naruto-chapter-426/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-427",
+        "number": "427",
+        "title": "Chapter 427",
+        "url": "https://komikindo.ch/naruto-chapter-427/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-428",
+        "number": "428",
+        "title": "Chapter 428",
+        "url": "https://komikindo.ch/naruto-chapter-428/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-429",
+        "number": "429",
+        "title": "Chapter 429",
+        "url": "https://komikindo.ch/naruto-chapter-429/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-430",
+        "number": "430",
+        "title": "Chapter 430",
+        "url": "https://komikindo.ch/naruto-chapter-430/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-431",
+        "number": "431",
+        "title": "Chapter 431",
+        "url": "https://komikindo.ch/naruto-chapter-431/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-432",
+        "number": "432",
+        "title": "Chapter 432",
+        "url": "https://komikindo.ch/naruto-chapter-432/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-433",
+        "number": "433",
+        "title": "Chapter 433",
+        "url": "https://komikindo.ch/naruto-chapter-433/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-434",
+        "number": "434",
+        "title": "Chapter 434",
+        "url": "https://komikindo.ch/naruto-chapter-434/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-435",
+        "number": "435",
+        "title": "Chapter 435",
+        "url": "https://komikindo.ch/naruto-chapter-435/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-436",
+        "number": "436",
+        "title": "Chapter 436",
+        "url": "https://komikindo.ch/naruto-chapter-436/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-437",
+        "number": "437",
+        "title": "Chapter 437",
+        "url": "https://komikindo.ch/naruto-chapter-437/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-438",
+        "number": "438",
+        "title": "Chapter 438",
+        "url": "https://komikindo.ch/naruto-chapter-438/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-439",
+        "number": "439",
+        "title": "Chapter 439",
+        "url": "https://komikindo.ch/naruto-chapter-439/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-440",
+        "number": "440",
+        "title": "Chapter 440",
+        "url": "https://komikindo.ch/naruto-chapter-440/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-441",
+        "number": "441",
+        "title": "Chapter 441",
+        "url": "https://komikindo.ch/naruto-chapter-441/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-442",
+        "number": "442",
+        "title": "Chapter 442",
+        "url": "https://komikindo.ch/naruto-chapter-442/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-443",
+        "number": "443",
+        "title": "Chapter 443",
+        "url": "https://komikindo.ch/naruto-chapter-443/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-444",
+        "number": "444",
+        "title": "Chapter 444",
+        "url": "https://komikindo.ch/naruto-chapter-444/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-445",
+        "number": "445",
+        "title": "Chapter 445",
+        "url": "https://komikindo.ch/naruto-chapter-445/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-446",
+        "number": "446",
+        "title": "Chapter 446",
+        "url": "https://komikindo.ch/naruto-chapter-446/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-453",
+        "number": "453",
+        "title": "Chapter 453",
+        "url": "https://komikindo.ch/naruto-chapter-453/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-456",
+        "number": "456",
+        "title": "Chapter 456",
+        "url": "https://komikindo.ch/naruto-chapter-456/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-457",
+        "number": "457",
+        "title": "Chapter 457",
+        "url": "https://komikindo.ch/naruto-chapter-457/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-459",
+        "number": "459",
+        "title": "Chapter 459",
+        "url": "https://komikindo.ch/naruto-chapter-459/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-465",
+        "number": "465",
+        "title": "Chapter 465",
+        "url": "https://komikindo.ch/naruto-chapter-465/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-466",
+        "number": "466",
+        "title": "Chapter 466",
+        "url": "https://komikindo.ch/naruto-chapter-466/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-467",
+        "number": "467",
+        "title": "Chapter 467",
+        "url": "https://komikindo.ch/naruto-chapter-467/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-468",
+        "number": "468",
+        "title": "Chapter 468",
+        "url": "https://komikindo.ch/naruto-chapter-468/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-469",
+        "number": "469",
+        "title": "Chapter 469",
+        "url": "https://komikindo.ch/naruto-chapter-469/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-470",
+        "number": "470",
+        "title": "Chapter 470",
+        "url": "https://komikindo.ch/naruto-chapter-470/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-471",
+        "number": "471",
+        "title": "Chapter 471",
+        "url": "https://komikindo.ch/naruto-chapter-471/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-472",
+        "number": "472",
+        "title": "Chapter 472",
+        "url": "https://komikindo.ch/naruto-chapter-472/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-473",
+        "number": "473",
+        "title": "Chapter 473",
+        "url": "https://komikindo.ch/naruto-chapter-473/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-474",
+        "number": "474",
+        "title": "Chapter 474",
+        "url": "https://komikindo.ch/naruto-chapter-474/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-475",
+        "number": "475",
+        "title": "Chapter 475",
+        "url": "https://komikindo.ch/naruto-chapter-475/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-476",
+        "number": "476",
+        "title": "Chapter 476",
+        "url": "https://komikindo.ch/naruto-chapter-476/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-477",
+        "number": "477",
+        "title": "Chapter 477",
+        "url": "https://komikindo.ch/naruto-chapter-477/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-478",
+        "number": "478",
+        "title": "Chapter 478",
+        "url": "https://komikindo.ch/naruto-chapter-478/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-479",
+        "number": "479",
+        "title": "Chapter 479",
+        "url": "https://komikindo.ch/naruto-chapter-479/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-480",
+        "number": "480",
+        "title": "Chapter 480",
+        "url": "https://komikindo.ch/naruto-chapter-480/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-481",
+        "number": "481",
+        "title": "Chapter 481",
+        "url": "https://komikindo.ch/naruto-chapter-481/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-482",
+        "number": "482",
+        "title": "Chapter 482",
+        "url": "https://komikindo.ch/naruto-chapter-482/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-483",
+        "number": "483",
+        "title": "Chapter 483",
+        "url": "https://komikindo.ch/naruto-chapter-483/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-485",
+        "number": "485",
+        "title": "Chapter 485",
+        "url": "https://komikindo.ch/naruto-chapter-485/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-486",
+        "number": "486",
+        "title": "Chapter 486",
+        "url": "https://komikindo.ch/naruto-chapter-486/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-487",
+        "number": "487",
+        "title": "Chapter 487",
+        "url": "https://komikindo.ch/naruto-chapter-487/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-488",
+        "number": "488",
+        "title": "Chapter 488",
+        "url": "https://komikindo.ch/naruto-chapter-488/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-489",
+        "number": "489",
+        "title": "Chapter 489",
+        "url": "https://komikindo.ch/naruto-chapter-489/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-490",
+        "number": "490",
+        "title": "Chapter 490",
+        "url": "https://komikindo.ch/naruto-chapter-490/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-491",
+        "number": "491",
+        "title": "Chapter 491",
+        "url": "https://komikindo.ch/naruto-chapter-491/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-492",
+        "number": "492",
+        "title": "Chapter 492",
+        "url": "https://komikindo.ch/naruto-chapter-492/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-493",
+        "number": "493",
+        "title": "Chapter 493",
+        "url": "https://komikindo.ch/naruto-chapter-493/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-494",
+        "number": "494",
+        "title": "Chapter 494",
+        "url": "https://komikindo.ch/naruto-chapter-494/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-495",
+        "number": "495",
+        "title": "Chapter 495",
+        "url": "https://komikindo.ch/naruto-chapter-495/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-496",
+        "number": "496",
+        "title": "Chapter 496",
+        "url": "https://komikindo.ch/naruto-chapter-496/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-497",
+        "number": "497",
+        "title": "Chapter 497",
+        "url": "https://komikindo.ch/naruto-chapter-497/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-498",
+        "number": "498",
+        "title": "Chapter 498",
+        "url": "https://komikindo.ch/naruto-chapter-498/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-499",
+        "number": "499",
+        "title": "Chapter 499",
+        "url": "https://komikindo.ch/naruto-chapter-499/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-500",
+        "number": "500",
+        "title": "Chapter 500",
+        "url": "https://komikindo.ch/naruto-chapter-500/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-501",
+        "number": "501",
+        "title": "Chapter 501",
+        "url": "https://komikindo.ch/naruto-chapter-501/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-503",
+        "number": "503",
+        "title": "Chapter 503",
+        "url": "https://komikindo.ch/naruto-chapter-503/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-504",
+        "number": "504",
+        "title": "Chapter 504",
+        "url": "https://komikindo.ch/naruto-chapter-504/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-505",
+        "number": "505",
+        "title": "Chapter 505",
+        "url": "https://komikindo.ch/naruto-chapter-505/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-506",
+        "number": "506",
+        "title": "Chapter 506",
+        "url": "https://komikindo.ch/naruto-chapter-506/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-507",
+        "number": "507",
+        "title": "Chapter 507",
+        "url": "https://komikindo.ch/naruto-chapter-507/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-508",
+        "number": "508",
+        "title": "Chapter 508",
+        "url": "https://komikindo.ch/naruto-chapter-508/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-509",
+        "number": "509",
+        "title": "Chapter 509",
+        "url": "https://komikindo.ch/naruto-chapter-509/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-510",
+        "number": "510",
+        "title": "Chapter 510",
+        "url": "https://komikindo.ch/naruto-chapter-510/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-511",
+        "number": "511",
+        "title": "Chapter 511",
+        "url": "https://komikindo.ch/naruto-chapter-511/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-512",
+        "number": "512",
+        "title": "Chapter 512",
+        "url": "https://komikindo.ch/naruto-chapter-512/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-513",
+        "number": "513",
+        "title": "Chapter 513",
+        "url": "https://komikindo.ch/naruto-chapter-513/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-514",
+        "number": "514",
+        "title": "Chapter 514",
+        "url": "https://komikindo.ch/naruto-chapter-514/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-515",
+        "number": "515",
+        "title": "Chapter 515",
+        "url": "https://komikindo.ch/naruto-chapter-515/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-516",
+        "number": "516",
+        "title": "Chapter 516",
+        "url": "https://komikindo.ch/naruto-chapter-516/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-517",
+        "number": "517",
+        "title": "Chapter 517",
+        "url": "https://komikindo.ch/naruto-chapter-517/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-518",
+        "number": "518",
+        "title": "Chapter 518",
+        "url": "https://komikindo.ch/naruto-chapter-518/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-519",
+        "number": "519",
+        "title": "Chapter 519",
+        "url": "https://komikindo.ch/naruto-chapter-519/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-520",
+        "number": "520",
+        "title": "Chapter 520",
+        "url": "https://komikindo.ch/naruto-chapter-520/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-521",
+        "number": "521",
+        "title": "Chapter 521",
+        "url": "https://komikindo.ch/naruto-chapter-521/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-522",
+        "number": "522",
+        "title": "Chapter 522",
+        "url": "https://komikindo.ch/naruto-chapter-522/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-523",
+        "number": "523",
+        "title": "Chapter 523",
+        "url": "https://komikindo.ch/naruto-chapter-523/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-524",
+        "number": "524",
+        "title": "Chapter 524",
+        "url": "https://komikindo.ch/naruto-chapter-524/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-525",
+        "number": "525",
+        "title": "Chapter 525",
+        "url": "https://komikindo.ch/naruto-chapter-525/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-526",
+        "number": "526",
+        "title": "Chapter 526",
+        "url": "https://komikindo.ch/naruto-chapter-526/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-527",
+        "number": "527",
+        "title": "Chapter 527",
+        "url": "https://komikindo.ch/naruto-chapter-527/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-528",
+        "number": "528",
+        "title": "Chapter 528",
+        "url": "https://komikindo.ch/naruto-chapter-528/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-529",
+        "number": "529",
+        "title": "Chapter 529",
+        "url": "https://komikindo.ch/naruto-chapter-529/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-530",
+        "number": "530",
+        "title": "Chapter 530",
+        "url": "https://komikindo.ch/naruto-chapter-530/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-531",
+        "number": "531",
+        "title": "Chapter 531",
+        "url": "https://komikindo.ch/naruto-chapter-531/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-532",
+        "number": "532",
+        "title": "Chapter 532",
+        "url": "https://komikindo.ch/naruto-chapter-532/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-533",
+        "number": "533",
+        "title": "Chapter 533",
+        "url": "https://komikindo.ch/naruto-chapter-533/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-534",
+        "number": "534",
+        "title": "Chapter 534",
+        "url": "https://komikindo.ch/naruto-chapter-534/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-535",
+        "number": "535",
+        "title": "Chapter 535",
+        "url": "https://komikindo.ch/naruto-chapter-535/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-536",
+        "number": "536",
+        "title": "Chapter 536",
+        "url": "https://komikindo.ch/naruto-chapter-536/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-537",
+        "number": "537",
+        "title": "Chapter 537",
+        "url": "https://komikindo.ch/naruto-chapter-537/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-538",
+        "number": "538",
+        "title": "Chapter 538",
+        "url": "https://komikindo.ch/naruto-chapter-538/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-539",
+        "number": "539",
+        "title": "Chapter 539",
+        "url": "https://komikindo.ch/naruto-chapter-539/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-540",
+        "number": "540",
+        "title": "Chapter 540",
+        "url": "https://komikindo.ch/naruto-chapter-540/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-541",
+        "number": "541",
+        "title": "Chapter 541",
+        "url": "https://komikindo.ch/naruto-chapter-541/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-542",
+        "number": "542",
+        "title": "Chapter 542",
+        "url": "https://komikindo.ch/naruto-chapter-542/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-543",
+        "number": "543",
+        "title": "Chapter 543",
+        "url": "https://komikindo.ch/naruto-chapter-543/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-544",
+        "number": "544",
+        "title": "Chapter 544",
+        "url": "https://komikindo.ch/naruto-chapter-544/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-545",
+        "number": "545",
+        "title": "Chapter 545",
+        "url": "https://komikindo.ch/naruto-chapter-545/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-546",
+        "number": "546",
+        "title": "Chapter 546",
+        "url": "https://komikindo.ch/naruto-chapter-546/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-547",
+        "number": "547",
+        "title": "Chapter 547",
+        "url": "https://komikindo.ch/naruto-chapter-547/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-548",
+        "number": "548",
+        "title": "Chapter 548",
+        "url": "https://komikindo.ch/naruto-chapter-548/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-549",
+        "number": "549",
+        "title": "Chapter 549",
+        "url": "https://komikindo.ch/naruto-chapter-549/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-550",
+        "number": "550",
+        "title": "Chapter 550",
+        "url": "https://komikindo.ch/naruto-chapter-550/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-551",
+        "number": "551",
+        "title": "Chapter 551",
+        "url": "https://komikindo.ch/naruto-chapter-551/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-552",
+        "number": "552",
+        "title": "Chapter 552",
+        "url": "https://komikindo.ch/naruto-chapter-552/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-553",
+        "number": "553",
+        "title": "Chapter 553",
+        "url": "https://komikindo.ch/naruto-chapter-553/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-554",
+        "number": "554",
+        "title": "Chapter 554",
+        "url": "https://komikindo.ch/naruto-chapter-554/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-555",
+        "number": "555",
+        "title": "Chapter 555",
+        "url": "https://komikindo.ch/naruto-chapter-555/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-556",
+        "number": "556",
+        "title": "Chapter 556",
+        "url": "https://komikindo.ch/naruto-chapter-556/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-557",
+        "number": "557",
+        "title": "Chapter 557",
+        "url": "https://komikindo.ch/naruto-chapter-557/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-558",
+        "number": "558",
+        "title": "Chapter 558",
+        "url": "https://komikindo.ch/naruto-chapter-558/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-559",
+        "number": "559",
+        "title": "Chapter 559",
+        "url": "https://komikindo.ch/naruto-chapter-559/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-560",
+        "number": "560",
+        "title": "Chapter 560",
+        "url": "https://komikindo.ch/naruto-chapter-560/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-561",
+        "number": "561",
+        "title": "Chapter 561",
+        "url": "https://komikindo.ch/naruto-chapter-561/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-562",
+        "number": "562",
+        "title": "Chapter 562",
+        "url": "https://komikindo.ch/naruto-chapter-562/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-563",
+        "number": "563",
+        "title": "Chapter 563",
+        "url": "https://komikindo.ch/naruto-chapter-563/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-564",
+        "number": "564",
+        "title": "Chapter 564",
+        "url": "https://komikindo.ch/naruto-chapter-564/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-565",
+        "number": "565",
+        "title": "Chapter 565",
+        "url": "https://komikindo.ch/naruto-chapter-565/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-566",
+        "number": "566",
+        "title": "Chapter 566",
+        "url": "https://komikindo.ch/naruto-chapter-566/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-567",
+        "number": "567",
+        "title": "Chapter 567",
+        "url": "https://komikindo.ch/naruto-chapter-567/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-568",
+        "number": "568",
+        "title": "Chapter 568",
+        "url": "https://komikindo.ch/naruto-chapter-568/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-569",
+        "number": "569",
+        "title": "Chapter 569",
+        "url": "https://komikindo.ch/naruto-chapter-569/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-570",
+        "number": "570",
+        "title": "Chapter 570",
+        "url": "https://komikindo.ch/naruto-chapter-570/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-571",
+        "number": "571",
+        "title": "Chapter 571",
+        "url": "https://komikindo.ch/naruto-chapter-571/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-572",
+        "number": "572",
+        "title": "Chapter 572",
+        "url": "https://komikindo.ch/naruto-chapter-572/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-573",
+        "number": "573",
+        "title": "Chapter 573",
+        "url": "https://komikindo.ch/naruto-chapter-573/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-574",
+        "number": "574",
+        "title": "Chapter 574",
+        "url": "https://komikindo.ch/naruto-chapter-574/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-575",
+        "number": "575",
+        "title": "Chapter 575",
+        "url": "https://komikindo.ch/naruto-chapter-575/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-576",
+        "number": "576",
+        "title": "Chapter 576",
+        "url": "https://komikindo.ch/naruto-chapter-576/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-577",
+        "number": "577",
+        "title": "Chapter 577",
+        "url": "https://komikindo.ch/naruto-chapter-577/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-578",
+        "number": "578",
+        "title": "Chapter 578",
+        "url": "https://komikindo.ch/naruto-chapter-578/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-579",
+        "number": "579",
+        "title": "Chapter 579",
+        "url": "https://komikindo.ch/naruto-chapter-579/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-580",
+        "number": "580",
+        "title": "Chapter 580",
+        "url": "https://komikindo.ch/naruto-chapter-580/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-581",
+        "number": "581",
+        "title": "Chapter 581",
+        "url": "https://komikindo.ch/naruto-chapter-581/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-582",
+        "number": "582",
+        "title": "Chapter 582",
+        "url": "https://komikindo.ch/naruto-chapter-582/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-583",
+        "number": "583",
+        "title": "Chapter 583",
+        "url": "https://komikindo.ch/naruto-chapter-583/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-584",
+        "number": "584",
+        "title": "Chapter 584",
+        "url": "https://komikindo.ch/naruto-chapter-584/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-585",
+        "number": "585",
+        "title": "Chapter 585",
+        "url": "https://komikindo.ch/naruto-chapter-585/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-586",
+        "number": "586",
+        "title": "Chapter 586",
+        "url": "https://komikindo.ch/naruto-chapter-586/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-587",
+        "number": "587",
+        "title": "Chapter 587",
+        "url": "https://komikindo.ch/naruto-chapter-587/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-588",
+        "number": "588",
+        "title": "Chapter 588",
+        "url": "https://komikindo.ch/naruto-chapter-588/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-589",
+        "number": "589",
+        "title": "Chapter 589",
+        "url": "https://komikindo.ch/naruto-chapter-589/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-590",
+        "number": "590",
+        "title": "Chapter 590",
+        "url": "https://komikindo.ch/naruto-chapter-590/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-591",
+        "number": "591",
+        "title": "Chapter 591",
+        "url": "https://komikindo.ch/naruto-chapter-591/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-592",
+        "number": "592",
+        "title": "Chapter 592",
+        "url": "https://komikindo.ch/naruto-chapter-592/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-593",
+        "number": "593",
+        "title": "Chapter 593",
+        "url": "https://komikindo.ch/naruto-chapter-593/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-594",
+        "number": "594",
+        "title": "Chapter 594",
+        "url": "https://komikindo.ch/naruto-chapter-594/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-595",
+        "number": "595",
+        "title": "Chapter 595",
+        "url": "https://komikindo.ch/naruto-chapter-595/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-596",
+        "number": "596",
+        "title": "Chapter 596",
+        "url": "https://komikindo.ch/naruto-chapter-596/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-597",
+        "number": "597",
+        "title": "Chapter 597",
+        "url": "https://komikindo.ch/naruto-chapter-597/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-598",
+        "number": "598",
+        "title": "Chapter 598",
+        "url": "https://komikindo.ch/naruto-chapter-598/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-599",
+        "number": "599",
+        "title": "Chapter 599",
+        "url": "https://komikindo.ch/naruto-chapter-599/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-600",
+        "number": "600",
+        "title": "Chapter 600",
+        "url": "https://komikindo.ch/naruto-chapter-600/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-601",
+        "number": "601",
+        "title": "Chapter 601",
+        "url": "https://komikindo.ch/naruto-chapter-601/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-602",
+        "number": "602",
+        "title": "Chapter 602",
+        "url": "https://komikindo.ch/naruto-chapter-602/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-603",
+        "number": "603",
+        "title": "Chapter 603",
+        "url": "https://komikindo.ch/naruto-chapter-603/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-604",
+        "number": "604",
+        "title": "Chapter 604",
+        "url": "https://komikindo.ch/naruto-chapter-604/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-605",
+        "number": "605",
+        "title": "Chapter 605",
+        "url": "https://komikindo.ch/naruto-chapter-605/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-606",
+        "number": "606",
+        "title": "Chapter 606",
+        "url": "https://komikindo.ch/naruto-chapter-606/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-607",
+        "number": "607",
+        "title": "Chapter 607",
+        "url": "https://komikindo.ch/naruto-chapter-607/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-608",
+        "number": "608",
+        "title": "Chapter 608",
+        "url": "https://komikindo.ch/naruto-chapter-608/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-609",
+        "number": "609",
+        "title": "Chapter 609",
+        "url": "https://komikindo.ch/naruto-chapter-609/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-610",
+        "number": "610",
+        "title": "Chapter 610",
+        "url": "https://komikindo.ch/naruto-chapter-610/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-611",
+        "number": "611",
+        "title": "Chapter 611",
+        "url": "https://komikindo.ch/naruto-chapter-611/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-612",
+        "number": "612",
+        "title": "Chapter 612",
+        "url": "https://komikindo.ch/naruto-chapter-612/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-613",
+        "number": "613",
+        "title": "Chapter 613",
+        "url": "https://komikindo.ch/naruto-chapter-613/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-614",
+        "number": "614",
+        "title": "Chapter 614",
+        "url": "https://komikindo.ch/naruto-chapter-614/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-615",
+        "number": "615",
+        "title": "Chapter 615",
+        "url": "https://komikindo.ch/naruto-chapter-615/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-616",
+        "number": "616",
+        "title": "Chapter 616",
+        "url": "https://komikindo.ch/naruto-chapter-616/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-617",
+        "number": "617",
+        "title": "Chapter 617",
+        "url": "https://komikindo.ch/naruto-chapter-617/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-618",
+        "number": "618",
+        "title": "Chapter 618",
+        "url": "https://komikindo.ch/naruto-chapter-618/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-619",
+        "number": "619",
+        "title": "Chapter 619",
+        "url": "https://komikindo.ch/naruto-chapter-619/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-620",
+        "number": "620",
+        "title": "Chapter 620",
+        "url": "https://komikindo.ch/naruto-chapter-620/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-621",
+        "number": "621",
+        "title": "Chapter 621",
+        "url": "https://komikindo.ch/naruto-chapter-621/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-622",
+        "number": "622",
+        "title": "Chapter 622",
+        "url": "https://komikindo.ch/naruto-chapter-622/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-623",
+        "number": "623",
+        "title": "Chapter 623",
+        "url": "https://komikindo.ch/naruto-chapter-623/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-624",
+        "number": "624",
+        "title": "Chapter 624",
+        "url": "https://komikindo.ch/naruto-chapter-624/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-625",
+        "number": "625",
+        "title": "Chapter 625",
+        "url": "https://komikindo.ch/naruto-chapter-625/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-626",
+        "number": "626",
+        "title": "Chapter 626",
+        "url": "https://komikindo.ch/naruto-chapter-626/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-627",
+        "number": "627",
+        "title": "Chapter 627",
+        "url": "https://komikindo.ch/naruto-chapter-627/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-628",
+        "number": "628",
+        "title": "Chapter 628",
+        "url": "https://komikindo.ch/naruto-chapter-628/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-629",
+        "number": "629",
+        "title": "Chapter 629",
+        "url": "https://komikindo.ch/naruto-chapter-629/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-630",
+        "number": "630",
+        "title": "Chapter 630",
+        "url": "https://komikindo.ch/naruto-chapter-630/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-631",
+        "number": "631",
+        "title": "Chapter 631",
+        "url": "https://komikindo.ch/naruto-chapter-631/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-632",
+        "number": "632",
+        "title": "Chapter 632",
+        "url": "https://komikindo.ch/naruto-chapter-632/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-633",
+        "number": "633",
+        "title": "Chapter 633",
+        "url": "https://komikindo.ch/naruto-chapter-633/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-634",
+        "number": "634",
+        "title": "Chapter 634",
+        "url": "https://komikindo.ch/naruto-chapter-634/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-635",
+        "number": "635",
+        "title": "Chapter 635",
+        "url": "https://komikindo.ch/naruto-chapter-635/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-636",
+        "number": "636",
+        "title": "Chapter 636",
+        "url": "https://komikindo.ch/naruto-chapter-636/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-637",
+        "number": "637",
+        "title": "Chapter 637",
+        "url": "https://komikindo.ch/naruto-chapter-637/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-638",
+        "number": "638",
+        "title": "Chapter 638",
+        "url": "https://komikindo.ch/naruto-chapter-638/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-639",
+        "number": "639",
+        "title": "Chapter 639",
+        "url": "https://komikindo.ch/naruto-chapter-639/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-640",
+        "number": "640",
+        "title": "Chapter 640",
+        "url": "https://komikindo.ch/naruto-chapter-640/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-641",
+        "number": "641",
+        "title": "Chapter 641",
+        "url": "https://komikindo.ch/naruto-chapter-641/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-642",
+        "number": "642",
+        "title": "Chapter 642",
+        "url": "https://komikindo.ch/naruto-chapter-642/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-643",
+        "number": "643",
+        "title": "Chapter 643",
+        "url": "https://komikindo.ch/naruto-chapter-643/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-644",
+        "number": "644",
+        "title": "Chapter 644",
+        "url": "https://komikindo.ch/naruto-chapter-644/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-645",
+        "number": "645",
+        "title": "Chapter 645",
+        "url": "https://komikindo.ch/naruto-chapter-645/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-646",
+        "number": "646",
+        "title": "Chapter 646",
+        "url": "https://komikindo.ch/naruto-chapter-646/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-647",
+        "number": "647",
+        "title": "Chapter 647",
+        "url": "https://komikindo.ch/naruto-chapter-647/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-648",
+        "number": "648",
+        "title": "Chapter 648",
+        "url": "https://komikindo.ch/naruto-chapter-648/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-649",
+        "number": "649",
+        "title": "Chapter 649",
+        "url": "https://komikindo.ch/naruto-chapter-649/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-650",
+        "number": "650",
+        "title": "Chapter 650",
+        "url": "https://komikindo.ch/naruto-chapter-650/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-651",
+        "number": "651",
+        "title": "Chapter 651",
+        "url": "https://komikindo.ch/naruto-chapter-651/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-652",
+        "number": "652",
+        "title": "Chapter 652",
+        "url": "https://komikindo.ch/naruto-chapter-652/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-653",
+        "number": "653",
+        "title": "Chapter 653",
+        "url": "https://komikindo.ch/naruto-chapter-653/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-654",
+        "number": "654",
+        "title": "Chapter 654",
+        "url": "https://komikindo.ch/naruto-chapter-654/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-655",
+        "number": "655",
+        "title": "Chapter 655",
+        "url": "https://komikindo.ch/naruto-chapter-655/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-656",
+        "number": "656",
+        "title": "Chapter 656",
+        "url": "https://komikindo.ch/naruto-chapter-656/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-657",
+        "number": "657",
+        "title": "Chapter 657",
+        "url": "https://komikindo.ch/naruto-chapter-657/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-658",
+        "number": "658",
+        "title": "Chapter 658",
+        "url": "https://komikindo.ch/naruto-chapter-658/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-659",
+        "number": "659",
+        "title": "Chapter 659",
+        "url": "https://komikindo.ch/naruto-chapter-659/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-660",
+        "number": "660",
+        "title": "Chapter 660",
+        "url": "https://komikindo.ch/naruto-chapter-660/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-661",
+        "number": "661",
+        "title": "Chapter 661",
+        "url": "https://komikindo.ch/naruto-chapter-661/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-662",
+        "number": "662",
+        "title": "Chapter 662",
+        "url": "https://komikindo.ch/naruto-chapter-662/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-663",
+        "number": "663",
+        "title": "Chapter 663",
+        "url": "https://komikindo.ch/naruto-chapter-663/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-664",
+        "number": "664",
+        "title": "Chapter 664",
+        "url": "https://komikindo.ch/naruto-chapter-664/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-665",
+        "number": "665",
+        "title": "Chapter 665",
+        "url": "https://komikindo.ch/naruto-chapter-665/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-666",
+        "number": "666",
+        "title": "Chapter 666",
+        "url": "https://komikindo.ch/naruto-chapter-666/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-667",
+        "number": "667",
+        "title": "Chapter 667",
+        "url": "https://komikindo.ch/naruto-chapter-667/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-668",
+        "number": "668",
+        "title": "Chapter 668",
+        "url": "https://komikindo.ch/naruto-chapter-668/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-669",
+        "number": "669",
+        "title": "Chapter 669",
+        "url": "https://komikindo.ch/naruto-chapter-669/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-670",
+        "number": "670",
+        "title": "Chapter 670",
+        "url": "https://komikindo.ch/naruto-chapter-670/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-671",
+        "number": "671",
+        "title": "Chapter 671",
+        "url": "https://komikindo.ch/naruto-chapter-671/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-672",
+        "number": "672",
+        "title": "Chapter 672",
+        "url": "https://komikindo.ch/naruto-chapter-672/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-673",
+        "number": "673",
+        "title": "Chapter 673",
+        "url": "https://komikindo.ch/naruto-chapter-673/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-674",
+        "number": "674",
+        "title": "Chapter 674",
+        "url": "https://komikindo.ch/naruto-chapter-674-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-674",
+        "number": "674",
+        "title": "Chapter 674",
+        "url": "https://komikindo.ch/naruto-chapter-674/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-675",
+        "number": "675",
+        "title": "Chapter 675",
+        "url": "https://komikindo.ch/naruto-chapter-675/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-676",
+        "number": "676",
+        "title": "Chapter 676",
+        "url": "https://komikindo.ch/naruto-chapter-676-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-676",
+        "number": "676",
+        "title": "Chapter 676",
+        "url": "https://komikindo.ch/naruto-chapter-676/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-677",
+        "number": "677",
+        "title": "Chapter 677",
+        "url": "https://komikindo.ch/naruto-chapter-677/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-678",
+        "number": "678",
+        "title": "Chapter 678",
+        "url": "https://komikindo.ch/naruto-chapter-678/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-679",
+        "number": "679",
+        "title": "Chapter 679",
+        "url": "https://komikindo.ch/naruto-chapter-679/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-680",
+        "number": "680",
+        "title": "Chapter 680",
+        "url": "https://komikindo.ch/naruto-chapter-680-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-680",
+        "number": "680",
+        "title": "Chapter 680",
+        "url": "https://komikindo.ch/naruto-chapter-680/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-681",
+        "number": "681",
+        "title": "Chapter 681",
+        "url": "https://komikindo.ch/naruto-chapter-681/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-682",
+        "number": "682",
+        "title": "Chapter 682",
+        "url": "https://komikindo.ch/naruto-chapter-682/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-683",
+        "number": "683",
+        "title": "Chapter 683",
+        "url": "https://komikindo.ch/naruto-chapter-683/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-684",
+        "number": "684",
+        "title": "Chapter 684",
+        "url": "https://komikindo.ch/naruto-chapter-684/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-685",
+        "number": "685",
+        "title": "Chapter 685",
+        "url": "https://komikindo.ch/naruto-chapter-685/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-686",
+        "number": "686",
+        "title": "Chapter 686",
+        "url": "https://komikindo.ch/naruto-chapter-686/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-687",
+        "number": "687",
+        "title": "Chapter 687",
+        "url": "https://komikindo.ch/naruto-chapter-687/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-688",
+        "number": "688",
+        "title": "Chapter 688",
+        "url": "https://komikindo.ch/naruto-chapter-688/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-689",
+        "number": "689",
+        "title": "Chapter 689",
+        "url": "https://komikindo.ch/naruto-chapter-689/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-690",
+        "number": "690",
+        "title": "Chapter 690",
+        "url": "https://komikindo.ch/naruto-chapter-690/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-691",
+        "number": "691",
+        "title": "Chapter 691",
+        "url": "https://komikindo.ch/naruto-chapter-691/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-692",
+        "number": "692",
+        "title": "Chapter 692",
+        "url": "https://komikindo.ch/naruto-chapter-692/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-693",
+        "number": "693",
+        "title": "Chapter 693",
+        "url": "https://komikindo.ch/naruto-chapter-693/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-694",
+        "number": "694",
+        "title": "Chapter 694",
+        "url": "https://komikindo.ch/naruto-chapter-694/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-695",
+        "number": "695",
+        "title": "Chapter 695",
+        "url": "https://komikindo.ch/naruto-chapter-695/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-696",
+        "number": "696",
+        "title": "Chapter 696",
+        "url": "https://komikindo.ch/naruto-chapter-696/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-697",
+        "number": "697",
+        "title": "Chapter 697",
+        "url": "https://komikindo.ch/naruto-chapter-697/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-698",
+        "number": "698",
+        "title": "Chapter 698",
+        "url": "https://komikindo.ch/naruto-chapter-698-5/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-698",
+        "number": "698",
+        "title": "Chapter 698",
+        "url": "https://komikindo.ch/naruto-chapter-698/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-699",
+        "number": "699",
+        "title": "Chapter 699",
+        "url": "https://komikindo.ch/naruto-chapter-699/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-700",
+        "number": "700",
+        "title": "Chapter 700",
+        "url": "https://komikindo.ch/naruto-chapter-700/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-701",
+        "number": "701",
+        "title": "Chapter 701",
+        "url": "https://komikindo.ch/naruto-chapter-701/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-702",
+        "number": "702",
+        "title": "Chapter 702",
+        "url": "https://komikindo.ch/naruto-chapter-702/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-703",
+        "number": "703",
+        "title": "Chapter 703",
+        "url": "https://komikindo.ch/naruto-chapter-703/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-704",
+        "number": "704",
+        "title": "Chapter 704",
+        "url": "https://komikindo.ch/naruto-chapter-704/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-705",
+        "number": "705",
+        "title": "Chapter 705",
+        "url": "https://komikindo.ch/naruto-chapter-705/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-706",
+        "number": "706",
+        "title": "Chapter 706",
+        "url": "https://komikindo.ch/naruto-chapter-706/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-707",
+        "number": "707",
+        "title": "Chapter 707",
+        "url": "https://komikindo.ch/naruto-chapter-707/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-708",
+        "number": "708",
+        "title": "Chapter 708",
+        "url": "https://komikindo.ch/naruto-chapter-708/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-709",
+        "number": "709",
+        "title": "Chapter 709",
+        "url": "https://komikindo.ch/naruto-chapter-709/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-710",
+        "number": "710",
+        "title": "Chapter 710",
+        "url": "https://komikindo.ch/naruto-chapter-710/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "naruto-711",
+        "number": "711",
+        "title": "Chapter 711",
+        "url": "https://komikindo.ch/naruto-chapter-711/",
+        "lang": "id",
+        "pages": null
+      }
+    ]
+  },
+  {
+    "id": "curated-bleach",
+    "mangadexId": "b665fc5a-9694-4422-9907-7389c303f9a7",
+    "komikandoSlug": "461782-bleach",
+    "title": "Bleach",
+    "altTitle": "Bleach Thousand-Year Blood War",
+    "author": "Tite Kubo",
+    "status": "Completed",
+    "statusId": "Tamat",
+    "genres": [
+      "Action",
+      "Supernatural",
+      "Adventure",
+      "Shounen"
+    ],
+    "rating": "9.2",
+    "follows": "420,000",
+    "cover": "https://uploads.mangadex.org/covers/b665fc5a-9694-4422-9907-7389c303f9a7/df12a5db-db17-48f8-b1fc-e39908cf8220.jpg.512.jpg",
+    "banner": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80",
+    "synopsis": "Ichigo Kurosaki memperoleh kekuatan Shinigami dari Rukia Kuchiki dan bertanggung jawab melindungi manusia dari roh jahat Hollow serta memandu jiwa yang tersesat menuju Soul Society.",
+    "type": "Manga",
+    "chapters": [
+      {
+        "id": "461782-bleach-316",
+        "number": "316",
+        "title": "Chapter 316",
+        "url": "https://komikindo.ch/bleach-chapter-316/",
+        "lang": "id",
+        "pages": [
+          "https://imageainewgeneration.lol/data/410930/316/fWeQmFRfF11Jp4L/hxGRKz08atv5CU0001.png",
+          "https://himmga.lat/data/410930/316/fWeQmFRfF11Jp4L/JDAFVZswIMsMpfK002.png",
+          "https://gaimgame.pics/data/410930/316/fWeQmFRfF11Jp4L/bo0vDM9tMi6lWe4003.png",
+          "https://indocontentaising.lol/data/410930/316/fWeQmFRfF11Jp4L/BY7EYiYuithIOxs004.png",
+          "https://aicontentwow.lol/data/410930/316/fWeQmFRfF11Jp4L/KxiCj3D1CyjW3Sb005.png",
+          "https://contentkerewnrorai.lat/data/410930/316/fWeQmFRfF11Jp4L/snieaIeil55KJxR006.png",
+          "https://imageainewgeneration.lol/data/410930/316/fWeQmFRfF11Jp4L/GIasKN2QvHLM0fq007.png",
+          "https://himmga.lat/data/410930/316/fWeQmFRfF11Jp4L/jbQkWapTFccSHFP008.png",
+          "https://gaimgame.pics/data/410930/316/fWeQmFRfF11Jp4L/LXdxIV1YcUrwlwy009.png",
+          "https://indocontentaising.lol/data/410930/316/fWeQmFRfF11Jp4L/JBl4V5XWagnauqC010.png",
+          "https://aicontentwow.lol/data/410930/316/fWeQmFRfF11Jp4L/uqdZECu4I1rBqFc011.png",
+          "https://contentkerewnrorai.lat/data/410930/316/fWeQmFRfF11Jp4L/jsvphI5xmPb4iTK012.png",
+          "https://imageainewgeneration.lol/data/410930/316/fWeQmFRfF11Jp4L/esUHkfSmYa9oIo4013.png",
+          "https://himmga.lat/data/410930/316/fWeQmFRfF11Jp4L/lfrmmDx79gxi3gi014.png",
+          "https://gaimgame.pics/data/410930/316/fWeQmFRfF11Jp4L/RPMuE0YswDFpafH015.png",
+          "https://indocontentaising.lol/data/410930/316/fWeQmFRfF11Jp4L/CMMc4VZnABuA97l016.png",
+          "https://aicontentwow.lol/data/410930/316/fWeQmFRfF11Jp4L/tbYhRCOqdNlo6i8017.png",
+          "https://contentkerewnrorai.lat/data/410930/316/fWeQmFRfF11Jp4L/66VngJBd62V63cg018.png"
+        ]
+      },
+      {
+        "id": "461782-bleach-317",
+        "number": "317",
+        "title": "Chapter 317",
+        "url": "https://komikindo.ch/bleach-chapter-317/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-318",
+        "number": "318",
+        "title": "Chapter 318",
+        "url": "https://komikindo.ch/bleach-chapter-318/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-319",
+        "number": "319",
+        "title": "Chapter 319",
+        "url": "https://komikindo.ch/bleach-chapter-319/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-320",
+        "number": "320",
+        "title": "Chapter 320",
+        "url": "https://komikindo.ch/bleach-chapter-320/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-321",
+        "number": "321",
+        "title": "Chapter 321",
+        "url": "https://komikindo.ch/bleach-chapter-321/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-322",
+        "number": "322",
+        "title": "Chapter 322",
+        "url": "https://komikindo.ch/bleach-chapter-322/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-323",
+        "number": "323",
+        "title": "Chapter 323",
+        "url": "https://komikindo.ch/bleach-chapter-323/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-324",
+        "number": "324",
+        "title": "Chapter 324",
+        "url": "https://komikindo.ch/bleach-chapter-324/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-325",
+        "number": "325",
+        "title": "Chapter 325",
+        "url": "https://komikindo.ch/bleach-chapter-325/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-326",
+        "number": "326",
+        "title": "Chapter 326",
+        "url": "https://komikindo.ch/bleach-chapter-326/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-327",
+        "number": "327",
+        "title": "Chapter 327",
+        "url": "https://komikindo.ch/bleach-chapter-327/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-328",
+        "number": "328",
+        "title": "Chapter 328",
+        "url": "https://komikindo.ch/bleach-chapter-328/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-329",
+        "number": "329",
+        "title": "Chapter 329",
+        "url": "https://komikindo.ch/bleach-chapter-329/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-330",
+        "number": "330",
+        "title": "Chapter 330",
+        "url": "https://komikindo.ch/bleach-chapter-330/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-331",
+        "number": "331",
+        "title": "Chapter 331",
+        "url": "https://komikindo.ch/bleach-chapter-331/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-332",
+        "number": "332",
+        "title": "Chapter 332",
+        "url": "https://komikindo.ch/bleach-chapter-332/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-333",
+        "number": "333",
+        "title": "Chapter 333",
+        "url": "https://komikindo.ch/bleach-chapter-333/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-334",
+        "number": "334",
+        "title": "Chapter 334",
+        "url": "https://komikindo.ch/bleach-chapter-334/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-335",
+        "number": "335",
+        "title": "Chapter 335",
+        "url": "https://komikindo.ch/bleach-chapter-335/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-336",
+        "number": "336",
+        "title": "Chapter 336",
+        "url": "https://komikindo.ch/bleach-chapter-336/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-337",
+        "number": "337",
+        "title": "Chapter 337",
+        "url": "https://komikindo.ch/bleach-chapter-337/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-338",
+        "number": "338",
+        "title": "Chapter 338",
+        "url": "https://komikindo.ch/bleach-chapter-338/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-339",
+        "number": "339",
+        "title": "Chapter 339",
+        "url": "https://komikindo.ch/bleach-chapter-339/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-340",
+        "number": "340",
+        "title": "Chapter 340",
+        "url": "https://komikindo.ch/bleach-chapter-340/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-341",
+        "number": "341",
+        "title": "Chapter 341",
+        "url": "https://komikindo.ch/bleach-chapter-341/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-342",
+        "number": "342",
+        "title": "Chapter 342",
+        "url": "https://komikindo.ch/bleach-chapter-342/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-343",
+        "number": "343",
+        "title": "Chapter 343",
+        "url": "https://komikindo.ch/bleach-chapter-343/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-344",
+        "number": "344",
+        "title": "Chapter 344",
+        "url": "https://komikindo.ch/bleach-chapter-344/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-345",
+        "number": "345",
+        "title": "Chapter 345",
+        "url": "https://komikindo.ch/bleach-chapter-345/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-346",
+        "number": "346",
+        "title": "Chapter 346",
+        "url": "https://komikindo.ch/bleach-chapter-346/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-347",
+        "number": "347",
+        "title": "Chapter 347",
+        "url": "https://komikindo.ch/bleach-chapter-347/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-348",
+        "number": "348",
+        "title": "Chapter 348",
+        "url": "https://komikindo.ch/bleach-chapter-348/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-349",
+        "number": "349",
+        "title": "Chapter 349",
+        "url": "https://komikindo.ch/bleach-chapter-349/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-350",
+        "number": "350",
+        "title": "Chapter 350",
+        "url": "https://komikindo.ch/bleach-chapter-350/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-351",
+        "number": "351",
+        "title": "Chapter 351",
+        "url": "https://komikindo.ch/bleach-chapter-351/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-352",
+        "number": "352",
+        "title": "Chapter 352",
+        "url": "https://komikindo.ch/bleach-chapter-352/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-353",
+        "number": "353",
+        "title": "Chapter 353",
+        "url": "https://komikindo.ch/bleach-chapter-353/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-354",
+        "number": "354",
+        "title": "Chapter 354",
+        "url": "https://komikindo.ch/bleach-chapter-354/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-355",
+        "number": "355",
+        "title": "Chapter 355",
+        "url": "https://komikindo.ch/bleach-chapter-355/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-356",
+        "number": "356",
+        "title": "Chapter 356",
+        "url": "https://komikindo.ch/bleach-chapter-356/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-357",
+        "number": "357",
+        "title": "Chapter 357",
+        "url": "https://komikindo.ch/bleach-chapter-357/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-358",
+        "number": "358",
+        "title": "Chapter 358",
+        "url": "https://komikindo.ch/bleach-chapter-358/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-359",
+        "number": "359",
+        "title": "Chapter 359",
+        "url": "https://komikindo.ch/bleach-chapter-359/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-360",
+        "number": "360",
+        "title": "Chapter 360",
+        "url": "https://komikindo.ch/bleach-chapter-360/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-361",
+        "number": "361",
+        "title": "Chapter 361",
+        "url": "https://komikindo.ch/bleach-chapter-361/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-362",
+        "number": "362",
+        "title": "Chapter 362",
+        "url": "https://komikindo.ch/bleach-chapter-362/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-363",
+        "number": "363",
+        "title": "Chapter 363",
+        "url": "https://komikindo.ch/bleach-chapter-363/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-364",
+        "number": "364",
+        "title": "Chapter 364",
+        "url": "https://komikindo.ch/bleach-chapter-364/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-365",
+        "number": "365",
+        "title": "Chapter 365",
+        "url": "https://komikindo.ch/bleach-chapter-365/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-366",
+        "number": "366",
+        "title": "Chapter 366",
+        "url": "https://komikindo.ch/bleach-chapter-366/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-367",
+        "number": "367",
+        "title": "Chapter 367",
+        "url": "https://komikindo.ch/bleach-chapter-367/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-368",
+        "number": "368",
+        "title": "Chapter 368",
+        "url": "https://komikindo.ch/bleach-chapter-368/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-369",
+        "number": "369",
+        "title": "Chapter 369",
+        "url": "https://komikindo.ch/bleach-chapter-369/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-370",
+        "number": "370",
+        "title": "Chapter 370",
+        "url": "https://komikindo.ch/bleach-chapter-370/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-371",
+        "number": "371",
+        "title": "Chapter 371",
+        "url": "https://komikindo.ch/bleach-chapter-371/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-372",
+        "number": "372",
+        "title": "Chapter 372",
+        "url": "https://komikindo.ch/bleach-chapter-372/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-373",
+        "number": "373",
+        "title": "Chapter 373",
+        "url": "https://komikindo.ch/bleach-chapter-373/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-374",
+        "number": "374",
+        "title": "Chapter 374",
+        "url": "https://komikindo.ch/bleach-chapter-374/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-375",
+        "number": "375",
+        "title": "Chapter 375",
+        "url": "https://komikindo.ch/bleach-chapter-375/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-376",
+        "number": "376",
+        "title": "Chapter 376",
+        "url": "https://komikindo.ch/bleach-chapter-376/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-377",
+        "number": "377",
+        "title": "Chapter 377",
+        "url": "https://komikindo.ch/bleach-chapter-377/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-378",
+        "number": "378",
+        "title": "Chapter 378",
+        "url": "https://komikindo.ch/bleach-chapter-378/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-379",
+        "number": "379",
+        "title": "Chapter 379",
+        "url": "https://komikindo.ch/bleach-chapter-379/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-380",
+        "number": "380",
+        "title": "Chapter 380",
+        "url": "https://komikindo.ch/bleach-chapter-380/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-381",
+        "number": "381",
+        "title": "Chapter 381",
+        "url": "https://komikindo.ch/bleach-chapter-381/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-382",
+        "number": "382",
+        "title": "Chapter 382",
+        "url": "https://komikindo.ch/bleach-chapter-382/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-383",
+        "number": "383",
+        "title": "Chapter 383",
+        "url": "https://komikindo.ch/bleach-chapter-383/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-384",
+        "number": "384",
+        "title": "Chapter 384",
+        "url": "https://komikindo.ch/bleach-chapter-384/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-385",
+        "number": "385",
+        "title": "Chapter 385",
+        "url": "https://komikindo.ch/bleach-chapter-385/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-386",
+        "number": "386",
+        "title": "Chapter 386",
+        "url": "https://komikindo.ch/bleach-chapter-386/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-387",
+        "number": "387",
+        "title": "Chapter 387",
+        "url": "https://komikindo.ch/bleach-chapter-387/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-388",
+        "number": "388",
+        "title": "Chapter 388",
+        "url": "https://komikindo.ch/bleach-chapter-388/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-389",
+        "number": "389",
+        "title": "Chapter 389",
+        "url": "https://komikindo.ch/bleach-chapter-389/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-390",
+        "number": "390",
+        "title": "Chapter 390",
+        "url": "https://komikindo.ch/bleach-chapter-390/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-391",
+        "number": "391",
+        "title": "Chapter 391",
+        "url": "https://komikindo.ch/bleach-chapter-391/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-392",
+        "number": "392",
+        "title": "Chapter 392",
+        "url": "https://komikindo.ch/bleach-chapter-392/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-393",
+        "number": "393",
+        "title": "Chapter 393",
+        "url": "https://komikindo.ch/bleach-chapter-393/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-394",
+        "number": "394",
+        "title": "Chapter 394",
+        "url": "https://komikindo.ch/bleach-chapter-394/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-395",
+        "number": "395",
+        "title": "Chapter 395",
+        "url": "https://komikindo.ch/bleach-chapter-395/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-396",
+        "number": "396",
+        "title": "Chapter 396",
+        "url": "https://komikindo.ch/bleach-chapter-396/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-397",
+        "number": "397",
+        "title": "Chapter 397",
+        "url": "https://komikindo.ch/bleach-chapter-397/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-398",
+        "number": "398",
+        "title": "Chapter 398",
+        "url": "https://komikindo.ch/bleach-chapter-398/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-399",
+        "number": "399",
+        "title": "Chapter 399",
+        "url": "https://komikindo.ch/bleach-chapter-399/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-400",
+        "number": "400",
+        "title": "Chapter 400",
+        "url": "https://komikindo.ch/bleach-chapter-400/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-401",
+        "number": "401",
+        "title": "Chapter 401",
+        "url": "https://komikindo.ch/bleach-chapter-401/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-402",
+        "number": "402",
+        "title": "Chapter 402",
+        "url": "https://komikindo.ch/bleach-chapter-402/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-403",
+        "number": "403",
+        "title": "Chapter 403",
+        "url": "https://komikindo.ch/bleach-chapter-403/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-404",
+        "number": "404",
+        "title": "Chapter 404",
+        "url": "https://komikindo.ch/bleach-chapter-404/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-405",
+        "number": "405",
+        "title": "Chapter 405",
+        "url": "https://komikindo.ch/bleach-chapter-405/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-406",
+        "number": "406",
+        "title": "Chapter 406",
+        "url": "https://komikindo.ch/bleach-chapter-406/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-407",
+        "number": "407",
+        "title": "Chapter 407",
+        "url": "https://komikindo.ch/bleach-chapter-407/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-408",
+        "number": "408",
+        "title": "Chapter 408",
+        "url": "https://komikindo.ch/bleach-chapter-408/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-409",
+        "number": "409",
+        "title": "Chapter 409",
+        "url": "https://komikindo.ch/bleach-chapter-409/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-410",
+        "number": "410",
+        "title": "Chapter 410",
+        "url": "https://komikindo.ch/bleach-chapter-410/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-411",
+        "number": "411",
+        "title": "Chapter 411",
+        "url": "https://komikindo.ch/bleach-chapter-411/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-412",
+        "number": "412",
+        "title": "Chapter 412",
+        "url": "https://komikindo.ch/bleach-chapter-412/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-413",
+        "number": "413",
+        "title": "Chapter 413",
+        "url": "https://komikindo.ch/bleach-chapter-413/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-414",
+        "number": "414",
+        "title": "Chapter 414",
+        "url": "https://komikindo.ch/bleach-chapter-414/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-415",
+        "number": "415",
+        "title": "Chapter 415",
+        "url": "https://komikindo.ch/bleach-chapter-415/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-416",
+        "number": "416",
+        "title": "Chapter 416",
+        "url": "https://komikindo.ch/bleach-chapter-416/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-417",
+        "number": "417",
+        "title": "Chapter 417",
+        "url": "https://komikindo.ch/bleach-chapter-417/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-418",
+        "number": "418",
+        "title": "Chapter 418",
+        "url": "https://komikindo.ch/bleach-chapter-418/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-419",
+        "number": "419",
+        "title": "Chapter 419",
+        "url": "https://komikindo.ch/bleach-chapter-419/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-420",
+        "number": "420",
+        "title": "Chapter 420",
+        "url": "https://komikindo.ch/bleach-chapter-420/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-421",
+        "number": "421",
+        "title": "Chapter 421",
+        "url": "https://komikindo.ch/bleach-chapter-421/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-422",
+        "number": "422",
+        "title": "Chapter 422",
+        "url": "https://komikindo.ch/bleach-chapter-422/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-423",
+        "number": "423",
+        "title": "Chapter 423",
+        "url": "https://komikindo.ch/bleach-chapter-423/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-424",
+        "number": "424",
+        "title": "Chapter 424",
+        "url": "https://komikindo.ch/bleach-chapter-424/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-425",
+        "number": "425",
+        "title": "Chapter 425",
+        "url": "https://komikindo.ch/bleach-chapter-425/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-426",
+        "number": "426",
+        "title": "Chapter 426",
+        "url": "https://komikindo.ch/bleach-chapter-426/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-427",
+        "number": "427",
+        "title": "Chapter 427",
+        "url": "https://komikindo.ch/bleach-chapter-427/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-428",
+        "number": "428",
+        "title": "Chapter 428",
+        "url": "https://komikindo.ch/bleach-chapter-428/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-429",
+        "number": "429",
+        "title": "Chapter 429",
+        "url": "https://komikindo.ch/bleach-chapter-429/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-430",
+        "number": "430",
+        "title": "Chapter 430",
+        "url": "https://komikindo.ch/bleach-chapter-430/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-431",
+        "number": "431",
+        "title": "Chapter 431",
+        "url": "https://komikindo.ch/bleach-chapter-431/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-433",
+        "number": "433",
+        "title": "Chapter 433",
+        "url": "https://komikindo.ch/bleach-chapter-433/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-434",
+        "number": "434",
+        "title": "Chapter 434",
+        "url": "https://komikindo.ch/bleach-chapter-434/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-435",
+        "number": "435",
+        "title": "Chapter 435",
+        "url": "https://komikindo.ch/bleach-chapter-435/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-436",
+        "number": "436",
+        "title": "Chapter 436",
+        "url": "https://komikindo.ch/bleach-chapter-436/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-437",
+        "number": "437",
+        "title": "Chapter 437",
+        "url": "https://komikindo.ch/bleach-chapter-437/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-438",
+        "number": "438",
+        "title": "Chapter 438",
+        "url": "https://komikindo.ch/bleach-chapter-438/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-439",
+        "number": "439",
+        "title": "Chapter 439",
+        "url": "https://komikindo.ch/bleach-chapter-439/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-440",
+        "number": "440",
+        "title": "Chapter 440",
+        "url": "https://komikindo.ch/bleach-chapter-440/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-441",
+        "number": "441",
+        "title": "Chapter 441",
+        "url": "https://komikindo.ch/bleach-chapter-441/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-442",
+        "number": "442",
+        "title": "Chapter 442",
+        "url": "https://komikindo.ch/bleach-chapter-442/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-443",
+        "number": "443",
+        "title": "Chapter 443",
+        "url": "https://komikindo.ch/bleach-chapter-443/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-444",
+        "number": "444",
+        "title": "Chapter 444",
+        "url": "https://komikindo.ch/bleach-chapter-444/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-445",
+        "number": "445",
+        "title": "Chapter 445",
+        "url": "https://komikindo.ch/bleach-chapter-445/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-446",
+        "number": "446",
+        "title": "Chapter 446",
+        "url": "https://komikindo.ch/bleach-chapter-446/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-447",
+        "number": "447",
+        "title": "Chapter 447",
+        "url": "https://komikindo.ch/bleach-chapter-447/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-448",
+        "number": "448",
+        "title": "Chapter 448",
+        "url": "https://komikindo.ch/bleach-chapter-448/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-449",
+        "number": "449",
+        "title": "Chapter 449",
+        "url": "https://komikindo.ch/bleach-chapter-449/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-450",
+        "number": "450",
+        "title": "Chapter 450",
+        "url": "https://komikindo.ch/bleach-chapter-450/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-451",
+        "number": "451",
+        "title": "Chapter 451",
+        "url": "https://komikindo.ch/bleach-chapter-451/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-452",
+        "number": "452",
+        "title": "Chapter 452",
+        "url": "https://komikindo.ch/bleach-chapter-452/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-453",
+        "number": "453",
+        "title": "Chapter 453",
+        "url": "https://komikindo.ch/bleach-chapter-453/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-454",
+        "number": "454",
+        "title": "Chapter 454",
+        "url": "https://komikindo.ch/bleach-chapter-454/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-455",
+        "number": "455",
+        "title": "Chapter 455",
+        "url": "https://komikindo.ch/bleach-chapter-455/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-456",
+        "number": "456",
+        "title": "Chapter 456",
+        "url": "https://komikindo.ch/bleach-chapter-456/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-457",
+        "number": "457",
+        "title": "Chapter 457",
+        "url": "https://komikindo.ch/bleach-chapter-457/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-458",
+        "number": "458",
+        "title": "Chapter 458",
+        "url": "https://komikindo.ch/bleach-chapter-458/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-459",
+        "number": "459",
+        "title": "Chapter 459",
+        "url": "https://komikindo.ch/bleach-chapter-459/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-460",
+        "number": "460",
+        "title": "Chapter 460",
+        "url": "https://komikindo.ch/bleach-chapter-460/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-461",
+        "number": "461",
+        "title": "Chapter 461",
+        "url": "https://komikindo.ch/bleach-chapter-461/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-462",
+        "number": "462",
+        "title": "Chapter 462",
+        "url": "https://komikindo.ch/bleach-chapter-462/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-463",
+        "number": "463",
+        "title": "Chapter 463",
+        "url": "https://komikindo.ch/bleach-chapter-463/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-464",
+        "number": "464",
+        "title": "Chapter 464",
+        "url": "https://komikindo.ch/bleach-chapter-464/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-465",
+        "number": "465",
+        "title": "Chapter 465",
+        "url": "https://komikindo.ch/bleach-chapter-465/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-466",
+        "number": "466",
+        "title": "Chapter 466",
+        "url": "https://komikindo.ch/bleach-chapter-466/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-467",
+        "number": "467",
+        "title": "Chapter 467",
+        "url": "https://komikindo.ch/bleach-chapter-467/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-468",
+        "number": "468",
+        "title": "Chapter 468",
+        "url": "https://komikindo.ch/bleach-chapter-468/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-469",
+        "number": "469",
+        "title": "Chapter 469",
+        "url": "https://komikindo.ch/bleach-chapter-469/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-470",
+        "number": "470",
+        "title": "Chapter 470",
+        "url": "https://komikindo.ch/bleach-chapter-470/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-471",
+        "number": "471",
+        "title": "Chapter 471",
+        "url": "https://komikindo.ch/bleach-chapter-471/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-472",
+        "number": "472",
+        "title": "Chapter 472",
+        "url": "https://komikindo.ch/bleach-chapter-472/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-473",
+        "number": "473",
+        "title": "Chapter 473",
+        "url": "https://komikindo.ch/bleach-chapter-473/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-474",
+        "number": "474",
+        "title": "Chapter 474",
+        "url": "https://komikindo.ch/bleach-chapter-474/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-475",
+        "number": "475",
+        "title": "Chapter 475",
+        "url": "https://komikindo.ch/bleach-chapter-475/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-476",
+        "number": "476",
+        "title": "Chapter 476",
+        "url": "https://komikindo.ch/bleach-chapter-476/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-477",
+        "number": "477",
+        "title": "Chapter 477",
+        "url": "https://komikindo.ch/bleach-chapter-477/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-478",
+        "number": "478",
+        "title": "Chapter 478",
+        "url": "https://komikindo.ch/bleach-chapter-478/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-479",
+        "number": "479",
+        "title": "Chapter 479",
+        "url": "https://komikindo.ch/bleach-chapter-479/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-480",
+        "number": "480",
+        "title": "Chapter 480",
+        "url": "https://komikindo.ch/bleach-chapter-480/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-481",
+        "number": "481",
+        "title": "Chapter 481",
+        "url": "https://komikindo.ch/bleach-chapter-481/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-482",
+        "number": "482",
+        "title": "Chapter 482",
+        "url": "https://komikindo.ch/bleach-chapter-482/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-483",
+        "number": "483",
+        "title": "Chapter 483",
+        "url": "https://komikindo.ch/bleach-chapter-483/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-484",
+        "number": "484",
+        "title": "Chapter 484",
+        "url": "https://komikindo.ch/bleach-chapter-484/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-485",
+        "number": "485",
+        "title": "Chapter 485",
+        "url": "https://komikindo.ch/bleach-chapter-485/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-486",
+        "number": "486",
+        "title": "Chapter 486",
+        "url": "https://komikindo.ch/bleach-chapter-486/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-487",
+        "number": "487",
+        "title": "Chapter 487",
+        "url": "https://komikindo.ch/bleach-chapter-487/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-488",
+        "number": "488",
+        "title": "Chapter 488",
+        "url": "https://komikindo.ch/bleach-chapter-488/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-489",
+        "number": "489",
+        "title": "Chapter 489",
+        "url": "https://komikindo.ch/bleach-chapter-489/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-490",
+        "number": "490",
+        "title": "Chapter 490",
+        "url": "https://komikindo.ch/bleach-chapter-490/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-491",
+        "number": "491",
+        "title": "Chapter 491",
+        "url": "https://komikindo.ch/bleach-chapter-491/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-492",
+        "number": "492",
+        "title": "Chapter 492",
+        "url": "https://komikindo.ch/bleach-chapter-492/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-493",
+        "number": "493",
+        "title": "Chapter 493",
+        "url": "https://komikindo.ch/bleach-chapter-493/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-494",
+        "number": "494",
+        "title": "Chapter 494",
+        "url": "https://komikindo.ch/bleach-chapter-494/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-495",
+        "number": "495",
+        "title": "Chapter 495",
+        "url": "https://komikindo.ch/bleach-chapter-495/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-496",
+        "number": "496",
+        "title": "Chapter 496",
+        "url": "https://komikindo.ch/bleach-chapter-496/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-497",
+        "number": "497",
+        "title": "Chapter 497",
+        "url": "https://komikindo.ch/bleach-chapter-497/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-498",
+        "number": "498",
+        "title": "Chapter 498",
+        "url": "https://komikindo.ch/bleach-chapter-498/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-499",
+        "number": "499",
+        "title": "Chapter 499",
+        "url": "https://komikindo.ch/bleach-chapter-499/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-500",
+        "number": "500",
+        "title": "Chapter 500",
+        "url": "https://komikindo.ch/bleach-chapter-500/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-501",
+        "number": "501",
+        "title": "Chapter 501",
+        "url": "https://komikindo.ch/bleach-chapter-501/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-502",
+        "number": "502",
+        "title": "Chapter 502",
+        "url": "https://komikindo.ch/bleach-chapter-502/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-503",
+        "number": "503",
+        "title": "Chapter 503",
+        "url": "https://komikindo.ch/bleach-chapter-503/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-504",
+        "number": "504",
+        "title": "Chapter 504",
+        "url": "https://komikindo.ch/bleach-chapter-504/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-505",
+        "number": "505",
+        "title": "Chapter 505",
+        "url": "https://komikindo.ch/bleach-chapter-505/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-506",
+        "number": "506",
+        "title": "Chapter 506",
+        "url": "https://komikindo.ch/bleach-chapter-506/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-507",
+        "number": "507",
+        "title": "Chapter 507",
+        "url": "https://komikindo.ch/bleach-chapter-507/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-508",
+        "number": "508",
+        "title": "Chapter 508",
+        "url": "https://komikindo.ch/bleach-chapter-508/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-509",
+        "number": "509",
+        "title": "Chapter 509",
+        "url": "https://komikindo.ch/bleach-chapter-509/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-510",
+        "number": "510",
+        "title": "Chapter 510",
+        "url": "https://komikindo.ch/bleach-chapter-510/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-511",
+        "number": "511",
+        "title": "Chapter 511",
+        "url": "https://komikindo.ch/bleach-chapter-511/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-512",
+        "number": "512",
+        "title": "Chapter 512",
+        "url": "https://komikindo.ch/bleach-chapter-512/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-513",
+        "number": "513",
+        "title": "Chapter 513",
+        "url": "https://komikindo.ch/bleach-chapter-513/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-514",
+        "number": "514",
+        "title": "Chapter 514",
+        "url": "https://komikindo.ch/bleach-chapter-514/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-515",
+        "number": "515",
+        "title": "Chapter 515",
+        "url": "https://komikindo.ch/bleach-chapter-515/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-516",
+        "number": "516",
+        "title": "Chapter 516",
+        "url": "https://komikindo.ch/bleach-chapter-516/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-517",
+        "number": "517",
+        "title": "Chapter 517",
+        "url": "https://komikindo.ch/bleach-chapter-517/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-518",
+        "number": "518",
+        "title": "Chapter 518",
+        "url": "https://komikindo.ch/bleach-chapter-518/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-519",
+        "number": "519",
+        "title": "Chapter 519",
+        "url": "https://komikindo.ch/bleach-chapter-519/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-520",
+        "number": "520",
+        "title": "Chapter 520",
+        "url": "https://komikindo.ch/bleach-chapter-520/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-521",
+        "number": "521",
+        "title": "Chapter 521",
+        "url": "https://komikindo.ch/bleach-chapter-521/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-522",
+        "number": "522",
+        "title": "Chapter 522",
+        "url": "https://komikindo.ch/bleach-chapter-522/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-523",
+        "number": "523",
+        "title": "Chapter 523",
+        "url": "https://komikindo.ch/bleach-chapter-523/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-524",
+        "number": "524",
+        "title": "Chapter 524",
+        "url": "https://komikindo.ch/bleach-chapter-524/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-525",
+        "number": "525",
+        "title": "Chapter 525",
+        "url": "https://komikindo.ch/bleach-chapter-525/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-526",
+        "number": "526",
+        "title": "Chapter 526",
+        "url": "https://komikindo.ch/bleach-chapter-526/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-527",
+        "number": "527",
+        "title": "Chapter 527",
+        "url": "https://komikindo.ch/bleach-chapter-527/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-528",
+        "number": "528",
+        "title": "Chapter 528",
+        "url": "https://komikindo.ch/bleach-chapter-528/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-529",
+        "number": "529",
+        "title": "Chapter 529",
+        "url": "https://komikindo.ch/bleach-chapter-529/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-530",
+        "number": "530",
+        "title": "Chapter 530",
+        "url": "https://komikindo.ch/bleach-chapter-530/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-531",
+        "number": "531",
+        "title": "Chapter 531",
+        "url": "https://komikindo.ch/bleach-chapter-531/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-532",
+        "number": "532",
+        "title": "Chapter 532",
+        "url": "https://komikindo.ch/bleach-chapter-532/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-533",
+        "number": "533",
+        "title": "Chapter 533",
+        "url": "https://komikindo.ch/bleach-chapter-533/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-534",
+        "number": "534",
+        "title": "Chapter 534",
+        "url": "https://komikindo.ch/bleach-chapter-534/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-535",
+        "number": "535",
+        "title": "Chapter 535",
+        "url": "https://komikindo.ch/bleach-chapter-535/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-536",
+        "number": "536",
+        "title": "Chapter 536",
+        "url": "https://komikindo.ch/bleach-chapter-536/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-537",
+        "number": "537",
+        "title": "Chapter 537",
+        "url": "https://komikindo.ch/bleach-chapter-537/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-538",
+        "number": "538",
+        "title": "Chapter 538",
+        "url": "https://komikindo.ch/bleach-chapter-538/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-539",
+        "number": "539",
+        "title": "Chapter 539",
+        "url": "https://komikindo.ch/bleach-chapter-539/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-540",
+        "number": "540",
+        "title": "Chapter 540",
+        "url": "https://komikindo.ch/bleach-chapter-540/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-541",
+        "number": "541",
+        "title": "Chapter 541",
+        "url": "https://komikindo.ch/bleach-chapter-541/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-542",
+        "number": "542",
+        "title": "Chapter 542",
+        "url": "https://komikindo.ch/bleach-chapter-542/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-543",
+        "number": "543",
+        "title": "Chapter 543",
+        "url": "https://komikindo.ch/bleach-chapter-543/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-544",
+        "number": "544",
+        "title": "Chapter 544",
+        "url": "https://komikindo.ch/bleach-chapter-544/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-545",
+        "number": "545",
+        "title": "Chapter 545",
+        "url": "https://komikindo.ch/bleach-chapter-545/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-546",
+        "number": "546",
+        "title": "Chapter 546",
+        "url": "https://komikindo.ch/bleach-chapter-546/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-547",
+        "number": "547",
+        "title": "Chapter 547",
+        "url": "https://komikindo.ch/bleach-chapter-547/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-548",
+        "number": "548",
+        "title": "Chapter 548",
+        "url": "https://komikindo.ch/bleach-chapter-548/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-549",
+        "number": "549",
+        "title": "Chapter 549",
+        "url": "https://komikindo.ch/bleach-chapter-549/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-550",
+        "number": "550",
+        "title": "Chapter 550",
+        "url": "https://komikindo.ch/bleach-chapter-550/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-551",
+        "number": "551",
+        "title": "Chapter 551",
+        "url": "https://komikindo.ch/bleach-chapter-551/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-552",
+        "number": "552",
+        "title": "Chapter 552",
+        "url": "https://komikindo.ch/bleach-chapter-552/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-553",
+        "number": "553",
+        "title": "Chapter 553",
+        "url": "https://komikindo.ch/bleach-chapter-553/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-554",
+        "number": "554",
+        "title": "Chapter 554",
+        "url": "https://komikindo.ch/bleach-chapter-554/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-555",
+        "number": "555",
+        "title": "Chapter 555",
+        "url": "https://komikindo.ch/bleach-chapter-555/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-556",
+        "number": "556",
+        "title": "Chapter 556",
+        "url": "https://komikindo.ch/bleach-chapter-556/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-557",
+        "number": "557",
+        "title": "Chapter 557",
+        "url": "https://komikindo.ch/bleach-chapter-557/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-558",
+        "number": "558",
+        "title": "Chapter 558",
+        "url": "https://komikindo.ch/bleach-chapter-558/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-559",
+        "number": "559",
+        "title": "Chapter 559",
+        "url": "https://komikindo.ch/bleach-chapter-559/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-560",
+        "number": "560",
+        "title": "Chapter 560",
+        "url": "https://komikindo.ch/bleach-chapter-560/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-561",
+        "number": "561",
+        "title": "Chapter 561",
+        "url": "https://komikindo.ch/bleach-chapter-561/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-562",
+        "number": "562",
+        "title": "Chapter 562",
+        "url": "https://komikindo.ch/bleach-chapter-562/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-563",
+        "number": "563",
+        "title": "Chapter 563",
+        "url": "https://komikindo.ch/bleach-chapter-563/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-564",
+        "number": "564",
+        "title": "Chapter 564",
+        "url": "https://komikindo.ch/bleach-chapter-564/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-565",
+        "number": "565",
+        "title": "Chapter 565",
+        "url": "https://komikindo.ch/bleach-chapter-565/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-566",
+        "number": "566",
+        "title": "Chapter 566",
+        "url": "https://komikindo.ch/bleach-chapter-566/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-567",
+        "number": "567",
+        "title": "Chapter 567",
+        "url": "https://komikindo.ch/bleach-chapter-567/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-568",
+        "number": "568",
+        "title": "Chapter 568",
+        "url": "https://komikindo.ch/bleach-chapter-568/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-569",
+        "number": "569",
+        "title": "Chapter 569",
+        "url": "https://komikindo.ch/bleach-chapter-569/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-570",
+        "number": "570",
+        "title": "Chapter 570",
+        "url": "https://komikindo.ch/bleach-chapter-570/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-571",
+        "number": "571",
+        "title": "Chapter 571",
+        "url": "https://komikindo.ch/bleach-chapter-571/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-572",
+        "number": "572",
+        "title": "Chapter 572",
+        "url": "https://komikindo.ch/bleach-chapter-572/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-573",
+        "number": "573",
+        "title": "Chapter 573",
+        "url": "https://komikindo.ch/bleach-chapter-573/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-574",
+        "number": "574",
+        "title": "Chapter 574",
+        "url": "https://komikindo.ch/bleach-chapter-574/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-575",
+        "number": "575",
+        "title": "Chapter 575",
+        "url": "https://komikindo.ch/bleach-chapter-575/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-576",
+        "number": "576",
+        "title": "Chapter 576",
+        "url": "https://komikindo.ch/bleach-chapter-576/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-577",
+        "number": "577",
+        "title": "Chapter 577",
+        "url": "https://komikindo.ch/bleach-chapter-577/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-578",
+        "number": "578",
+        "title": "Chapter 578",
+        "url": "https://komikindo.ch/bleach-chapter-578/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-579",
+        "number": "579",
+        "title": "Chapter 579",
+        "url": "https://komikindo.ch/bleach-chapter-579/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-580",
+        "number": "580",
+        "title": "Chapter 580",
+        "url": "https://komikindo.ch/bleach-chapter-580/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-581",
+        "number": "581",
+        "title": "Chapter 581",
+        "url": "https://komikindo.ch/bleach-chapter-581/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-582",
+        "number": "582",
+        "title": "Chapter 582",
+        "url": "https://komikindo.ch/bleach-chapter-582/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-583",
+        "number": "583",
+        "title": "Chapter 583",
+        "url": "https://komikindo.ch/bleach-chapter-583/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-584",
+        "number": "584",
+        "title": "Chapter 584",
+        "url": "https://komikindo.ch/bleach-chapter-584/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-585",
+        "number": "585",
+        "title": "Chapter 585",
+        "url": "https://komikindo.ch/bleach-chapter-585/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-586",
+        "number": "586",
+        "title": "Chapter 586",
+        "url": "https://komikindo.ch/bleach-chapter-586/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-587",
+        "number": "587",
+        "title": "Chapter 587",
+        "url": "https://komikindo.ch/bleach-chapter-587/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-588",
+        "number": "588",
+        "title": "Chapter 588",
+        "url": "https://komikindo.ch/bleach-chapter-588/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-589",
+        "number": "589",
+        "title": "Chapter 589",
+        "url": "https://komikindo.ch/bleach-chapter-589/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-590",
+        "number": "590",
+        "title": "Chapter 590",
+        "url": "https://komikindo.ch/bleach-chapter-590/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-591",
+        "number": "591",
+        "title": "Chapter 591",
+        "url": "https://komikindo.ch/bleach-chapter-591/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-592",
+        "number": "592",
+        "title": "Chapter 592",
+        "url": "https://komikindo.ch/bleach-chapter-592/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-593",
+        "number": "593",
+        "title": "Chapter 593",
+        "url": "https://komikindo.ch/bleach-chapter-593/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-594",
+        "number": "594",
+        "title": "Chapter 594",
+        "url": "https://komikindo.ch/bleach-chapter-594/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-595",
+        "number": "595",
+        "title": "Chapter 595",
+        "url": "https://komikindo.ch/bleach-chapter-595/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-596",
+        "number": "596",
+        "title": "Chapter 596",
+        "url": "https://komikindo.ch/bleach-chapter-596/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-597",
+        "number": "597",
+        "title": "Chapter 597",
+        "url": "https://komikindo.ch/bleach-chapter-597/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-598",
+        "number": "598",
+        "title": "Chapter 598",
+        "url": "https://komikindo.ch/bleach-chapter-598/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-599",
+        "number": "599",
+        "title": "Chapter 599",
+        "url": "https://komikindo.ch/bleach-chapter-599/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-600",
+        "number": "600",
+        "title": "Chapter 600",
+        "url": "https://komikindo.ch/bleach-chapter-600/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-601",
+        "number": "601",
+        "title": "Chapter 601",
+        "url": "https://komikindo.ch/bleach-chapter-601/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-602",
+        "number": "602",
+        "title": "Chapter 602",
+        "url": "https://komikindo.ch/bleach-chapter-602/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-603",
+        "number": "603",
+        "title": "Chapter 603",
+        "url": "https://komikindo.ch/bleach-chapter-603/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-604",
+        "number": "604",
+        "title": "Chapter 604",
+        "url": "https://komikindo.ch/bleach-chapter-604/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-605",
+        "number": "605",
+        "title": "Chapter 605",
+        "url": "https://komikindo.ch/bleach-chapter-605/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-606",
+        "number": "606",
+        "title": "Chapter 606",
+        "url": "https://komikindo.ch/bleach-chapter-606/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-607",
+        "number": "607",
+        "title": "Chapter 607",
+        "url": "https://komikindo.ch/bleach-chapter-607/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-608",
+        "number": "608",
+        "title": "Chapter 608",
+        "url": "https://komikindo.ch/bleach-chapter-608/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-609",
+        "number": "609",
+        "title": "Chapter 609",
+        "url": "https://komikindo.ch/bleach-chapter-609/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-610",
+        "number": "610",
+        "title": "Chapter 610",
+        "url": "https://komikindo.ch/bleach-chapter-610/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-611",
+        "number": "611",
+        "title": "Chapter 611",
+        "url": "https://komikindo.ch/bleach-chapter-611/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-612",
+        "number": "612",
+        "title": "Chapter 612",
+        "url": "https://komikindo.ch/bleach-chapter-612/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-613",
+        "number": "613",
+        "title": "Chapter 613",
+        "url": "https://komikindo.ch/bleach-chapter-613/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-614",
+        "number": "614",
+        "title": "Chapter 614",
+        "url": "https://komikindo.ch/bleach-chapter-614/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-615",
+        "number": "615",
+        "title": "Chapter 615",
+        "url": "https://komikindo.ch/bleach-chapter-615/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-616",
+        "number": "616",
+        "title": "Chapter 616",
+        "url": "https://komikindo.ch/bleach-chapter-616/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-617",
+        "number": "617",
+        "title": "Chapter 617",
+        "url": "https://komikindo.ch/bleach-chapter-617/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-618",
+        "number": "618",
+        "title": "Chapter 618",
+        "url": "https://komikindo.ch/bleach-chapter-618/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-619",
+        "number": "619",
+        "title": "Chapter 619",
+        "url": "https://komikindo.ch/bleach-chapter-619/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-620",
+        "number": "620",
+        "title": "Chapter 620",
+        "url": "https://komikindo.ch/bleach-chapter-620/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-621",
+        "number": "621",
+        "title": "Chapter 621",
+        "url": "https://komikindo.ch/bleach-chapter-621/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-622",
+        "number": "622",
+        "title": "Chapter 622",
+        "url": "https://komikindo.ch/bleach-chapter-622/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-623",
+        "number": "623",
+        "title": "Chapter 623",
+        "url": "https://komikindo.ch/bleach-chapter-623/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-624",
+        "number": "624",
+        "title": "Chapter 624",
+        "url": "https://komikindo.ch/bleach-chapter-624/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-625",
+        "number": "625",
+        "title": "Chapter 625",
+        "url": "https://komikindo.ch/bleach-chapter-625/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-626",
+        "number": "626",
+        "title": "Chapter 626",
+        "url": "https://komikindo.ch/bleach-chapter-626/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-627",
+        "number": "627",
+        "title": "Chapter 627",
+        "url": "https://komikindo.ch/bleach-chapter-627/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-628",
+        "number": "628",
+        "title": "Chapter 628",
+        "url": "https://komikindo.ch/bleach-chapter-628/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-629",
+        "number": "629",
+        "title": "Chapter 629",
+        "url": "https://komikindo.ch/bleach-chapter-629/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-630",
+        "number": "630",
+        "title": "Chapter 630",
+        "url": "https://komikindo.ch/bleach-chapter-630/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-631",
+        "number": "631",
+        "title": "Chapter 631",
+        "url": "https://komikindo.ch/bleach-chapter-631/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-632",
+        "number": "632",
+        "title": "Chapter 632",
+        "url": "https://komikindo.ch/bleach-chapter-632/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-633",
+        "number": "633",
+        "title": "Chapter 633",
+        "url": "https://komikindo.ch/bleach-chapter-633/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-634",
+        "number": "634",
+        "title": "Chapter 634",
+        "url": "https://komikindo.ch/bleach-chapter-634/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-635",
+        "number": "635",
+        "title": "Chapter 635",
+        "url": "https://komikindo.ch/bleach-chapter-635/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-636",
+        "number": "636",
+        "title": "Chapter 636",
+        "url": "https://komikindo.ch/bleach-chapter-636/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-637",
+        "number": "637",
+        "title": "Chapter 637",
+        "url": "https://komikindo.ch/bleach-chapter-637/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-638",
+        "number": "638",
+        "title": "Chapter 638",
+        "url": "https://komikindo.ch/bleach-chapter-638/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-639",
+        "number": "639",
+        "title": "Chapter 639",
+        "url": "https://komikindo.ch/bleach-chapter-639/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-640",
+        "number": "640",
+        "title": "Chapter 640",
+        "url": "https://komikindo.ch/bleach-chapter-640/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-641",
+        "number": "641",
+        "title": "Chapter 641",
+        "url": "https://komikindo.ch/bleach-chapter-641/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-642",
+        "number": "642",
+        "title": "Chapter 642",
+        "url": "https://komikindo.ch/bleach-chapter-642/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-643",
+        "number": "643",
+        "title": "Chapter 643",
+        "url": "https://komikindo.ch/bleach-chapter-643/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-644",
+        "number": "644",
+        "title": "Chapter 644",
+        "url": "https://komikindo.ch/bleach-chapter-644/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-645",
+        "number": "645",
+        "title": "Chapter 645",
+        "url": "https://komikindo.ch/bleach-chapter-645/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-646",
+        "number": "646",
+        "title": "Chapter 646",
+        "url": "https://komikindo.ch/bleach-chapter-646/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-647",
+        "number": "647",
+        "title": "Chapter 647",
+        "url": "https://komikindo.ch/bleach-chapter-647/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-648",
+        "number": "648",
+        "title": "Chapter 648",
+        "url": "https://komikindo.ch/bleach-chapter-648/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-649",
+        "number": "649",
+        "title": "Chapter 649",
+        "url": "https://komikindo.ch/bleach-chapter-649/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-650",
+        "number": "650",
+        "title": "Chapter 650",
+        "url": "https://komikindo.ch/bleach-chapter-650/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-651",
+        "number": "651",
+        "title": "Chapter 651",
+        "url": "https://komikindo.ch/bleach-chapter-651/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-652",
+        "number": "652",
+        "title": "Chapter 652",
+        "url": "https://komikindo.ch/bleach-chapter-652/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-653",
+        "number": "653",
+        "title": "Chapter 653",
+        "url": "https://komikindo.ch/bleach-chapter-653/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-654",
+        "number": "654",
+        "title": "Chapter 654",
+        "url": "https://komikindo.ch/bleach-chapter-654/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-655",
+        "number": "655",
+        "title": "Chapter 655",
+        "url": "https://komikindo.ch/bleach-chapter-655/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-656",
+        "number": "656",
+        "title": "Chapter 656",
+        "url": "https://komikindo.ch/bleach-chapter-656/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-657",
+        "number": "657",
+        "title": "Chapter 657",
+        "url": "https://komikindo.ch/bleach-chapter-657/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-658",
+        "number": "658",
+        "title": "Chapter 658",
+        "url": "https://komikindo.ch/bleach-chapter-658/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-659",
+        "number": "659",
+        "title": "Chapter 659",
+        "url": "https://komikindo.ch/bleach-chapter-659/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-660",
+        "number": "660",
+        "title": "Chapter 660",
+        "url": "https://komikindo.ch/bleach-chapter-660/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-661",
+        "number": "661",
+        "title": "Chapter 661",
+        "url": "https://komikindo.ch/bleach-chapter-661/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-662",
+        "number": "662",
+        "title": "Chapter 662",
+        "url": "https://komikindo.ch/bleach-chapter-662/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-663",
+        "number": "663",
+        "title": "Chapter 663",
+        "url": "https://komikindo.ch/bleach-chapter-663/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-664",
+        "number": "664",
+        "title": "Chapter 664",
+        "url": "https://komikindo.ch/bleach-chapter-664/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-665",
+        "number": "665",
+        "title": "Chapter 665",
+        "url": "https://komikindo.ch/bleach-chapter-665/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-666",
+        "number": "666",
+        "title": "Chapter 666",
+        "url": "https://komikindo.ch/bleach-chapter-666/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-667",
+        "number": "667",
+        "title": "Chapter 667",
+        "url": "https://komikindo.ch/bleach-chapter-667/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-668",
+        "number": "668",
+        "title": "Chapter 668",
+        "url": "https://komikindo.ch/bleach-chapter-668/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-669",
+        "number": "669",
+        "title": "Chapter 669",
+        "url": "https://komikindo.ch/bleach-chapter-669/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-670",
+        "number": "670",
+        "title": "Chapter 670",
+        "url": "https://komikindo.ch/bleach-chapter-670/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-671",
+        "number": "671",
+        "title": "Chapter 671",
+        "url": "https://komikindo.ch/bleach-chapter-671/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-672",
+        "number": "672",
+        "title": "Chapter 672",
+        "url": "https://komikindo.ch/bleach-chapter-672/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-673",
+        "number": "673",
+        "title": "Chapter 673",
+        "url": "https://komikindo.ch/bleach-chapter-673/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-674",
+        "number": "674",
+        "title": "Chapter 674",
+        "url": "https://komikindo.ch/bleach-chapter-674/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-675",
+        "number": "675",
+        "title": "Chapter 675",
+        "url": "https://komikindo.ch/bleach-chapter-675/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-676",
+        "number": "676",
+        "title": "Chapter 676",
+        "url": "https://komikindo.ch/bleach-chapter-676/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-677",
+        "number": "677",
+        "title": "Chapter 677",
+        "url": "https://komikindo.ch/bleach-chapter-677/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-678",
+        "number": "678",
+        "title": "Chapter 678",
+        "url": "https://komikindo.ch/bleach-chapter-678/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-679",
+        "number": "679",
+        "title": "Chapter 679",
+        "url": "https://komikindo.ch/bleach-chapter-679/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-680",
+        "number": "680",
+        "title": "Chapter 680",
+        "url": "https://komikindo.ch/bleach-chapter-680/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-681",
+        "number": "681",
+        "title": "Chapter 681",
+        "url": "https://komikindo.ch/bleach-chapter-681/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-682",
+        "number": "682",
+        "title": "Chapter 682",
+        "url": "https://komikindo.ch/bleach-chapter-682/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-683",
+        "number": "683",
+        "title": "Chapter 683",
+        "url": "https://komikindo.ch/bleach-chapter-683/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-684",
+        "number": "684",
+        "title": "Chapter 684",
+        "url": "https://komikindo.ch/bleach-chapter-684/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-685",
+        "number": "685",
+        "title": "Chapter 685",
+        "url": "https://komikindo.ch/bleach-chapter-685/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-686",
+        "number": "686",
+        "title": "Chapter 686",
+        "url": "https://komikindo.ch/bleach-chapter-686/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-687",
+        "number": "687",
+        "title": "Chapter 687",
+        "url": "https://komikindo.ch/bleach-chapter-687-2/",
+        "lang": "id",
+        "pages": null
+      },
+      {
+        "id": "461782-bleach-687",
+        "number": "687",
+        "title": "Chapter 687",
+        "url": "https://komikindo.ch/bleach-chapter-687-1/",
+        "lang": "id",
+        "pages": null
+      }
+    ]
   }
 ];

@@ -2,418 +2,260 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>MangaVerse - Aplikasi Pembaca Manga Web &amp; Mobile</title>
-  <meta name="description" content="Baca manga, manhwa, dan komik favoritmu dengan tampilan jernih, navigasi nyaman, serta simulasi tampilan HP Android langsung di browsermu.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MangaVerse - Baca Komik &amp; Manga Terlengkap</title>
+  <meta name="description" content="Platform membaca manga, manhwa, dan webtoon Bahasa Indonesia berkualitas tinggi dengan tampilan nyaman, cepat, dan bebas iklan mengganggu.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/src/style.css">
 </head>
-<body class="theme-dark mode-phone">
-  <!-- Simulator Toolbar Atas -->
-  <header id="simulator-bar" class="simulator-bar">
-    <div class="sim-left">
-      <div class="sim-brand">
-        <span class="sim-brand-icon">📚</span>
-        <div class="sim-brand-text">
-          <span class="sim-title">MangaVerse</span>
-          <span class="sim-subtitle">Simulator &amp; Web Reader</span>
+<body class="theme-dark">
+  <!-- Top Global Navbar (Desktop & Mobile) -->
+  <header id="site-header" class="site-header"></header>
+
+  <!-- Main Application Content (Max-width 1280px) -->
+  <main id="site-main" class="site-main">
+
+    <!-- View 1: Beranda / Home -->
+    <section id="view-home" class="app-view active" aria-label="Halaman Beranda">
+      <!-- Mount Point: Two-Column Hero Spotlight -->
+      <div id="home-hero-mount" class="home-hero-section"></div>
+
+      <!-- Mount Point: Segmented Genre Tabs -->
+      <div id="home-genres-mount" class="home-genres-section"></div>
+
+      <!-- Section: Lanjutkan Membaca (Muncul jika ada riwayat bacaan) -->
+      <section id="section-continue" class="home-content-section section-continue hidden">
+        <div class="section-heading-bar">
+          <h2 class="section-heading-text">Lanjutkan Membaca</h2>
         </div>
-      </div>
-      <div class="sim-badge" id="sim-status-badge">
-        <span class="status-dot"></span> Live Preview
-      </div>
-    </div>
+        <div id="continue-reading-mount"></div>
+      </section>
 
-    <div class="sim-controls">
-      <!-- Toggle Mode Tampilan -->
-      <div class="sim-btn-group" role="group" aria-label="Mode Tampilan">
-        <button id="btn-mode-phone" class="sim-btn active" type="button" title="Mode HP Android">
-          <span class="btn-icon">📱</span>
-          <span class="btn-label">Mode HP</span>
-        </button>
-        <button id="btn-mode-desktop" class="sim-btn" type="button" title="Mode Layar Penuh Desktop">
-          <span class="btn-icon">💻</span>
-          <span class="btn-label">Layar Penuh</span>
-        </button>
-      </div>
+      <!-- Section: Manga Terpopuler (Ranked 1..N) -->
+      <section id="section-popular" class="home-content-section">
+        <div id="popular-manga-mount"></div>
+      </section>
 
-      <!-- Kontrol Orientasi (Hanya di mode HP) -->
-      <div class="sim-device-tools" id="sim-device-tools">
-        <button id="btn-rotate-phone" class="sim-btn sim-icon-only" type="button" title="Putar Posisi HP (Potret/Lanskap)">
-          <span>🔄</span>
-        </button>
-        <button id="btn-scale-phone" class="sim-btn" type="button" title="Ubah Ukuran Tampilan Frame">
-          <span id="scale-label">100%</span>
-        </button>
-      </div>
+      <!-- Section: Update Terbaru -->
+      <section id="section-latest" class="home-content-section">
+        <div id="latest-manga-mount"></div>
+      </section>
+    </section>
 
-      <!-- Toggle Tema Terang/Gelap -->
-      <button id="btn-theme-toggle" class="sim-btn sim-icon-only" type="button" title="Ganti Tema Warna">
-        <span id="theme-icon">🌙</span>
-      </button>
-    </div>
-  </header>
-
-  <!-- Workspace Container: Menampung Frame Smartphone atau Layout Full Desktop -->
-  <main id="app-workspace" class="app-workspace">
-    
-    <!-- Frame Casing Smartphone Android -->
-    <div id="phone-frame" class="phone-frame">
-      <!-- Tombol Fisik Casing HP -->
-      <div class="phone-physical-btn phone-btn-vol-up"></div>
-      <div class="phone-physical-btn phone-btn-vol-down"></div>
-      <div class="phone-physical-btn phone-btn-power"></div>
-
-      <!-- Layar Smartphone -->
-      <div id="phone-screen" class="phone-screen">
-        
-        <!-- Status Bar Android (Jam, Wi-Fi, Sinyal, Baterai) -->
-        <div id="android-status-bar" class="android-status-bar">
-          <span id="status-bar-clock" class="status-clock">09:41</span>
-          <div class="status-notch">
-            <span class="camera-lens"></span>
-          </div>
-          <div class="status-icons">
-            <span class="status-icon" title="Sinyal 5G">📶</span>
-            <span class="status-icon" title="Wi-Fi Terhubung">📡</span>
-            <span class="status-icon status-battery" title="Baterai 94%">🔋 94%</span>
-          </div>
+    <!-- View 2: Jelajah & Pencarian / Explore -->
+    <section id="view-explore" class="app-view" aria-label="Halaman Pencarian dan Jelajah">
+      <div class="explore-header-box">
+        <div class="explore-search-input-wrap">
+          <svg class="search-icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="search-input" type="search" placeholder="Cari judul manga, manhwa, pengarang, atau genre..." autocomplete="off">
+          <button id="btn-clear-search" class="btn-clear-search hidden" type="button" aria-label="Hapus pencarian">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
         </div>
 
-        <!-- Header Navigasi Utama Aplikasi Manga -->
-        <header id="app-header" class="app-header">
-          <div class="header-left">
-            <button id="btn-back-nav" class="btn-header-back hidden" type="button" aria-label="Kembali" title="Kembali ke Halaman Sebelumnya">
-              <span class="back-icon">←</span>
-              <span class="back-label">Kembali</span>
-            </button>
-            <div id="header-brand" class="header-brand clickable-brand" role="button" tabindex="0" title="Klik untuk kembali ke Beranda">
-              <span class="logo-mark">MV</span>
-              <h1 class="logo-text">MangaVerse</h1>
-            </div>
+        <div class="explore-filters-row">
+          <div class="source-chips-group" role="group" aria-label="Filter Sumber">
+            <button class="source-chip active" data-source="all" type="button">Semua Sumber</button>
+            <button class="source-chip" data-source="curated" type="button">Kurasi Lokal (Sub Indo)</button>
+            <button class="source-chip" data-source="komiku" type="button">Komiku.org</button>
+            <button class="source-chip" data-source="mangadex" type="button">MangaDex Live</button>
           </div>
-          <div class="header-right">
-            <button id="btn-header-home" class="btn-header-home hidden" type="button" aria-label="Kembali ke Beranda" title="Kembali ke Beranda">
-              <span>🏠</span>
-              <span>Beranda</span>
-            </button>
-            <button id="btn-quick-search" class="btn-icon-action" type="button" aria-label="Buka Pencarian" title="Cari Manga">
-              🔍
-            </button>
-            <button id="btn-header-fav" class="btn-icon-action" type="button" aria-label="Buka Favorit" title="Manga Favorit">
-              ⭐
-            </button>
-          </div>
-        </header>
-
-        <!-- Area Konten Utama Aplikasi (Dapat discroll) -->
-        <div id="app-viewport" class="app-viewport">
-          
-          <!-- View 1: Beranda / Home -->
-          <section id="view-home" class="app-view active" aria-label="Halaman Beranda">
-            
-            <!-- Hero Spotlight Banner -->
-            <div id="home-hero" class="home-hero">
-              <div class="hero-overlay"></div>
-              <div class="hero-content">
-                <span class="hero-tag">🔥 Sorotan Utama</span>
-                <h2 id="hero-title" class="hero-title">Solo Leveling</h2>
-                <p id="hero-synopsis" class="hero-synopsis">Perjalanan Sung Jin-woo dari Hunter peringkat E terlemah hingga menjadi Penguasa Bayangan terkuat.</p>
-                <div class="hero-actions">
-                  <button id="btn-hero-read" class="btn-primary" type="button">
-                    <span>📖 Mulai Membaca</span>
-                  </button>
-                  <button id="btn-hero-detail" class="btn-secondary" type="button">
-                    <span>ℹ️ Lihat Detail</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <!-- Filter Genre / Kategori Cepat -->
-            <div class="genre-filter-wrapper">
-              <div class="genre-scroll-list" id="genre-pills-container" role="tablist" aria-label="Kategori Manga">
-                <!-- Genre pills di-generate via JS -->
-              </div>
-            </div>
-
-            <!-- Riwayat Lanjut Membaca (jika ada) -->
-            <div id="home-continue-section" class="home-section hidden">
-              <div class="section-header">
-                <h3 class="section-title">⏱️ Lanjutkan Membaca</h3>
-              </div>
-              <div id="continue-card-container" class="continue-card-container">
-                <!-- Card lanjut membaca di-render di sini -->
-              </div>
-            </div>
-
-            <!-- Daftar Manga Populer -->
-            <div class="home-section">
-              <div class="section-header">
-                <div>
-                  <h3 class="section-title">🔥 Manga Terpopuler</h3>
-                  <p class="section-desc">Pilihan pembaca terbanyak saat ini</p>
-                </div>
-                <button id="btn-see-more-popular" class="btn-link" type="button">Lihat Semua →</button>
-              </div>
-              <div id="popular-manga-grid" class="manga-cards-grid">
-                <!-- Manga cards di-render di sini -->
-              </div>
-            </div>
-
-            <!-- Daftar Update Terbaru -->
-            <div class="home-section">
-              <div class="section-header">
-                <div>
-                  <h3 class="section-title">⚡ Update Terbaru</h3>
-                  <p class="section-desc">Chapter baru yang siap dinikmati</p>
-                </div>
-              </div>
-              <div id="latest-manga-grid" class="manga-cards-grid">
-                <!-- Manga cards di-render di sini -->
-              </div>
-            </div>
-          </section>
-
-          <!-- View 2: Jelajah & Pencarian / Explore -->
-          <section id="view-explore" class="app-view" aria-label="Halaman Pencarian dan Jelajah">
-            <div class="sub-view-top-bar">
-              <button id="btn-explore-back-home" class="btn-sub-back" type="button" title="Kembali ke Beranda">
-                <span>←</span> Kembali ke Beranda
-              </button>
-            </div>
-            <div class="search-bar-container">
-              <div class="search-input-wrapper">
-                <span class="search-icon">🔍</span>
-                <input id="search-input" type="text" placeholder="Cari judul manga, komik, atau pengarang..." autocomplete="off">
-                <button id="btn-clear-search" class="btn-clear-search hidden" type="button" aria-label="Hapus kata kunci">✕</button>
-              </div>
-            </div>
-
-            <div class="explore-filters">
-              <div class="filter-chip-group" role="group" aria-label="Filter Sumber">
-                <button class="filter-chip active" data-source="all" type="button">Semua Sumber</button>
-                <button class="filter-chip" data-source="curated" type="button">Kurasi Cepat</button>
-                <button class="filter-chip" data-source="mangadex" type="button">MangaDex Live</button>
-              </div>
-            </div>
-
-            <div id="explore-results-status" class="results-status">
-              Menampilkan katalog manga pilihan
-            </div>
-
-            <div id="explore-results-grid" class="manga-cards-grid">
-              <!-- Hasil pencarian / explore di-render di sini -->
-            </div>
-          </section>
-
-          <!-- View 3: Detail Manga -->
-          <section id="view-detail" class="app-view" aria-label="Halaman Detail Manga">
-            <div class="sub-view-top-bar detail-top-nav">
-              <button id="btn-detail-back-home" class="btn-sub-back" type="button" title="Kembali ke Beranda">
-                <span>←</span> Kembali ke Beranda
-              </button>
-            </div>
-            <div id="detail-backdrop" class="detail-backdrop">
-              <div class="backdrop-gradient"></div>
-            </div>
-            
-            <div class="detail-header-card">
-              <div class="detail-poster-wrap">
-                <img id="detail-cover-img" src="" alt="Cover Manga" class="detail-cover-img">
-                <span id="detail-type-badge" class="detail-type-badge">Manga</span>
-              </div>
-              <div class="detail-meta">
-                <h2 id="detail-title" class="detail-title">Judul Manga</h2>
-                <p id="detail-author" class="detail-author">Pengarang</p>
-                <div class="detail-badges">
-                  <span id="detail-status" class="badge badge-status">Berjalan</span>
-                  <span id="detail-rating" class="badge badge-rating">⭐ 9.0</span>
-                </div>
-                <div class="detail-cta-group">
-                  <button id="btn-detail-start-read" class="btn-primary" type="button">
-                    <span>📖 Baca Chapter 1</span>
-                  </button>
-                  <button id="btn-detail-fav-toggle" class="btn-secondary" type="button">
-                    <span id="detail-fav-icon">⭐</span>
-                    <span id="detail-fav-label">Favorit</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="detail-section">
-              <div class="synopsis-header-row">
-                <h3 class="detail-section-title">Sinopsis Cerita</h3>
-                <button id="btn-translate-synopsis" class="btn-translate-action hidden" type="button" title="Terjemahkan sinopsis ke Bahasa Indonesia">
-                  🌐 Terjemahkan
-                </button>
-              </div>
-              <p id="detail-synopsis" class="detail-synopsis-text">Sinopsis manga...</p>
-              <div id="detail-genres-list" class="detail-genres-list">
-                <!-- Genre tags -->
-              </div>
-            </div>
-
-            <div class="detail-section">
-              <div class="chapter-header-bar">
-                <div>
-                  <h3 class="detail-section-title">Daftar Chapter</h3>
-                  <span id="detail-chapter-count" class="chapter-count-text">0 Chapter</span>
-                </div>
-                <button id="btn-sort-chapters" class="btn-sort-order" type="button" title="Urutkan Chapter">
-                  Urutan: <span id="sort-order-label">Terbaru</span> ↕️
-                </button>
-              </div>
-
-              <!-- Filter Bahasa Chapter -->
-              <div id="detail-lang-filter-bar" class="chapter-lang-filter-bar">
-                <!-- Di-render dinamis oleh JavaScript -->
-              </div>
-
-              <!-- Banner Pemberitahuan Status Chapter / Lisensi -->
-              <div id="detail-lang-notice" class="lang-info-banner hidden">
-                <!-- Pesan dinamis -->
-              </div>
-
-              <div id="detail-chapters-list" class="chapters-list">
-                <!-- List of chapters -->
-              </div>
-            </div>
-          </section>
-
-          <!-- View 4: Reader / Pembaca Manga Imersif -->
-          <section id="view-reader" class="app-view" aria-label="Ruang Baca Manga">
-            <!-- Floating Top Toolbar Reader (Bisa disembunyikan untuk kenyamanan) -->
-            <div id="reader-top-bar" class="reader-top-bar">
-              <div class="reader-left-tools">
-                <button id="btn-reader-exit" class="reader-action-btn" type="button" title="Kembali ke Detail Manga">
-                  ←
-                </button>
-                <button id="btn-reader-home" class="reader-home-action-btn" type="button" title="Kembali ke Beranda">
-                  🏠 Beranda
-                </button>
-              </div>
-              <div class="reader-info">
-                <span id="reader-manga-title" class="reader-title-text">Judul Manga</span>
-                <span id="reader-chapter-title" class="reader-sub-text">Chapter 1</span>
-              </div>
-              <div class="reader-top-tools">
-                <!-- Mode Baca: Webtoon (Scroll) atau Halaman (Flip) -->
-                <button id="btn-toggle-read-mode" class="reader-mode-btn" type="button" title="Ganti Mode Baca (Scroll / Halaman)">
-                  <span id="read-mode-icon">📜</span>
-                  <span id="read-mode-label">Webtoon</span>
-                </button>
-                <!-- Fullscreen browser -->
-                <button id="btn-reader-fullscreen" class="reader-action-btn" type="button" title="Layar Penuh">
-                  ⛶
-                </button>
-              </div>
-            </div>
-
-            <!-- Canvas Wadah Halaman Gambar Manga -->
-            <div id="reader-canvas-container" class="reader-canvas-container mode-webtoon">
-              <!-- Mode Scroll Webtoon Container -->
-              <div id="reader-scroll-view" class="reader-scroll-view">
-                <!-- Gambar halaman vertikal akan di-render di sini -->
-              </div>
-
-              <!-- Mode Horizontal Page-by-Page Container -->
-              <div id="reader-paged-view" class="reader-paged-view hidden">
-                <button id="btn-paged-prev" class="paged-nav-btn prev-btn" type="button" aria-label="Halaman Sebelumnya">‹</button>
-                <div class="paged-img-wrapper" id="paged-img-wrapper">
-                  <img id="paged-current-img" src="" alt="Halaman Manga" class="paged-current-img">
-                </div>
-                <button id="btn-paged-next" class="paged-nav-btn next-btn" type="button" aria-label="Halaman Selanjutnya">›</button>
-              </div>
-            </div>
-
-            <!-- Floating Bottom Toolbar Reader -->
-            <div id="reader-bottom-bar" class="reader-bottom-bar">
-              <button id="btn-reader-prev-chapter" class="btn-chapter-nav" type="button">
-                ⏮️ Ch. Sebelumnya
-              </button>
-              <div class="reader-progress-wrap">
-                <span id="reader-page-indicator" class="reader-page-indicator">Hal. 1 / 1</span>
-              </div>
-              <button id="btn-reader-next-chapter" class="btn-chapter-nav" type="button">
-                Ch. Berikutnya ⏭️
-              </button>
-            </div>
-          </section>
-
-          <!-- View 5: Favorit & Koleksi -->
-          <section id="view-library" class="app-view" aria-label="Halaman Favorit">
-            <div class="library-header">
-              <div class="sub-view-top-bar" style="margin-bottom: 10px;">
-                <button id="btn-library-back-home" class="btn-sub-back" type="button" title="Kembali ke Beranda">
-                  <span>←</span> Kembali ke Beranda
-                </button>
-              </div>
-              <h2 class="library-title">⭐ Manga Favorit</h2>
-              <p class="library-desc">Daftar komik yang kamu simpan untuk dibaca kembali</p>
-            </div>
-            <div id="library-favorites-grid" class="manga-cards-grid">
-              <!-- Item favorit di-render di sini -->
-            </div>
-          </section>
-
-          <!-- View 6: Riwayat Membaca -->
-          <section id="view-history" class="app-view" aria-label="Halaman Riwayat Membaca">
-            <div class="library-header">
-              <div class="sub-view-top-bar" style="margin-bottom: 10px;">
-                <button id="btn-history-back-home" class="btn-sub-back" type="button" title="Kembali ke Beranda">
-                  <span>←</span> Kembali ke Beranda
-                </button>
-              </div>
-              <div class="history-title-row">
-                <div>
-                  <h2 class="library-title">🕒 Riwayat Membaca</h2>
-                  <p class="library-desc">Lacak progress chapter terakhir yang kamu buka</p>
-                </div>
-                <button id="btn-clear-history" class="btn-danger-outline" type="button">
-                  Bersihkan
-                </button>
-              </div>
-            </div>
-            <div id="history-items-list" class="history-list">
-              <!-- Item riwayat di-render di sini -->
-            </div>
-          </section>
-
         </div>
-
-        <!-- Android Bottom Navigation Bar (Tab Bar) -->
-        <nav id="app-bottom-nav" class="app-bottom-nav" aria-label="Navigasi Bawah">
-          <button class="nav-tab active" data-view="home" type="button">
-            <span class="nav-icon">🏠</span>
-            <span class="nav-label">Beranda</span>
-          </button>
-          <button class="nav-tab" data-view="explore" type="button">
-            <span class="nav-icon">🔍</span>
-            <span class="nav-label">Jelajah</span>
-          </button>
-          <button class="nav-tab" data-view="library" type="button">
-            <span class="nav-icon">⭐</span>
-            <span class="nav-label">Favorit</span>
-          </button>
-          <button class="nav-tab" data-view="history" type="button">
-            <span class="nav-icon">🕒</span>
-            <span class="nav-label">Riwayat</span>
-          </button>
-        </nav>
-
-        <!-- Garis Navigasi Android Home Indicator -->
-        <div id="android-home-bar" class="android-home-bar" role="button" tabindex="0" title="Ketuk untuk kembali ke Beranda (Home Android)">
-          <div class="home-indicator"></div>
-        </div>
-
       </div>
-    </div>
+
+      <!-- Segmented Genre Bar Lengkap di Jelajah -->
+      <div id="explore-genres-mount" class="home-genres-section" style="margin-top: 16px; margin-bottom: 16px;"></div>
+
+      <div class="explore-content-wrap">
+        <div class="explore-status-bar">
+          <span id="explore-results-status" class="explore-status-text">Menampilkan katalog manga</span>
+        </div>
+        <div id="explore-results-grid" class="manga-grid standard-grid"></div>
+      </div>
+    </section>
+
+    <!-- View 3: Detail Manga -->
+    <section id="view-detail" class="app-view" aria-label="Halaman Detail Manga">
+      <div class="detail-nav-bar">
+        <button id="btn-detail-back-home" class="btn-detail-back" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+          <span>Kembali</span>
+        </button>
+      </div>
+
+      <!-- Backdrop Ambient Glow -->
+      <div id="detail-backdrop" class="detail-ambient-backdrop"></div>
+
+      <!-- Two-Column / Header Info Block -->
+      <div class="detail-card-container">
+        <div class="detail-poster-column">
+          <div class="detail-poster-frame">
+            <img id="detail-cover-img" src="" alt="Cover Manga" class="detail-poster-img">
+            <span id="detail-type-badge" class="detail-type-badge">Manga</span>
+          </div>
+        </div>
+
+        <div class="detail-info-column">
+          <div class="detail-meta-header">
+            <h1 id="detail-title" class="detail-headline">Judul Manga</h1>
+            <p id="detail-author" class="detail-author-text">Pengarang</p>
+
+            <div class="detail-tags-row">
+              <span id="detail-status" class="detail-badge badge-status">Berjalan</span>
+              <span id="detail-rating" class="detail-badge badge-rating">
+                <svg class="icon-rating-svg" width="13" height="13" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <span id="detail-rating-val">9.0</span>
+              </span>
+              <span class="detail-badge badge-source">Bahasa Indonesia</span>
+            </div>
+          </div>
+
+          <div class="detail-action-buttons">
+            <button id="btn-detail-start-read" class="btn-detail-primary" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="6 3 20 12 6 21 6 3" fill="currentColor"/></svg>
+              <span>Baca Chapter 1</span>
+            </button>
+            <button id="btn-detail-fav-toggle" class="btn-detail-secondary" type="button">
+              <svg id="detail-fav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m19 21-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+              <span id="detail-fav-label">Favorit</span>
+            </button>
+          </div>
+
+          <!-- Sinopsis Section -->
+          <div class="detail-synopsis-box">
+            <div class="synopsis-title-row">
+              <h3 class="detail-subheading">Sinopsis</h3>
+              <button id="btn-translate-synopsis" class="btn-translate-action hidden" type="button">
+                Terjemahkan
+              </button>
+            </div>
+            <p id="detail-synopsis" class="detail-synopsis-text">Sinopsis manga...</p>
+            <div id="detail-genres-list" class="detail-genres-pills"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter List Section -->
+      <section class="detail-chapters-section">
+        <div class="chapters-header-bar">
+          <div class="chapters-title-group">
+            <h3 class="detail-subheading">Daftar Chapter</h3>
+            <span id="detail-chapter-count" class="chapter-counter">0 Chapter Tersedia</span>
+          </div>
+
+          <button id="btn-sort-chapters" class="btn-sort-toggle" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 15 5 5 5-5"/><path d="m7 9 5-5 5 5"/></svg>
+            <span>Urutan: <strong id="sort-order-label">Terbaru</strong></span>
+          </button>
+        </div>
+
+        <!-- Filter Bahasa Segmented Tabs -->
+        <div id="detail-lang-filter-bar" class="detail-lang-tabs"></div>
+
+        <!-- Notification Banner Status / License -->
+        <div id="detail-lang-notice" class="lang-notice-box hidden"></div>
+
+        <!-- Chapter Items List -->
+        <div id="detail-chapters-list" class="chapters-list-container"></div>
+      </section>
+    </section>
+
+    <!-- View 4: Reader / Pembaca Manga Imersif -->
+    <section id="view-reader" class="app-view" aria-label="Ruang Baca Manga">
+      <!-- Sticky Top Reader Toolbar -->
+      <div id="reader-top-bar" class="reader-top-bar">
+        <div class="reader-tools-left">
+          <button id="btn-reader-exit" class="reader-btn-icon" type="button" title="Kembali ke Detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+          </button>
+          <button id="btn-reader-home" class="reader-btn-text" type="button">
+            Beranda
+          </button>
+        </div>
+
+        <div class="reader-meta-center">
+          <h2 id="reader-manga-title" class="reader-manga-title">Judul Manga</h2>
+          <div class="reader-chapter-picker-wrap">
+            <span id="reader-chapter-title" class="reader-chapter-title hidden">Chapter 1</span>
+            <select id="reader-chapter-select" class="reader-chapter-select" aria-label="Pilih Chapter">
+              <option value="">Memuat chapter...</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="reader-tools-right">
+          <button id="btn-toggle-read-mode" class="reader-btn-pill" type="button" title="Ganti Mode Baca">
+            <span id="read-mode-label">Webtoon</span>
+          </button>
+          <button id="btn-reader-fullscreen" class="reader-btn-icon" type="button" title="Layar Penuh">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Reader Canvas Body -->
+      <div id="reader-canvas-container" class="reader-canvas-container mode-webtoon">
+        <!-- Vertical Webtoon Scroll View -->
+        <div id="reader-scroll-view" class="reader-scroll-view"></div>
+
+        <!-- Horizontal Paged Flip View -->
+        <div id="reader-paged-view" class="reader-paged-view hidden">
+          <button id="btn-paged-prev" class="paged-nav-btn prev" type="button" aria-label="Halaman Sebelumnya">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <div class="paged-img-wrapper" id="paged-img-wrapper">
+            <img id="paged-current-img" src="" alt="Halaman Manga" class="paged-current-img">
+          </div>
+          <button id="btn-paged-next" class="paged-nav-btn next" type="button" aria-label="Halaman Selanjutnya">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Floating Bottom Reader Toolbar -->
+      <div id="reader-bottom-bar" class="reader-bottom-bar">
+        <button id="btn-reader-prev-chapter" class="btn-chapter-pager" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+          <span>Ch. Sebelumnya</span>
+        </button>
+        <span id="reader-page-indicator" class="reader-page-counter">Hal. 1 / 1</span>
+        <button id="btn-reader-next-chapter" class="btn-chapter-pager" type="button">
+          <span>Ch. Berikutnya</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- View 5: Favorit & Koleksi -->
+    <section id="view-library" class="app-view" aria-label="Halaman Favorit">
+      <div class="view-header-block">
+        <h1 class="view-heading-text">Manga Favorit</h1>
+        <p class="view-subheading-text">Koleksi judul yang kamu simpan untuk dibaca kembali.</p>
+      </div>
+      <div id="library-favorites-grid" class="manga-grid standard-grid"></div>
+    </section>
+
+    <!-- View 6: Riwayat Membaca -->
+    <section id="view-history" class="app-view" aria-label="Halaman Riwayat Membaca">
+      <div class="view-header-block history-header-row">
+        <div>
+          <h1 class="view-heading-text">Riwayat Membaca</h1>
+          <p class="view-subheading-text">Lacak bab terakhir yang telah kamu buka.</p>
+        </div>
+        <button id="btn-clear-history" class="btn-clear-action" type="button">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/></svg>
+          <span>Bersihkan</span>
+        </button>
+      </div>
+      <div id="history-items-list" class="history-list-wrap"></div>
+    </section>
 
   </main>
+
+  <!-- Mobile Bottom Navigation Bar (Hidden on Desktop ≥768px) -->
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navigasi Bawah Mobile"></nav>
 
   <script type="module" src="/src/main.js"></script>
 </body>

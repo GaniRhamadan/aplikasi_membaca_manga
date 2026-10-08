@@ -6,17 +6,18 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 
 private val DarkColorScheme = darkColorScheme(
-    primary = CrimsonPrimary,
+    primary = PrimaryAccent,
     onPrimary = TextPrimary,
-    primaryContainer = CrimsonDark,
-    secondary = AccentGold,
+    primaryContainer = DarkElevated,
+    secondary = AccentSecondary,
     background = DarkBackground,
     surface = DarkSurface,
-    surfaceVariant = DarkSurfaceVariant,
+    surfaceVariant = DarkElevated,
     onBackground = TextPrimary,
     onSurface = TextPrimary,
     onSurfaceVariant = TextSecondary
 )
+
 
 @Composable
 fun MangaReaderTheme(

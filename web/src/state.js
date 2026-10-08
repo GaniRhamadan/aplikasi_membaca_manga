@@ -1,9 +1,9 @@
-// Manajemen State Aplikasi MangaVerse
+// Manajemen State MangaVerse (Clean Production State)
 
 const STORAGE_KEYS = {
-  FAVORITES: "mangaverse_favorites_v1",
-  HISTORY: "mangaverse_history_v1",
-  PREFS: "mangaverse_prefs_v1"
+  FAVORITES: "mangaverse_favorites_v2",
+  HISTORY: "mangaverse_history_v2",
+  PREFS: "mangaverse_prefs_v2"
 };
 
 function loadStored(key, fallback) {
@@ -24,44 +24,34 @@ function saveStored(key, val) {
 }
 
 const savedPrefs = loadStored(STORAGE_KEYS.PREFS, {
-  deviceMode: "phone", // 'phone' | 'desktop'
   theme: "dark",
   readerMode: "webtoon", // 'webtoon' | 'paged'
-  readerDirection: "ltr" // 'ltr' | 'rtl'
+  readerDirection: "ltr"
 });
 
 export const state = {
-  currentView: "home", // 'home' | 'explore' | 'library' | 'history' | 'detail' | 'reader'
+  currentView: "home", // 'home' | 'explore' | 'detail' | 'reader' | 'library' | 'history'
   activeNavTab: "home",
-  
-  // Kontrol tampilan emulator HP / Desktop
-  deviceMode: savedPrefs.deviceMode || "phone",
-  deviceOrientation: "portrait", // 'portrait' | 'landscape'
+
   theme: savedPrefs.theme || "dark",
-  
-  // Data Manga Aktif
+
+  // Data Manga & Reader Aktif
   currentManga: null,
   currentChapter: null,
   currentPages: [],
   currentPageIndex: 0,
-  
+
   // Preferensi Reader
   readerMode: savedPrefs.readerMode || "webtoon",
   readerDirection: savedPrefs.readerDirection || "ltr",
-  readerZoom: "fit-width",
-  readerControlsVisible: true,
-  
+
   // Filter & Pencarian
   activeGenre: "Semua",
   searchQuery: "",
-  
+
   // Data Koleksi (tersimpan di localStorage)
   favorites: loadStored(STORAGE_KEYS.FAVORITES, []),
   history: loadStored(STORAGE_KEYS.HISTORY, []),
-  
-  // Status UI
-  isLoading: false,
-  errorMessage: null,
 
   listeners: new Set(),
 
@@ -72,25 +62,23 @@ export const state = {
 
   notify(event, payload) {
     for (const listener of this.listeners) {
-      listener(event, payload, this);
+      try {
+        listener(event, payload, this);
+      } catch (err) {
+        console.error("Error in state listener:", err);
+      }
     }
-  },
-
-  setDeviceMode(mode) {
-    this.deviceMode = mode;
-    this.persistPrefs();
-    this.notify("deviceModeChange", mode);
-  },
-
-  toggleDeviceOrientation() {
-    this.deviceOrientation = this.deviceOrientation === "portrait" ? "landscape" : "portrait";
-    this.notify("orientationChange", this.deviceOrientation);
   },
 
   setTheme(theme) {
     this.theme = theme;
     this.persistPrefs();
     this.notify("themeChange", theme);
+  },
+
+  toggleTheme() {
+    const next = this.theme === "dark" ? "light" : "dark";
+    this.setTheme(next);
   },
 
   setView(view, params = {}) {
@@ -107,30 +95,29 @@ export const state = {
     this.notify("readerModeChange", mode);
   },
 
-  setReaderDirection(dir) {
-    this.readerDirection = dir;
-    this.persistPrefs();
-    this.notify("readerDirectionChange", dir);
-  },
-
   isFavorite(mangaId) {
-    return this.favorites.some(f => f.id === mangaId);
+    return this.favorites.some((f) => f.id === mangaId);
   },
 
   toggleFavorite(manga) {
-    const idx = this.favorites.findIndex(f => f.id === manga.id);
+    const idx = this.favorites.findIndex((f) => f.id === manga.id);
     if (idx >= 0) {
       this.favorites.splice(idx, 1);
     } else {
       this.favorites.unshift({
         id: manga.id,
         mangadexId: manga.mangadexId,
+        komikuSlug: manga.komikuSlug,
+        komikandoSlug: manga.komikandoSlug,
         title: manga.title,
         cover: manga.cover,
         author: manga.author,
         statusId: manga.statusId,
+        status: manga.status,
         genres: manga.genres,
         rating: manga.rating,
+        totalChapters: manga.totalChapters,
+        source: manga.source,
         savedAt: new Date().toISOString()
       });
     }
@@ -139,8 +126,7 @@ export const state = {
   },
 
   recordHistory(manga, chapter, pageIndex = 0) {
-    // Hapus entry lama dari manga yang sama jika ada
-    this.history = this.history.filter(h => h.mangaId !== manga.id);
+    this.history = this.history.filter((h) => h.mangaId !== manga.id);
     this.history.unshift({
       mangaId: manga.id,
       mangadexId: manga.mangadexId,
@@ -148,17 +134,15 @@ export const state = {
       cover: manga.cover,
       chapterId: chapter.id,
       chapterNumber: chapter.number,
-      chapterTitle: chapter.title,
+      chapterTitle: chapter.title || `Chapter ${chapter.number}`,
       pageIndex,
-      lastReadAt: new Date().toLocaleDateString("id-ID", {
-        day: "numeric",
-        month: "short",
-        hour: "2-digit",
-        minute: "2-digit"
-      })
+      lastReadAt: new Date().toISOString()
     });
-    // Batasi riwayat maksimum 30 item
-    if (this.history.length > 30) this.history.pop();
+
+    if (this.history.length > 50) {
+      this.history = this.history.slice(0, 50);
+    }
+
     saveStored(STORAGE_KEYS.HISTORY, this.history);
     this.notify("historyChange", this.history);
   },
@@ -171,7 +155,6 @@ export const state = {
 
   persistPrefs() {
     saveStored(STORAGE_KEYS.PREFS, {
-      deviceMode: this.deviceMode,
       theme: this.theme,
       readerMode: this.readerMode,
       readerDirection: this.readerDirection

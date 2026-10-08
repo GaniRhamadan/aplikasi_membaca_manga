@@ -179,7 +179,8 @@ export async function getPopularManga(limit = 10) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 6000);
 
-    const url = `${BASE_URL}/manga?order[followedCount]=desc&limit=${limit}&includes[]=cover_art&includes[]=author&contentRating[]=safe`;
+    // Filter ketat availableTranslatedLanguage[]=id agar hanya manga dengan translasi Bahasa Indonesia yang diambil
+    const url = `${BASE_URL}/manga?order[followedCount]=desc&limit=${limit}&availableTranslatedLanguage[]=id&includes[]=cover_art&includes[]=author&contentRating[]=safe`;
     const res = await fetch(url, { signal: controller.signal });
     clearTimeout(timeout);
 
@@ -193,6 +194,147 @@ export async function getPopularManga(limit = 10) {
     console.warn("Gagal mengambil manga populer dari MangaDex, menggunakan kurasi lokal:", err.message);
     return CURATED_MANGAS;
   }
+}
+
+/**
+ * Daftar Genre Lengkap Manga/Webtoon
+ */
+export const COMPLETE_GENRE_LIST = [
+  "Semua",
+  "Action",
+  "Romance",
+  "Fantasy",
+  "Comedy",
+  "Isekai",
+  "Adventure",
+  "Slice of Life",
+  "Drama",
+  "Supernatural",
+  "Mystery",
+  "Horror",
+  "Sci-Fi",
+  "Psychological",
+  "Thriller",
+  "Martial Arts",
+  "School Life",
+  "Sports",
+  "Historical",
+  "Shounen",
+  "Seinen"
+];
+
+export const GENRE_MAP = {
+  "Action": "391b0423-d847-456f-aff0-8b0cfc03066b",
+  "Romance": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+  "Comedy": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+  "Fantasy": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+  "Isekai": "ace04997-f6bd-436e-b261-779182193d3d",
+  "Adventure": "87cc87cd-a395-47af-b27a-93258283bbc6",
+  "Slice of Life": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+  "Drama": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+  "Supernatural": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+  "Mystery": "ee968100-4191-4968-93d3-f82d72be7e46",
+  "Horror": "cdad7e68-1419-41dd-bdce-27753074a640",
+  "Sci-Fi": "256c8bd9-4904-4360-bf4f-508a76d67183",
+  "Psychological": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+  "Thriller": "07251805-a27e-4d59-b488-f0bfbec15168",
+  "Martial Arts": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+  "School Life": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+  "Sports": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+  "Historical": "33771934-028e-4cb3-8744-691e866a923e",
+  "Shounen": "demographic:shounen",
+  "Seinen": "demographic:seinen",
+  "Shoujo": "demographic:shoujo"
+};
+
+/**
+ * Mengambil daftar manga berdasarkan genre dengan filter ketat dan cache
+ */
+export async function fetchMangasByGenre(genre, limit = 18) {
+  if (!genre || genre === "Semua") {
+    return getPopularManga(limit);
+  }
+
+  // 1. Cek in-memory cache
+  const cacheKey = `genre_${genre.toLowerCase().replace(/[^a-z0-9]/g, "_")}`;
+  if (cache[cacheKey] && cache[cacheKey].length > 0) {
+    return cache[cacheKey];
+  }
+
+  // 2. Cocokkan dari koleksi kurasi lokal terlebih dahulu (instan)
+  const localMatched = CURATED_MANGAS.filter(m =>
+    (m.genres || []).some(g => g.toLowerCase() === genre.toLowerCase())
+  );
+
+  let liveMangaDex = [];
+  const tagVal = GENRE_MAP[genre];
+
+  // 3. Ambil dari MangaDex jika genre terdaftar
+  if (tagVal) {
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 6000);
+      const isDemo = tagVal.startsWith("demographic:");
+      const queryParam = isDemo
+        ? `publicationDemographic[]=${tagVal.split(":")[1]}`
+        : `includedTags[]=${tagVal}`;
+
+      const url = `${BASE_URL}/manga?${queryParam}&availableTranslatedLanguage[]=id&order[followedCount]=desc&limit=${limit}&includes[]=cover_art&includes[]=author&contentRating[]=safe`;
+      const res = await fetch(url, { signal: controller.signal });
+      clearTimeout(timeout);
+
+      if (res.ok) {
+        const json = await res.json();
+        if (json.data && Array.isArray(json.data)) {
+          liveMangaDex = json.data.map(raw => formatMangaDexManga(raw));
+        }
+      }
+    } catch (err) {
+      console.warn(`Gagal mengambil genre ${genre} dari MangaDex:`, err.message);
+    }
+  }
+
+  // 4. Jika hasil masih sedikit, cari melalui Komiku.org proxy
+  let komikuItems = [];
+  if (localMatched.length + liveMangaDex.length < 6) {
+    try {
+      const endpoint = typeof window !== "undefined"
+        ? `/api/search-komiku?q=${encodeURIComponent(genre)}`
+        : `http://localhost:5173/api/search-komiku?q=${encodeURIComponent(genre)}`;
+      const res = await fetch(endpoint);
+      if (res.ok) {
+        const json = await res.json();
+        if (json.success && Array.isArray(json.items)) {
+          komikuItems = json.items;
+        }
+      }
+    } catch {}
+  }
+
+  // 5. Gabungkan dan deduplikasi
+  const seenIds = new Set();
+  const seenTitles = new Set();
+  const combined = [];
+
+  for (const m of [...localMatched, ...liveMangaDex, ...komikuItems]) {
+    const norm = (m.title || "").trim().toLowerCase().replace(/[^a-z0-9]/g, "");
+    if (!m.id || seenIds.has(m.id)) continue;
+    if (norm && seenTitles.has(norm)) continue;
+
+    // Pastikan tag genre muncul di manga objek
+    if (!m.genres || !m.genres.some(g => g.toLowerCase() === genre.toLowerCase())) {
+      m.genres = [genre, ...(m.genres || [])];
+    }
+
+    seenIds.add(m.id);
+    if (norm) seenTitles.add(norm);
+    combined.push(m);
+    if (combined.length >= limit) break;
+  }
+
+  const finalResult = combined.length > 0 ? combined : localMatched;
+  cache[cacheKey] = finalResult;
+  return finalResult;
 }
 
 /**
@@ -215,8 +357,8 @@ export async function searchManga(query, limit = 20) {
     const timeout = setTimeout(() => controller.abort(), 8000);
 
     const encoded = encodeURIComponent(query.trim());
-    // Gunakan order[relevance]=desc agar judul yang cocok diprioritaskan oleh MangaDex
-    const url = `${BASE_URL}/manga?title=${encoded}&limit=25&includes[]=cover_art&includes[]=author&contentRating[]=safe&contentRating[]=suggestive&order[relevance]=desc`;
+    // Gunakan order[relevance]=desc dan filter bahasa Indonesia agar hasil pencarian relevan dan berbahasa Indonesia
+    const url = `${BASE_URL}/manga?title=${encoded}&limit=25&availableTranslatedLanguage[]=id&includes[]=cover_art&includes[]=author&contentRating[]=safe&contentRating[]=suggestive&order[relevance]=desc`;
     const res = await fetch(url, { signal: controller.signal });
     clearTimeout(timeout);
 
@@ -254,8 +396,28 @@ export async function searchManga(query, limit = 20) {
     // Abaikan jika endpoint komikindo tidak dapat dihubungi
   }
 
+  // 3.5 Cari dari Komiku.org via server proxy (Bahasa Indonesia)
+  let komikuCandidates = [];
+  try {
+    const endpoint = typeof window !== "undefined"
+      ? `/api/search-komiku?q=${encodeURIComponent(query.trim())}`
+      : `http://localhost:5173/api/search-komiku?q=${encodeURIComponent(query.trim())}`;
+    const res = await fetch(endpoint);
+    if (res.ok) {
+      const json = await res.json();
+      if (json.success && Array.isArray(json.items)) {
+        komikuCandidates = json.items.map(m => ({
+          manga: m,
+          score: calculateRelevanceScore(m, cleanQ)
+        })).filter(item => item.score > 0);
+      }
+    }
+  } catch {
+    // Abaikan jika endpoint komiku tidak dapat dihubungi
+  }
+
   // 4. Gabungkan seluruh kandidat dan urutkan berdasarkan skor relevansi tertinggi
-  const allCandidates = [...localCandidates, ...komikandoCandidates, ...liveCandidates];
+  const allCandidates = [...localCandidates, ...komikandoCandidates, ...komikuCandidates, ...liveCandidates];
   allCandidates.sort((a, b) => b.score - a.score);
 
   // 5. Deduplikasi cerdas berdasarkan nama bersih
@@ -333,31 +495,39 @@ function deduplicateChapters(chapters) {
  * Memprioritaskan Bahasa Indonesia, mendukung pagination untuk manga 100+ chapter
  */
 export async function getMangaChapters(manga) {
-  // 1. Cek apakah ada data kurasi lokal lengkap (cocokkan id, mangadexId, atau judul)
+  if (!manga) return [];
+
+  // 1. Cek apakah ada data kurasi lokal lengkap dengan pencocokan ID/slug/judul yang ketat dan presisi
   const normTitle = (manga.title || "").trim().toLowerCase();
   const local = CURATED_MANGAS.find(m => {
+    if (m.id === manga.id) return true;
+    if (m.mangadexId && manga.mangadexId && m.mangadexId === manga.mangadexId) return true;
+    if (m.komikandoSlug && manga.komikandoSlug && m.komikandoSlug === manga.komikandoSlug) return true;
     const curTitle = (m.title || "").trim().toLowerCase();
     const curAlt = (m.altTitle || "").trim().toLowerCase();
-    return (
-      m.id === manga.id ||
-      (manga.mangadexId && m.mangadexId === manga.mangadexId) ||
-      curTitle === normTitle ||
-      (curTitle && normTitle.includes(curTitle)) ||
-      (curAlt && normTitle.includes(curAlt))
-    );
+    if (curTitle && curTitle === normTitle) return true;
+    if (curAlt && curAlt === normTitle) return true;
+    return false;
   });
 
-  // Gunakan data kurasi lokal jika sudah punya chapter lengkap
-  if (local && local.chapters && local.chapters.length > 0) {
-    return local.chapters;
+  if (local) {
+    if (local.komikandoSlug && !manga.komikandoSlug) {
+      manga.komikandoSlug = local.komikandoSlug;
+    }
+    // Gunakan data kurasi lokal jika sudah punya chapter lengkap
+    if (local.chapters && local.chapters.length > 0) {
+      manga.chapters = local.chapters;
+      return local.chapters;
+    }
   }
 
-  // 2. Jika manga berasal dari Komikindo atau memiliki komikandoSlug
-  if (manga.komikandoSlug) {
+  // 2. Jika manga berasal dari Komikindo atau memiliki komikandoSlug (100% Bahasa Indonesia)
+  const slug = manga.komikandoSlug || local?.komikandoSlug;
+  if (slug) {
     try {
       const endpoint = typeof window !== "undefined"
-        ? `/api/manga-chapters?slug=${encodeURIComponent(manga.komikandoSlug)}`
-        : `http://localhost:5173/api/manga-chapters?slug=${encodeURIComponent(manga.komikandoSlug)}`;
+        ? `/api/manga-chapters?slug=${encodeURIComponent(slug)}`
+        : `http://localhost:5173/api/manga-chapters?slug=${encodeURIComponent(slug)}`;
       const res = await fetch(endpoint);
       if (res.ok) {
         const json = await res.json();
@@ -368,6 +538,26 @@ export async function getMangaChapters(manga) {
       }
     } catch (e) {
       console.warn("Gagal mengambil chapter Komikindo:", e.message);
+    }
+  }
+
+  // 2.5 Jika manga berasal dari Komiku.org (Bahasa Indonesia)
+  const kSlug = manga.komikuSlug;
+  if (kSlug) {
+    try {
+      const endpoint = typeof window !== "undefined"
+        ? `/api/komiku-chapters?slug=${encodeURIComponent(kSlug)}`
+        : `http://localhost:5173/api/komiku-chapters?slug=${encodeURIComponent(kSlug)}`;
+      const res = await fetch(endpoint);
+      if (res.ok) {
+        const json = await res.json();
+        if (json.success && Array.isArray(json.chapters) && json.chapters.length > 0) {
+          manga.chapters = json.chapters;
+          return json.chapters;
+        }
+      }
+    } catch (e) {
+      console.warn("Gagal mengambil chapter Komiku:", e.message);
     }
   }
 
@@ -386,7 +576,7 @@ export async function getMangaChapters(manga) {
 
     const mapChapter = (ch, forcedLang) => {
       const attr = ch.attributes || {};
-      const lang = forcedLang || attr.translatedLanguage || "en";
+      const lang = forcedLang || attr.translatedLanguage || "id";
       return {
         id: ch.id,
         number: attr.chapter || "?",
@@ -398,26 +588,16 @@ export async function getMangaChapters(manga) {
       };
     };
 
-    // Ambil semua chapter ID dan EN secara paralel (dengan pagination otomatis)
-    const [dataId, dataEn] = await Promise.all([
-      fetchAllChapters(mangadexId, "id", controller.signal),
-      fetchAllChapters(mangadexId, "en", controller.signal),
-    ]);
+    // Prioritaskan chapter Bahasa Indonesia
+    const dataId = await fetchAllChapters(mangadexId, "id", controller.signal);
     clearTimeout(timeout);
 
-    const chaptersId = dataId.map(c => mapChapter(c, "id"));
-    const chaptersEn = dataEn.map(c => mapChapter(c, "en"));
-
-    let allChapters = deduplicateChapters([...chaptersId, ...chaptersEn]);
-
-    // Fallback: kalau masih kosong, coba tanpa filter bahasa
-    if (allChapters.length === 0) {
-      const fallbackUrl = `${BASE_URL}/manga/${mangadexId}/feed?limit=100&order[chapter]=asc`;
-      const fallbackRes = await fetch(fallbackUrl);
-      if (fallbackRes.ok) {
-        const fallbackJson = await fallbackRes.json();
-        allChapters = deduplicateChapters((fallbackJson.data || []).map(c => mapChapter(c)));
-      }
+    let allChapters = [];
+    if (dataId.length > 0) {
+      allChapters = deduplicateChapters(dataId.map(c => mapChapter(c, "id")));
+    } else {
+      // Jika MangaDex tidak punya rilisan Bahasa Indonesia
+      console.info("MangaDex tidak memiliki rilisan Bahasa Indonesia untuk:", manga.title);
     }
 
     cache.chapterLists.set(mangadexId, allChapters);
@@ -452,7 +632,6 @@ async function resolveCuratedChapterToMangaDexId(chapter) {
     let feedData = cache.chapterLists.get(cacheKey);
 
     if (!feedData) {
-      // MangaDex /feed tidak mengizinkan query 'chapter', ambil batch feed terurut
       const url = `${BASE_URL}/manga/${mangadexId}/feed?limit=100&translatedLanguage[]=${lang}&order[chapter]=asc&includeExternalUrl=0`;
       const res = await fetch(url);
       if (!res.ok) return null;
@@ -462,9 +641,12 @@ async function resolveCuratedChapterToMangaDexId(chapter) {
     }
 
     const targetNum = String(chapter.number).trim();
+    const targetFloat = parseFloat(targetNum);
     const found = feedData.find(c => {
       const chNum = String(c.attributes?.chapter || "").trim();
-      return chNum === targetNum && !c.attributes?.externalUrl;
+      const chFloat = parseFloat(chNum);
+      const matches = chNum === targetNum || (!isNaN(targetFloat) && !isNaN(chFloat) && targetFloat === chFloat);
+      return matches && !c.attributes?.externalUrl;
     });
 
     return found ? found.id : null;
@@ -492,7 +674,7 @@ export async function getChapterPages(chapter, mangaRef) {
       if (res.ok) {
         const json = await res.json();
         if (json.success && Array.isArray(json.pages) && json.pages.length > 0) {
-          chapter.pages = json.pages; // simpan di memori objek
+          chapter.pages = json.pages;
           return json.pages;
         }
       }
@@ -504,7 +686,6 @@ export async function getChapterPages(chapter, mangaRef) {
   // 3. Resolusi ID MangaDex yang valid
   let chapterMangaDexId = isUUID(chapter.id) ? chapter.id : null;
 
-  // Kalau bukan UUID, cari ID MangaDex yang sesuai
   if (!chapterMangaDexId && mangaRef && mangaRef.mangadexId) {
     const localChapterWithParent = { ...chapter, _parentMangadexId: mangaRef.mangadexId };
     chapterMangaDexId = await resolveCuratedChapterToMangaDexId(localChapterWithParent);
@@ -542,16 +723,6 @@ export async function getChapterPages(chapter, mangaRef) {
     }
   }
 
-  // Fallback halaman jika semua sumber offline
-  return getFallbackPages();
-}
-
-function getFallbackPages() {
-  return [
-    "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80"
-  ];
+  // Jika halaman tidak dapat dimuat, kembalikan array kosong agar UI menampilkan error bersih, JANGAN gambar lukisan palsu
+  return [];
 }

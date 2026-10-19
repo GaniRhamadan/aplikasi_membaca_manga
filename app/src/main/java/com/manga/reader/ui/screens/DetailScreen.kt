@@ -48,9 +48,14 @@ fun DetailScreen(
     val favoriteIds by repository.favoriteIds.collectAsState()
     val isFavorite = favoriteIds.contains(mangaId)
 
-    LaunchedEffect(mangaId, selectedLanguage) {
+    LaunchedEffect(mangaId) {
+        isLoading = true
         manga = repository.getMangaById(mangaId)
-        chapters = repository.getChapters(mangaId, selectedLanguage)
+        val loaded = repository.getChapters(mangaId, "id")
+        chapters = loaded
+        if (loaded.isNotEmpty() && loaded.none { it.language == "id" }) {
+            selectedLanguage = "all"
+        }
         isLoading = false
     }
 
@@ -295,7 +300,11 @@ fun DetailScreen(
                             ) {
                                 Button(
                                     onClick = {
-                                        val firstCh = chapters.lastOrNull()?.id ?: "${item.id}-ch-1"
+                                        val firstCh = chapters.minByOrNull {
+                                            it.chapterNumber.toDoubleOrNull()
+                                                ?: Regex("""([0-9]+(?:\.[0-9]+)?)""").find(it.chapterNumber)?.groupValues?.get(1)?.toDoubleOrNull()
+                                                ?: 999999.0
+                                        }?.id ?: chapters.lastOrNull()?.id ?: "${item.id}-ch-1"
                                         onChapterClick(firstCh)
                                     },
                                     colors = ButtonDefaults.buttonColors(containerColor = PrimaryAccent),
@@ -303,17 +312,17 @@ fun DetailScreen(
                                     modifier = Modifier
                                         .weight(1.3f)
                                         .height(44.dp)
-                                ) {
-                                    Text(
-                                        text = "📖 Baca Chapter 1",
-                                        fontSize = 13.sp,
-                                        fontWeight = FontWeight.Bold,
-                                        color = Color.White
-                                    )
-                                }
+                                 ) {
+                                     Text(
+                                         text = "📖 Baca Chapter 1",
+                                         fontSize = 13.sp,
+                                         fontWeight = FontWeight.Bold,
+                                         color = Color.White
+                                     )
+                                 }
 
-                                OutlinedButton(
-                                    onClick = { repository.toggleFavorite(item.id) },
+                                 OutlinedButton(
+                                     onClick = { repository.toggleFavorite(item.id, item) },
                                     shape = RoundedCornerShape(10.dp),
                                     border = androidx.compose.foundation.BorderStroke(
                                         1.dp,
@@ -573,7 +582,13 @@ fun DetailScreen(
                                         fontWeight = FontWeight.Bold,
                                         color = TextPrimary
                                     )
-                                    // ID Badge
+                                    val badge = when (ch.language.lowercase()) {
+                                        "id" -> "🇮🇩 ID"
+                                        "en" -> "🇬🇧 EN"
+                                        "ja" -> "🇯🇵 JA"
+                                        "es", "es-la" -> "🇪🇸 ES"
+                                        else -> ch.language.uppercase()
+                                    }
                                     Box(
                                         modifier = Modifier
                                             .background(
@@ -583,7 +598,7 @@ fun DetailScreen(
                                             .padding(horizontal = 5.dp, vertical = 1.5.dp)
                                     ) {
                                         Text(
-                                            text = "🇮🇩 ID",
+                                            text = badge,
                                             fontSize = 9.sp,
                                             fontWeight = FontWeight.Bold,
                                             color = PrimaryAccent
@@ -592,7 +607,7 @@ fun DetailScreen(
                                 }
                                 Spacer(modifier = Modifier.height(3.dp))
                                 Text(
-                                    text = "${ch.scanlationGroup} • ${ch.releaseDate}",
+                                    text = "${ch.scanlationGroup.ifEmpty { ch.source }} • ${ch.releaseDate}",
                                     fontSize = 11.sp,
                                     color = TextTertiary
                                 )

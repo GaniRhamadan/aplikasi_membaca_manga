@@ -29,6 +29,8 @@ fun LibraryScreen(
         favoriteMangaList = repository.getFavoriteManga()
     }
 
+    val chunks = remember(favoriteMangaList) { favoriteMangaList.chunked(2) }
+
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         contentPadding = PaddingValues(14.dp),
@@ -77,8 +79,13 @@ fun LibraryScreen(
                 }
             }
         } else {
-            val chunks = favoriteMangaList.chunked(2)
-            items(chunks.size) { index ->
+            items(
+                count = chunks.size,
+                key = { index ->
+                    val pair = chunks[index]
+                    "fav-${pair.joinToString("-") { it.id }}"
+                }
+            ) { index ->
                 val pair = chunks[index]
                 Row(
                     modifier = Modifier.fillMaxWidth(),

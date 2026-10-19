@@ -3,6 +3,7 @@ import {
   COMPLETE_GENRE_LIST,
   fetchMangasByGenre,
   getPopularManga,
+  searchLocalManga,
   searchManga,
   getMangaChapters,
   getChapterPages
@@ -392,6 +393,11 @@ async function openHistoryItem(historyItem) {
     };
   }
 
+  const chapters = (manga.chapters && manga.chapters.length > 0)
+    ? manga.chapters
+    : await getMangaChapters(manga);
+  manga.chapters = chapters;
+
   const targetCh =
     chapters.find((c) => c.id === historyItem.chapterId) ||
     chapters.find((c) => c.number && historyItem.chapterNumber && String(c.number) === String(historyItem.chapterNumber)) ||
@@ -408,14 +414,39 @@ async function openHistoryItem(historyItem) {
 // ==========================================================================
 
 let searchDebounceTimer = null;
+let activeSearchSeq = 0;
+
+function filterBySource(list, source) {
+  if (source === "curated") {
+    return list.filter((m) => m.id.startsWith("curated-"));
+  } else if (source === "komiku") {
+    return list.filter((m) => m.source === "Komiku" || m.komikuSlug || m.id.startsWith("komiku-"));
+  } else if (source === "mangadex") {
+    return list.filter((m) => m.mangadexId && !m.id.startsWith("curated-"));
+  }
+  return list;
+}
 
 function setupExploreEvents() {
   if (elements.searchInput) {
     elements.searchInput.addEventListener("input", (e) => {
       const q = e.target.value;
       if (elements.btnClearSearch) elements.btnClearSearch.classList.toggle("hidden", !q);
+
+      // Tampilkan hasil pencarian lokal instan selagi menunggu debounce
+      const cleanQ = (q || "").trim();
+      if (cleanQ) {
+        const instantMatches = filterBySource(searchLocalManga(cleanQ, 30), exploreSourceFilter);
+        if (instantMatches.length > 0) {
+          renderExploreGrid(instantMatches);
+          if (elements.exploreResultsStatus) {
+            elements.exploreResultsStatus.textContent = `Menampilkan ${instantMatches.length} hasil lokal, mencari sumber online...`;
+          }
+        }
+      }
+
       clearTimeout(searchDebounceTimer);
-      searchDebounceTimer = setTimeout(() => handleSearch(q), 300);
+      searchDebounceTimer = setTimeout(() => handleSearch(q), 220);
     });
   }
 
@@ -477,32 +508,43 @@ async function loadExploreByGenre(genre) {
 
 async function handleSearch(query) {
   const cleanQ = (query || "").trim();
+  const currentSeq = ++activeSearchSeq;
+
+  if (!cleanQ) {
+    const list = filterBySource(CURATED_MANGAS, exploreSourceFilter);
+    renderExploreGrid(list);
+    if (elements.exploreResultsStatus) {
+      elements.exploreResultsStatus.textContent = "Menampilkan katalog manga pilihan";
+    }
+    return;
+  }
+
+  // Tampilkan hasil lokal instan terlebih dahulu
+  const localList = filterBySource(searchLocalManga(cleanQ, 30), exploreSourceFilter);
+  if (localList.length > 0) {
+    renderExploreGrid(localList);
+  }
+
   if (elements.exploreResultsStatus) {
-    elements.exploreResultsStatus.textContent = cleanQ
-      ? `Mencari "${cleanQ}"...`
-      : "Menampilkan katalog manga pilihan";
+    elements.exploreResultsStatus.textContent = localList.length > 0
+      ? `Menampilkan ${localList.length} hasil lokal, menyinkronkan online...`
+      : `Mencari "${cleanQ}" dari semua sumber...`;
   }
 
   try {
     let results = await searchManga(cleanQ, 30);
+    if (currentSeq !== activeSearchSeq) return; // Discard jika pengguna sudah mengetik kueri baru
 
-    // Filter berdasarkan sumber chip
-    if (exploreSourceFilter === "curated") {
-      results = results.filter((m) => m.id.startsWith("curated-"));
-    } else if (exploreSourceFilter === "komiku") {
-      results = results.filter((m) => m.source === "Komiku" || m.komikuSlug || m.id.startsWith("komiku-"));
-    } else if (exploreSourceFilter === "mangadex") {
-      results = results.filter((m) => m.mangadexId && !m.id.startsWith("curated-"));
-    }
-
+    results = filterBySource(results, exploreSourceFilter);
     renderExploreGrid(results);
     if (elements.exploreResultsStatus) {
-      elements.exploreResultsStatus.textContent = cleanQ
+      elements.exploreResultsStatus.textContent = results.length > 0
         ? `Ditemukan ${results.length} hasil untuk "${cleanQ}"`
-        : `Menampilkan ${results.length} manga`;
+        : `Tidak ada manga yang ditemukan untuk "${cleanQ}"`;
     }
   } catch {
-    renderExploreGrid(CURATED_MANGAS);
+    if (currentSeq !== activeSearchSeq) return;
+    renderExploreGrid(localList.length > 0 ? localList : CURATED_MANGAS);
   }
 }
 
@@ -801,9 +843,24 @@ async function openChapterInReader(manga, chapter, allChapters = [], initialPage
 }
 
 function updateChapterNavButtons() {
-  const sorted = [...allMangaChaptersForReader].sort(
+  const currentLang = state.currentChapter?.lang || "id";
+  const langFiltered = allMangaChaptersForReader.some((c) => c.lang === currentLang)
+    ? allMangaChaptersForReader.filter((c) => c.lang === currentLang)
+    : allMangaChaptersForReader;
+
+  const seenNumbers = new Set();
+  const sorted = [];
+  const rawSorted = [...langFiltered].sort(
     (a, b) => (parseFloat(a.number) || 0) - (parseFloat(b.number) || 0)
   );
+  for (const ch of rawSorted) {
+    const key = ch.number ? String(ch.number) : ch.id;
+    if (!seenNumbers.has(key)) {
+      seenNumbers.add(key);
+      sorted.push(ch);
+    }
+  }
+
   const currentIdx = sorted.findIndex(
     (c) => c.id === state.currentChapter?.id || (c.number && state.currentChapter?.number && String(c.number) === String(state.currentChapter.number))
   );

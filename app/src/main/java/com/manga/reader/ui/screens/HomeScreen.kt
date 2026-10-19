@@ -17,7 +17,7 @@ import com.manga.reader.ui.theme.PrimaryAccent
 fun HomeScreen(
     repository: MangaRepository,
     onMangaClick: (String) -> Unit,
-    onChapterClick: (String) -> Unit,
+    onChapterClick: (String, String?) -> Unit,
     onSeeAllPopularClick: () -> Unit
 ) {
     var popularList by remember { mutableStateOf<List<Manga>>(emptyList()) }
@@ -45,6 +45,14 @@ fun HomeScreen(
         }
     }
 
+    val popularChunks = remember(filteredPopularList) {
+        filteredPopularList.chunked(2)
+    }
+
+    val latestChunks = remember(latestList) {
+        latestList.chunked(2)
+    }
+
     if (isLoading) {
         Box(
             modifier = Modifier
@@ -61,11 +69,11 @@ fun HomeScreen(
         ) {
             // 1. Hero Spotlight Banner
             featuredManga?.let { hero ->
-                item {
+                item(key = "hero-spotlight") {
                     Box(modifier = Modifier.padding(horizontal = 14.dp, vertical = 6.dp)) {
                         HeroSpotlightCard(
                             manga = hero,
-                            onReadClick = { onChapterClick("${hero.id}-ch-1") },
+                            onReadClick = { onChapterClick("${hero.id}-ch-1", hero.id) },
                             onDetailClick = { onMangaClick(hero.id) }
                         )
                     }
@@ -74,7 +82,7 @@ fun HomeScreen(
 
             // 2. Genre Filter Pills
             if (genres.isNotEmpty()) {
-                item {
+                item(key = "genre-filter") {
                     Box(modifier = Modifier.padding(horizontal = 14.dp)) {
                         GenrePillsRow(
                             genres = genres,
@@ -88,7 +96,7 @@ fun HomeScreen(
             // 3. Continue Reading (if history exists)
             if (readingHistory.isNotEmpty()) {
                 val lastItem = readingHistory.first()
-                item {
+                item(key = "continue-reading") {
                     Column(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -101,14 +109,14 @@ fun HomeScreen(
                         Spacer(modifier = Modifier.height(10.dp))
                         ContinueReadingCard(
                             item = lastItem,
-                            onResumeClick = { onChapterClick(lastItem.lastChapterId) }
+                            onResumeClick = { onChapterClick(lastItem.lastChapterId, lastItem.mangaId) }
                         )
                     }
                 }
             }
 
             // 4. Manga Terpopuler Header
-            item {
+            item(key = "header-popular") {
                 Box(modifier = Modifier.padding(horizontal = 14.dp)) {
                     SectionHeader(
                         title = "🔥 Manga Terpopuler",
@@ -120,8 +128,13 @@ fun HomeScreen(
             }
 
             // 5. Manga Terpopuler Grid (Pairs of 2)
-            val popularChunks = filteredPopularList.chunked(2)
-            items(popularChunks.size) { index ->
+            items(
+                count = popularChunks.size,
+                key = { index ->
+                    val pair = popularChunks[index]
+                    "pop-${pair.joinToString("-") { it.id }}"
+                }
+            ) { index ->
                 val pair = popularChunks[index]
                 Row(
                     modifier = Modifier
@@ -147,7 +160,7 @@ fun HomeScreen(
             }
 
             // 6. Update Terbaru Header
-            item {
+            item(key = "header-latest") {
                 Box(modifier = Modifier.padding(horizontal = 14.dp)) {
                     SectionHeader(
                         title = "⚡ Update Terbaru",
@@ -157,8 +170,13 @@ fun HomeScreen(
             }
 
             // 7. Update Terbaru Grid (Pairs of 2)
-            val latestChunks = latestList.chunked(2)
-            items(latestChunks.size) { index ->
+            items(
+                count = latestChunks.size,
+                key = { index ->
+                    val pair = latestChunks[index]
+                    "lat-${pair.joinToString("-") { it.id }}"
+                }
+            ) { index ->
                 val pair = latestChunks[index]
                 Row(
                     modifier = Modifier

@@ -239,6 +239,19 @@ fun MangaCard(
                     .aspectRatio(3f / 4.2f)
                     .background(DarkElevated)
             ) {
+                // Subtle initials fallback behind image
+                Box(
+                    modifier = Modifier.fillMaxSize(),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text(
+                        text = manga.title.take(2).uppercase(),
+                        fontSize = 24.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = TextTertiary.copy(alpha = 0.5f)
+                    )
+                }
+
                 AsyncImage(
                     model = manga.coverUrl,
                     contentDescription = manga.title,
@@ -247,16 +260,16 @@ fun MangaCard(
                 )
 
                 // Rating Badge (TOP-LEFT matching Web CSS)
-                Surface(
-                    shape = RoundedCornerShape(4.dp),
-                    color = Color(0xFF0D0F14).copy(alpha = 0.85f),
+                Box(
                     modifier = Modifier
                         .align(Alignment.TopStart)
                         .padding(8.dp)
+                        .clip(RoundedCornerShape(4.dp))
+                        .background(Color(0xFF0D0F14).copy(alpha = 0.85f))
+                        .padding(horizontal = 6.dp, vertical = 3.dp)
                 ) {
                     Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 3.dp)
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
                         Icon(
                             imageVector = Icons.Default.Star,
@@ -276,19 +289,19 @@ fun MangaCard(
 
                 // Status Badge (BOTTOM-RIGHT matching Web CSS)
                 val isCompleted = manga.status.equals("Completed", ignoreCase = true) || manga.statusId.equals("Tamat", ignoreCase = true)
-                Surface(
-                    shape = RoundedCornerShape(4.dp),
-                    color = Color(0xFF0D0F14).copy(alpha = 0.85f),
+                Box(
                     modifier = Modifier
                         .align(Alignment.BottomEnd)
                         .padding(8.dp)
+                        .clip(RoundedCornerShape(4.dp))
+                        .background(Color(0xFF0D0F14).copy(alpha = 0.85f))
+                        .padding(horizontal = 6.dp, vertical = 2.dp)
                 ) {
                     Text(
                         text = if (isCompleted) "Tamat" else "Berjalan",
                         fontSize = 10.sp,
                         fontWeight = FontWeight.SemiBold,
-                        color = if (isCompleted) SuccessColor else TextPrimary,
-                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                        color = if (isCompleted) SuccessColor else TextPrimary
                     )
                 }
             }
@@ -315,12 +328,16 @@ fun MangaCard(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = manga.releaseYear.ifEmpty { manga.source },
+                        text = manga.source,
                         fontSize = 11.sp,
-                        color = TextSecondary
+                        color = TextSecondary,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                        modifier = Modifier.weight(1f, fill = false)
                     )
+                    Spacer(modifier = Modifier.width(6.dp))
                     Text(
-                        text = "${manga.totalChapters} ch",
+                        text = if (manga.totalChapters > 0) "${manga.totalChapters} ch" else manga.type,
                         fontSize = 11.sp,
                         color = TextTertiary
                     )

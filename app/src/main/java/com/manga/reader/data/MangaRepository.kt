@@ -1,35 +1,72 @@
 package com.manga.reader.data
 
+import com.manga.reader.data.network.KomikindoService
+import com.manga.reader.data.network.MangaDexService
 import com.manga.reader.model.Chapter
 import com.manga.reader.model.HistoryItem
 import com.manga.reader.model.Manga
 import com.manga.reader.model.ReaderPage
+import android.content.Context
+import com.manga.reader.MangaReaderApp
+import com.manga.reader.data.local.AppDatabase
+import com.manga.reader.data.local.entity.FavoriteEntity
+import com.manga.reader.data.local.entity.HistoryEntity
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.async
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.firstOrNull
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeoutOrNull
+import java.util.concurrent.ConcurrentHashMap
 import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class MangaRepository @Inject constructor() {
+class MangaRepository @Inject constructor(
+    private val mangaDexService: MangaDexService = MangaDexService(),
+    private val komikindoService: KomikindoService = KomikindoService(),
+    context: Context? = MangaReaderApp.instanceOrNull
+) {
 
-    private val _favoriteIds = MutableStateFlow<Set<String>>(setOf("curated-solo-leveling", "curated-one-piece"))
+    private val repositoryScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val database: AppDatabase? = context?.let { AppDatabase.getInstance(it) }
+    private val favoriteDao = database?.favoriteDao()
+    private val historyDao = database?.historyDao()
+
+    private val dynamicMangaCache = ConcurrentHashMap<String, Manga>()
+    private val dynamicChapterCache = ConcurrentHashMap<String, Chapter>()
+    private val mangaChaptersCache = ConcurrentHashMap<String, List<Chapter>>()
+    private val searchCache = ConcurrentHashMap<String, List<Manga>>()
+
+    private val _favoriteIds = MutableStateFlow<Set<String>>(emptySet())
     val favoriteIds: StateFlow<Set<String>> = _favoriteIds.asStateFlow()
 
-    private val _readingHistory = MutableStateFlow<List<HistoryItem>>(
-        listOf(
-            HistoryItem(
-                mangaId = "curated-solo-leveling",
-                mangaTitle = "Solo Leveling",
-                coverUrl = "https://uploads.mangadex.org/covers/32d76d19-8a05-4db0-9fc2-e0b0648fe9d0/86d356fc-7940-42a3-9be2-adb0f8262ba8.jpg.512.jpg",
-                lastChapterId = "solo-leveling-1",
-                lastChapterTitle = "Chapter 1"
-            )
-        )
-    )
+    private val _readingHistory = MutableStateFlow<List<HistoryItem>>(emptyList())
     val readingHistory: StateFlow<List<HistoryItem>> = _readingHistory.asStateFlow()
+
+    init {
+        favoriteDao?.let { dao ->
+            repositoryScope.launch {
+                dao.getAllFavorites().collect { favList ->
+                    _favoriteIds.value = favList.map { it.mangaId }.toSet()
+                }
+            }
+        }
+
+        historyDao?.let { dao ->
+            repositoryScope.launch {
+                dao.getAllHistory().collect { historyList ->
+                    _readingHistory.value = historyList.map { it.toHistoryItem() }
+                }
+            }
+        }
+    }
 
     private val allMangaList = listOf(
         Manga(
@@ -229,6 +266,96 @@ class MangaRepository @Inject constructor() {
             source = "MangaDex",
             type = "Manga",
             hasIndonesian = true
+        ),
+        Manga(
+            id = "curated-kaguya",
+            title = "Kaguya-sama: Love Is War",
+            altTitles = listOf("Kaguya-sama wa Kokurasetai", "Tensai-tachi no Ren'ai Zunousen"),
+            coverUrl = "https://uploads.mangadex.org/covers/37f5cce0-8070-4ada-96e5-fa24b1bd4ff9/e21ca520-5054-4041-a07e-de8b7c683522.jpg.512.jpg",
+            bannerUrl = "https://uploads.mangadex.org/covers/37f5cce0-8070-4ada-96e5-fa24b1bd4ff9/e21ca520-5054-4041-a07e-de8b7c683522.jpg.512.jpg",
+            author = "Aka Akasaka",
+            status = "Completed",
+            statusId = "Tamat",
+            synopsis = "Kaguya Shinomiya dan Miyuki Shirogane adalah dua elit jenius di puncak dewan murid. Saling jatuh cinta namun terhalang oleh harga diri yang tinggi, mereka bersumpah untuk membuat yang lain menyatakan cinta terlebih dahulu dalam perang akal dan cinta!",
+            genres = listOf("Comedy", "Romance", "School Life", "Psychological", "Seinen"),
+            rating = 9.3f,
+            releaseYear = "2015",
+            totalChapters = 281,
+            source = "MangaDex",
+            type = "Manga",
+            hasIndonesian = true
+        ),
+        Manga(
+            id = "curated-horimiya",
+            title = "Horimiya",
+            altTitles = listOf("Hori-san to Miyamura-kun"),
+            coverUrl = "https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/04feed00-d919-4c72-b355-15b37555eb1e.jpg.512.jpg",
+            bannerUrl = "https://uploads.mangadex.org/covers/a25e46ec-30f7-4db6-89df-cacbc1d9a900/04feed00-d919-4c72-b355-15b37555eb1e.jpg.512.jpg",
+            author = "HERO, Daisuke Hagiwara",
+            status = "Completed",
+            statusId = "Tamat",
+            synopsis = "Kyouko Hori yang populer di sekolah ternyata mengurus adik dan rumah tangga, sedangkan Izumi Miyamura yang pendiam ternyata bertato dan bertindik di luar sekolah. Keduanya menemukan kenyamanan setelah saling mengetahui rahasia masing-masing.",
+            genres = listOf("Romance", "Comedy", "School Life", "Slice of Life", "Shounen"),
+            rating = 9.1f,
+            releaseYear = "2011",
+            totalChapters = 122,
+            source = "MangaDex",
+            type = "Manga",
+            hasIndonesian = true
+        ),
+        Manga(
+            id = "curated-oshi-no-ko",
+            title = "Oshi no Ko",
+            altTitles = listOf("Anak Idola", "My Star"),
+            coverUrl = "https://uploads.mangadex.org/covers/fa66c641-113f-4ae4-a83a-7dd77a7a10f8/3f9eb46a-74ae-48d0-be95-0b2f9009fdf3.jpg.512.jpg",
+            bannerUrl = "https://uploads.mangadex.org/covers/fa66c641-113f-4ae4-a83a-7dd77a7a10f8/3f9eb46a-74ae-48d0-be95-0b2f9009fdf3.jpg.512.jpg",
+            author = "Aka Akasaka, Mengo Yokoyari",
+            status = "Completed",
+            statusId = "Tamat",
+            synopsis = "Dokter Gorou bereinkarnasi sebagai Aqua, putra kembar idola legendaris Ai Hoshino. Demi membalaskan dendam kematian tragis sang ibu, Aqua terjun ke dalam kegelapan dunia hiburan Jepang.",
+            genres = listOf("Drama", "Mystery", "Supernatural", "Psychological", "Seinen"),
+            rating = 9.4f,
+            releaseYear = "2020",
+            totalChapters = 166,
+            source = "MangaDex",
+            type = "Manga",
+            hasIndonesian = true
+        ),
+        Manga(
+            id = "curated-mushoku-tensei",
+            title = "Mushoku Tensei: Isekai Ittara Honki Dasu",
+            altTitles = listOf("Jobless Reincarnation"),
+            coverUrl = "https://uploads.mangadex.org/covers/38c6f934-7558-4d1b-80d1-91114e0419eb/7d8da1d7-5483-4550-aa44-9c57b7e9eb90.jpg.512.jpg",
+            bannerUrl = "https://uploads.mangadex.org/covers/38c6f934-7558-4d1b-80d1-91114e0419eb/7d8da1d7-5483-4550-aa44-9c57b7e9eb90.jpg.512.jpg",
+            author = "Rifujin na Magonote, Fujikawa Yuka",
+            status = "Ongoing",
+            statusId = "Berjalan",
+            synopsis = "Seorang pria pengangguran berusia 34 tahun bereinkarnasi ke dunia sihir sebagai Rudeus Greyrat. Bertekad tak mengulangi penyesalan masa lalunya, Rudeus berjanji menjalani hidup barunya secara sungguh-sungguh.",
+            genres = listOf("Action", "Adventure", "Drama", "Fantasy", "Isekai", "Romance"),
+            rating = 9.3f,
+            releaseYear = "2014",
+            totalChapters = 105,
+            source = "MangaDex",
+            type = "Manga",
+            hasIndonesian = true
+        ),
+        Manga(
+            id = "curated-conan",
+            title = "Detective Conan",
+            altTitles = listOf("Meitantei Conan", "Case Closed"),
+            coverUrl = "https://uploads.mangadex.org/covers/7f30dfc3-0b80-4dcc-a3b9-0cd746fac005/e67075b1-7ffc-4fe8-abd1-c8f3b32c28eb.jpg.512.jpg",
+            bannerUrl = "https://uploads.mangadex.org/covers/7f30dfc3-0b80-4dcc-a3b9-0cd746fac005/e67075b1-7ffc-4fe8-abd1-c8f3b32c28eb.jpg.512.jpg",
+            author = "Gosho Aoyama",
+            status = "Ongoing",
+            statusId = "Berjalan",
+            synopsis = "Shinichi Kudo, detektif SMA jenius, diracuni oleh Organisasi Hitam hingga tubuhnya menyusut menjadi anak SD. Dengan nama samaran Conan Edogawa, ia memecahkan berbagai kasus rumit sembari memburu organisasi tersebut.",
+            genres = listOf("Mystery", "Comedy", "Shounen", "Drama"),
+            rating = 9.5f,
+            releaseYear = "1994",
+            totalChapters = 1130,
+            source = "MangaDex",
+            type = "Manga",
+            hasIndonesian = true
         )
     )
 
@@ -253,15 +380,58 @@ class MangaRepository @Inject constructor() {
     }
 
     suspend fun getGenres(): List<String> = withContext(Dispatchers.IO) {
-        listOf("Semua", "Action", "Fantasy", "Adventure", "Comedy", "Shounen", "Supernatural", "Drama", "Horror")
+        listOf(
+            "Semua",
+            "Action",
+            "Fantasy",
+            "Adventure",
+            "Romance",
+            "Comedy",
+            "Isekai",
+            "Slice of Life",
+            "Drama",
+            "Supernatural",
+            "Mystery",
+            "Horror",
+            "Sci-Fi",
+            "Psychological",
+            "Thriller",
+            "Martial Arts",
+            "School Life",
+            "Sports",
+            "Historical",
+            "Shounen",
+            "Seinen",
+            "Shoujo"
+        )
     }
 
-    suspend fun searchManga(query: String, filterGenre: String = "Semua", filterSource: String = "all"): List<Manga> = withContext(Dispatchers.IO) {
-        val q = query.trim().lowercase()
-        var results = allMangaList
+    fun searchLocalManga(
+        query: String = "",
+        filterGenres: Set<String> = emptySet(),
+        filterSource: String = "all"
+    ): List<Manga> {
+        val q = query.trim()
+        val qLower = q.lowercase()
+        val activeGenres = filterGenres.filter { !it.equals("Semua", ignoreCase = true) }
 
-        if (filterGenre != "Semua") {
-            results = results.filter { m -> m.genres.any { it.equals(filterGenre, ignoreCase = true) } }
+        val pool = (allMangaList + dynamicMangaCache.values).distinctBy { it.id }
+
+        var results = if (q.isEmpty()) {
+            pool
+        } else {
+            pool.filter { m ->
+                m.title.lowercase().contains(qLower) ||
+                m.altTitles.any { it.lowercase().contains(qLower) } ||
+                m.author.lowercase().contains(qLower) ||
+                m.genres.any { it.lowercase().contains(qLower) }
+            }
+        }
+
+        if (activeGenres.isNotEmpty()) {
+            results = results.filter { m ->
+                activeGenres.any { sel -> m.genres.any { it.equals(sel, ignoreCase = true) } }
+            }
         }
 
         if (filterSource != "all") {
@@ -270,64 +440,248 @@ class MangaRepository @Inject constructor() {
                 else m.source.lowercase().contains(filterSource.lowercase())
             }
         }
+        return results
+    }
 
-        if (q.isNotEmpty()) {
-            results = results.filter { m ->
-                m.title.lowercase().contains(q) ||
-                m.altTitles.any { it.lowercase().contains(q) } ||
-                m.author.lowercase().contains(q) ||
-                m.genres.any { it.lowercase().contains(q) }
+    fun searchLocalManga(
+        query: String,
+        filterGenre: String,
+        filterSource: String = "all"
+    ): List<Manga> {
+        val genres = if (filterGenre == "Semua") emptySet() else setOf(filterGenre)
+        return searchLocalManga(query, genres, filterSource)
+    }
+
+    suspend fun searchManga(
+        query: String = "",
+        filterGenres: Set<String> = emptySet(),
+        filterSource: String = "all"
+    ): List<Manga> = withContext(Dispatchers.IO) {
+        val q = query.trim()
+        val qLower = q.lowercase()
+        val activeGenres = filterGenres.filter { !it.equals("Semua", ignoreCase = true) }.toSet()
+
+        val sortedGenresKey = activeGenres.sorted().joinToString(",")
+        val cacheKey = "${qLower}_[${sortedGenresKey}]_${filterSource}"
+        searchCache[cacheKey]?.let { return@withContext it }
+
+        val localMatches = searchLocalManga(query, activeGenres, filterSource)
+
+        if (filterSource == "curated") {
+            searchCache[cacheKey] = localMatches
+            return@withContext localMatches
+        }
+
+        // If both query and activeGenres are empty, return local curated matches
+        if (q.isEmpty() && activeGenres.isEmpty()) {
+            return@withContext localMatches
+        }
+
+        val mdDeferred: Deferred<List<Manga>>? = if (filterSource == "all" || filterSource == "mangadex") {
+            async {
+                try {
+                    withTimeoutOrNull(10000L) {
+                        mangaDexService.searchMangaWithFilters(
+                            query = q,
+                            genres = activeGenres,
+                            limit = 40
+                        )
+                    } ?: emptyList<Manga>()
+                } catch (_: Exception) {
+                    emptyList<Manga>()
+                }
+            }
+        } else null
+
+        val komikindoDeferred: Deferred<List<Manga>>? = if ((filterSource == "all" || filterSource == "komikindo") && q.isNotEmpty()) {
+            async {
+                try {
+                    withTimeoutOrNull(4000L) { komikindoService.searchManga(q) } ?: emptyList<Manga>()
+                } catch (_: Exception) {
+                    emptyList<Manga>()
+                }
+            }
+        } else null
+
+        val mdResults = mdDeferred?.await() ?: emptyList()
+        val komikindoResults = komikindoDeferred?.await() ?: emptyList()
+
+        mdResults.forEach { dynamicMangaCache[it.id] = it }
+        komikindoResults.forEach { dynamicMangaCache[it.id] = it }
+
+        val filteredKomikindo = if (activeGenres.isNotEmpty()) {
+            komikindoResults.filter { m ->
+                activeGenres.any { sel -> m.genres.any { it.equals(sel, ignoreCase = true) } }
+            }
+        } else komikindoResults
+
+        val candidateList = when (filterSource) {
+            "mangadex" -> mdResults
+            "komikindo" -> filteredKomikindo
+            else -> localMatches + mdResults + filteredKomikindo
+        }
+
+        val seen = HashSet<String>()
+        val finalResults = mutableListOf<Manga>()
+
+        for (m in candidateList) {
+            val key = m.title.trim().lowercase().replace(Regex("[^a-z0-9]"), "")
+            if (key.isNotEmpty() && seen.add(key)) {
+                if (activeGenres.isEmpty() || m.source == "MangaDex" || activeGenres.any { sel -> m.genres.any { it.equals(sel, ignoreCase = true) } }) {
+                    finalResults.add(m)
+                }
             }
         }
 
-        results
+        if (searchCache.size > 50) {
+            searchCache.clear()
+        }
+        searchCache[cacheKey] = finalResults
+
+        finalResults
+    }
+
+    suspend fun searchManga(
+        query: String,
+        filterGenre: String,
+        filterSource: String = "all"
+    ): List<Manga> {
+        val genres = if (filterGenre == "Semua") emptySet() else setOf(filterGenre)
+        return searchManga(query, genres, filterSource)
     }
 
     suspend fun getMangaById(id: String): Manga? = withContext(Dispatchers.IO) {
         allMangaList.find { it.id == id }
+            ?: dynamicMangaCache[id]
+            ?: if (id.startsWith("md-")) {
+                mangaDexService.getMangaDetails(id)?.also { dynamicMangaCache[it.id] = it }
+            } else if (id.startsWith("komikindo-")) {
+                komikindoService.getMangaDetails(id.removePrefix("komikindo-"))?.also { dynamicMangaCache[it.id] = it }
+            } else null
     }
 
     suspend fun getFavoriteManga(): List<Manga> = withContext(Dispatchers.IO) {
+        val dbFavorites = favoriteDao?.getAllFavorites()?.firstOrNull() ?: emptyList()
+        if (dbFavorites.isNotEmpty()) {
+            return@withContext dbFavorites.map { it.toManga() }
+        }
         val favs = _favoriteIds.value
-        allMangaList.filter { favs.contains(it.id) }
+        val allAvailable = allMangaList + dynamicMangaCache.values
+        allAvailable.filter { favs.contains(it.id) }.distinctBy { it.id }
     }
 
     fun isFavorite(id: String): Boolean {
         return _favoriteIds.value.contains(id)
     }
 
-    fun toggleFavorite(id: String) {
+    fun toggleFavorite(id: String, mangaObj: Manga? = null) {
         val current = _favoriteIds.value.toMutableSet()
-        if (current.contains(id)) {
+        val isFav = current.contains(id)
+        if (isFav) {
             current.remove(id)
+            _favoriteIds.value = current
+            repositoryScope.launch {
+                favoriteDao?.deleteFavoriteById(id)
+            }
         } else {
             current.add(id)
+            _favoriteIds.value = current
+            repositoryScope.launch {
+                val manga = mangaObj
+                    ?: allMangaList.find { it.id == id }
+                    ?: dynamicMangaCache[id]
+                    ?: getMangaById(id)
+
+                if (manga != null) {
+                    favoriteDao?.insertFavorite(FavoriteEntity.fromManga(manga))
+                } else {
+                    favoriteDao?.insertFavorite(
+                        FavoriteEntity(
+                            mangaId = id,
+                            title = id,
+                            coverUrl = "",
+                            addedAt = System.currentTimeMillis()
+                        )
+                    )
+                }
+            }
         }
-        _favoriteIds.value = current
     }
 
-    fun recordHistory(mangaId: String, chapterId: String, chapterTitle: String) {
-        val manga = allMangaList.find { it.id == mangaId } ?: return
-        val existing = _readingHistory.value.toMutableList()
-        existing.removeAll { it.mangaId == mangaId }
-        existing.add(
-            0,
-            HistoryItem(
-                mangaId = mangaId,
-                mangaTitle = manga.title,
-                coverUrl = manga.coverUrl,
-                lastChapterId = chapterId,
-                lastChapterTitle = chapterTitle
-            )
+    fun recordHistory(mangaId: String, chapterId: String, chapterTitle: String, pageIndex: Int = 0) {
+        val resolvedMangaId = when {
+            mangaId.isNotBlank() && mangaId != "komikindo" && mangaId != "md" -> mangaId
+            else -> findMangaIdForChapter(chapterId).ifBlank { mangaId }
+        }
+        val manga = allMangaList.find { it.id == resolvedMangaId } ?: dynamicMangaCache[resolvedMangaId]
+        val title = manga?.title ?: (if (resolvedMangaId.isNotBlank()) resolvedMangaId else "Manga")
+        val cover = manga?.coverUrl ?: ""
+
+        val historyItem = HistoryItem(
+            mangaId = resolvedMangaId,
+            mangaTitle = title,
+            coverUrl = cover,
+            lastChapterId = chapterId,
+            lastChapterTitle = chapterTitle
         )
+
+        val existing = _readingHistory.value.toMutableList()
+        existing.removeAll { it.mangaId == resolvedMangaId }
+        existing.add(0, historyItem)
         _readingHistory.value = existing
+
+        repositoryScope.launch {
+            historyDao?.insertOrUpdateHistory(
+                HistoryEntity.fromHistoryItem(historyItem, pageIndex)
+            )
+        }
     }
 
     fun clearHistory() {
         _readingHistory.value = emptyList()
+        repositoryScope.launch {
+            historyDao?.clearAllHistory()
+        }
     }
 
-    suspend fun getChapters(mangaId: String, preferredLang: String = "id"): List<Chapter> = withContext(Dispatchers.IO) {
+    fun getChapter(chapterId: String): Chapter? = dynamicChapterCache[chapterId]
+
+    fun getCachedChapters(mangaId: String): List<Chapter>? = mangaChaptersCache[mangaId]
+
+    fun findMangaIdForChapter(chapterId: String): String {
+        dynamicChapterCache[chapterId]?.mangaId?.let { if (it.isNotBlank()) return it }
+        _readingHistory.value.firstOrNull { it.lastChapterId == chapterId }?.mangaId?.let { if (it.isNotBlank()) return it }
+        for ((mId, chapters) in mangaChaptersCache) {
+            if (chapters.any { it.id == chapterId }) return mId
+        }
+        if (chapterId.startsWith("curated-") && chapterId.contains("-ch-")) {
+            return chapterId.substringBefore("-ch-")
+        }
+        return ""
+    }
+
+    suspend fun getChapters(mangaId: String, preferredLang: String = "id", forceRefresh: Boolean = false): List<Chapter> = withContext(Dispatchers.IO) {
+        if (!forceRefresh) {
+            val cached = mangaChaptersCache[mangaId]
+            if (cached != null && cached.isNotEmpty()) {
+                return@withContext cached
+            }
+        }
+
+        if (mangaId.startsWith("md-")) {
+            val list = mangaDexService.getChapters(mangaId, preferredLang)
+            list.forEach { dynamicChapterCache[it.id] = it }
+            mangaChaptersCache[mangaId] = list
+            return@withContext list
+        }
+
+        if (mangaId.startsWith("komikindo-")) {
+            val list = komikindoService.getChapters(mangaId.removePrefix("komikindo-"))
+            list.forEach { dynamicChapterCache[it.id] = it }
+            mangaChaptersCache[mangaId] = list
+            return@withContext list
+        }
+
         val total = when (mangaId) {
             "curated-solo-leveling" -> 182
             "curated-one-piece" -> 1240
@@ -343,8 +697,7 @@ class MangaRepository @Inject constructor() {
             else -> 50
         }
 
-        // Generate seluruh chapter lengkap (1 sampai total) tanpa pembatasan 35 chapter
-        (1..total).map { num ->
+        val list = (1..total).map { num ->
             val isFinal = (num == total) && total > 1
             Chapter(
                 id = "$mangaId-ch-$num",
@@ -357,6 +710,19 @@ class MangaRepository @Inject constructor() {
                 source = "Komiku / Komikindo"
             )
         }.reversed()
+
+        list.forEach { dynamicChapterCache[it.id] = it }
+        mangaChaptersCache[mangaId] = list
+        list
+    }
+
+    fun getChapterTitle(chapterId: String): String {
+        dynamicChapterCache[chapterId]?.let { return it.title }
+        if (chapterId.contains("-ch-")) {
+            val num = chapterId.substringAfterLast("-ch-")
+            if (num.isNotBlank()) return "Chapter $num"
+        }
+        return chapterId
     }
 
     private fun tryScrapeKomikuPages(slug: String, chapterNum: Int): List<String> {
@@ -383,7 +749,21 @@ class MangaRepository @Inject constructor() {
     }
 
     suspend fun getChapterPages(chapterId: String): List<ReaderPage> = withContext(Dispatchers.IO) {
-        // Coba ambil halaman komik langsung dari Komiku.org sesuai nomor bab
+        val cleanChapterId = chapterId.trim()
+        val decodedChapterId = try { java.net.URLDecoder.decode(cleanChapterId, "UTF-8") } catch (_: Exception) { cleanChapterId }
+
+        if (cleanChapterId.startsWith("md-ch-") || decodedChapterId.startsWith("md-ch-")) {
+            val uuid = (if (cleanChapterId.startsWith("md-ch-")) cleanChapterId else decodedChapterId).removePrefix("md-ch-")
+            val pages = mangaDexService.getChapterPages(uuid)
+            if (pages.isNotEmpty()) return@withContext pages
+        }
+
+        if (cleanChapterId.startsWith("komikindo-ch-") || decodedChapterId.startsWith("komikindo-ch-")) {
+            val raw = (if (cleanChapterId.startsWith("komikindo-ch-")) cleanChapterId else decodedChapterId).removePrefix("komikindo-ch-")
+            val pages = komikindoService.getChapterPages(raw)
+            if (pages.isNotEmpty()) return@withContext pages
+        }
+
         val komikuSlug = when {
             chapterId.startsWith("curated-kanojo-mo-kanojo") -> "kanojo-mo-kanojo"
             chapterId.startsWith("curated-one-piece") -> "one-piece"

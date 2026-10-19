@@ -7,7 +7,8 @@ const UPLOADS_URL = "https://uploads.mangadex.org";
 const cache = {
   mangaDetails: new Map(),
   chapterLists: new Map(),
-  chapterPages: new Map()
+  chapterPages: new Map(),
+  searchResults: new Map()
 };
 
 /**
@@ -338,89 +339,122 @@ export async function fetchMangasByGenre(genre, limit = 18) {
 }
 
 /**
- * Mencari manga dengan filter kecocokan tinggi dan perankingan relevansi
+ * Pencarian instan dari koleksi lokal kurasi tanpa latensi jaringan
+ */
+export function searchLocalManga(query, limit = 20) {
+  const cleanQ = (query || "").trim().toLowerCase();
+  if (!cleanQ) return CURATED_MANGAS.slice(0, limit);
+
+  return CURATED_MANGAS
+    .map(m => ({
+      manga: m,
+      score: calculateRelevanceScore(m, cleanQ)
+    }))
+    .filter(item => item.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map(item => item.manga)
+    .slice(0, limit);
+}
+
+/**
+ * Mencari manga multi-sumber secara paralel dengan timeout cepat dan in-memory cache
  */
 export async function searchManga(query, limit = 20) {
   const cleanQ = (query || "").trim().toLowerCase();
   if (!cleanQ) return CURATED_MANGAS;
 
-  // 1. Ambil kecocokan dari kurasi lokal dengan skor relevansi
+  // 1. Cek cache in-memory untuk respons 0ms pada pencarian berulang
+  const cached = cache.searchResults.get(cleanQ);
+  if (cached && Array.isArray(cached)) {
+    return cached.slice(0, limit);
+  }
+
+  // 2. Kandidat lokal selalu siap instan
   const localCandidates = CURATED_MANGAS.map(m => ({
     manga: m,
     score: calculateRelevanceScore(m, cleanQ)
   })).filter(item => item.score > 0);
 
-  // 2. Cari dari MangaDex dengan urutan relevance dan exclude doujinshi
-  let liveCandidates = [];
-  try {
+  const encoded = encodeURIComponent(query.trim());
+
+  // 3. Helper pencarian paralel dengan AbortController terisolasi
+  const fetchMangaDexAsync = async () => {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 8000);
-
-    const encoded = encodeURIComponent(query.trim());
-    // Gunakan order[relevance]=desc dan filter bahasa Indonesia agar hasil pencarian relevan dan berbahasa Indonesia
-    const url = `${BASE_URL}/manga?title=${encoded}&limit=25&availableTranslatedLanguage[]=id&includes[]=cover_art&includes[]=author&contentRating[]=safe&contentRating[]=suggestive&order[relevance]=desc`;
-    const res = await fetch(url, { signal: controller.signal });
-    clearTimeout(timeout);
-
-    if (res.ok) {
+    const timeout = setTimeout(() => controller.abort(), 3500);
+    try {
+      const url = `${BASE_URL}/manga?title=${encoded}&limit=25&availableTranslatedLanguage[]=id&includes[]=cover_art&includes[]=author&contentRating[]=safe&contentRating[]=suggestive&order[relevance]=desc`;
+      const res = await fetch(url, { signal: controller.signal });
+      clearTimeout(timeout);
+      if (!res.ok) return [];
       const json = await res.json();
       const rawData = json.data || [];
-      const liveMangas = rawData.map(raw => formatMangaDexManga(raw, cleanQ));
-
-      liveCandidates = liveMangas.map(m => ({
-        manga: m,
-        score: calculateRelevanceScore(m, cleanQ)
-      })).filter(item => item.score > 0);
+      return rawData
+        .map(raw => formatMangaDexManga(raw, cleanQ))
+        .map(m => ({ manga: m, score: calculateRelevanceScore(m, cleanQ) }))
+        .filter(item => item.score > 0);
+    } catch {
+      clearTimeout(timeout);
+      return [];
     }
-  } catch (err) {
-    console.warn("Pencarian online MangaDex gagal:", err.message);
-  }
+  };
 
-  // 3. Cari dari Komikindo via server proxy (untuk rilisan Bahasa Indonesia)
-  let komikandoCandidates = [];
-  try {
-    const endpoint = typeof window !== "undefined"
-      ? `/api/search-komikindo?q=${encodeURIComponent(query.trim())}`
-      : `http://localhost:5173/api/search-komikindo?q=${encodeURIComponent(query.trim())}`;
-    const res = await fetch(endpoint);
-    if (res.ok) {
+  const fetchKomikindoAsync = async () => {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3000);
+    try {
+      const endpoint = typeof window !== "undefined"
+        ? `/api/search-komikindo?q=${encoded}`
+        : `http://localhost:5173/api/search-komikindo?q=${encoded}`;
+      const res = await fetch(endpoint, { signal: controller.signal });
+      clearTimeout(timeout);
+      if (!res.ok) return [];
       const json = await res.json();
-      if (json.success && Array.isArray(json.items)) {
-        komikandoCandidates = json.items.map(m => ({
-          manga: m,
-          score: calculateRelevanceScore(m, cleanQ)
-        })).filter(item => item.score > 0);
-      }
+      if (!json.success || !Array.isArray(json.items)) return [];
+      return json.items
+        .map(m => ({ manga: m, score: calculateRelevanceScore(m, cleanQ) }))
+        .filter(item => item.score > 0);
+    } catch {
+      clearTimeout(timeout);
+      return [];
     }
-  } catch {
-    // Abaikan jika endpoint komikindo tidak dapat dihubungi
-  }
+  };
 
-  // 3.5 Cari dari Komiku.org via server proxy (Bahasa Indonesia)
-  let komikuCandidates = [];
-  try {
-    const endpoint = typeof window !== "undefined"
-      ? `/api/search-komiku?q=${encodeURIComponent(query.trim())}`
-      : `http://localhost:5173/api/search-komiku?q=${encodeURIComponent(query.trim())}`;
-    const res = await fetch(endpoint);
-    if (res.ok) {
+  const fetchKomikuAsync = async () => {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3000);
+    try {
+      const endpoint = typeof window !== "undefined"
+        ? `/api/search-komiku?q=${encoded}`
+        : `http://localhost:5173/api/search-komiku?q=${encoded}`;
+      const res = await fetch(endpoint, { signal: controller.signal });
+      clearTimeout(timeout);
+      if (!res.ok) return [];
       const json = await res.json();
-      if (json.success && Array.isArray(json.items)) {
-        komikuCandidates = json.items.map(m => ({
-          manga: m,
-          score: calculateRelevanceScore(m, cleanQ)
-        })).filter(item => item.score > 0);
-      }
+      if (!json.success || !Array.isArray(json.items)) return [];
+      return json.items
+        .map(m => ({ manga: m, score: calculateRelevanceScore(m, cleanQ) }))
+        .filter(item => item.score > 0);
+    } catch {
+      clearTimeout(timeout);
+      return [];
     }
-  } catch {
-    // Abaikan jika endpoint komiku tidak dapat dihubungi
-  }
+  };
 
-  // 4. Gabungkan seluruh kandidat dan urutkan berdasarkan skor relevansi tertinggi
+  // 4. Eksekusi semua sumber online secara serentak (paralel)
+  const settled = await Promise.allSettled([
+    fetchMangaDexAsync(),
+    fetchKomikindoAsync(),
+    fetchKomikuAsync()
+  ]);
+
+  const liveCandidates = settled[0].status === "fulfilled" ? settled[0].value : [];
+  const komikandoCandidates = settled[1].status === "fulfilled" ? settled[1].value : [];
+  const komikuCandidates = settled[2].status === "fulfilled" ? settled[2].value : [];
+
+  // 5. Gabungkan, beri peringkat relevansi, dan deduplikasi
   const allCandidates = [...localCandidates, ...komikandoCandidates, ...komikuCandidates, ...liveCandidates];
   allCandidates.sort((a, b) => b.score - a.score);
 
-  // 5. Deduplikasi cerdas berdasarkan nama bersih
   const seenKeys = new Set();
   const seenIds = new Set();
   const uniqueRanked = [];
@@ -438,6 +472,13 @@ export async function searchManga(query, limit = 20) {
     uniqueRanked.push(manga);
     if (uniqueRanked.length >= limit) break;
   }
+
+  // Simpan ke cache (batasi memori maksimal 50 pencarian terakhir)
+  if (cache.searchResults.size >= 50) {
+    const oldestKey = cache.searchResults.keys().next().value;
+    cache.searchResults.delete(oldestKey);
+  }
+  cache.searchResults.set(cleanQ, uniqueRanked);
 
   return uniqueRanked;
 }
@@ -723,6 +764,11 @@ export async function getChapterPages(chapter, mangaRef) {
     }
   }
 
-  // Jika halaman tidak dapat dimuat, kembalikan array kosong agar UI menampilkan error bersih, JANGAN gambar lukisan palsu
+  // 5. Fallback kurasi: jika manga kurasi memiliki daftar halaman dasar pada chapter 1
+  if (mangaRef && Array.isArray(mangaRef.chapters) && mangaRef.chapters[0]?.pages?.length > 0) {
+    return mangaRef.chapters[0].pages;
+  }
+
   return [];
 }
+

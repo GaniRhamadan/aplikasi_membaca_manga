@@ -43,7 +43,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MangaAppNavigation() {
     val navController = rememberNavController()
-    val repository = remember { MangaRepository() }
+    val context = androidx.compose.ui.platform.LocalContext.current.applicationContext
+    val repository = remember { MangaRepository(context = context) }
 
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route ?: Screen.Home.route
@@ -113,8 +114,8 @@ fun MangaAppNavigation() {
                         onMangaClick = { mangaId ->
                             navController.navigate(Screen.Detail.createRoute(mangaId))
                         },
-                        onChapterClick = { chapterId ->
-                            navController.navigate(Screen.Reader.createRoute(chapterId))
+                        onChapterClick = { chapterId, mangaId ->
+                            navController.navigate(Screen.Reader.createRoute(chapterId, mangaId))
                         },
                         onSeeAllPopularClick = {
                             navController.navigate(Screen.Explore.route) {
@@ -147,8 +148,8 @@ fun MangaAppNavigation() {
                 composable(Screen.History.route) {
                     HistoryScreen(
                         repository = repository,
-                        onChapterClick = { chapterId ->
-                            navController.navigate(Screen.Reader.createRoute(chapterId))
+                        onChapterClick = { chapterId, mangaId ->
+                            navController.navigate(Screen.Reader.createRoute(chapterId, mangaId))
                         }
                     )
                 }
@@ -167,7 +168,7 @@ fun MangaAppNavigation() {
                             navController.popBackStack()
                         },
                         onChapterClick = { chapterId ->
-                            navController.navigate(Screen.Reader.createRoute(chapterId))
+                            navController.navigate(Screen.Reader.createRoute(chapterId, mangaId))
                         }
                     )
                 }
@@ -175,12 +176,32 @@ fun MangaAppNavigation() {
                 composable(
                     route = Screen.Reader.route,
                     arguments = listOf(
-                        navArgument("chapterId") { type = NavType.StringType }
+                        navArgument("chapterId") {
+                            type = NavType.StringType
+                            defaultValue = ""
+                        },
+                        navArgument("mangaId") {
+                            type = NavType.StringType
+                            defaultValue = ""
+                            nullable = true
+                        }
                     )
                 ) { backStackEntry ->
-                    val chapterId = backStackEntry.arguments?.getString("chapterId") ?: ""
+                    val rawChapterId = backStackEntry.arguments?.getString("chapterId") ?: ""
+                    val chapterId = try {
+                        java.net.URLDecoder.decode(rawChapterId, java.nio.charset.StandardCharsets.UTF_8.name())
+                    } catch (_: Exception) {
+                        rawChapterId
+                    }
+                    val rawMangaId = backStackEntry.arguments?.getString("mangaId") ?: ""
+                    val mangaId = try {
+                        java.net.URLDecoder.decode(rawMangaId, java.nio.charset.StandardCharsets.UTF_8.name())
+                    } catch (_: Exception) {
+                        rawMangaId
+                    }
                     ReaderScreen(
                         chapterId = chapterId,
+                        initialMangaId = mangaId,
                         repository = repository,
                         onBackClick = {
                             navController.popBackStack()

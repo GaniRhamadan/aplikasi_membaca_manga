@@ -24,7 +24,7 @@ import com.manga.reader.ui.theme.*
 @Composable
 fun HistoryScreen(
     repository: MangaRepository,
-    onChapterClick: (String) -> Unit
+    onChapterClick: (String, String?) -> Unit
 ) {
     val historyList by repository.readingHistory.collectAsState()
 
@@ -99,7 +99,7 @@ fun HistoryScreen(
                 }
             }
         } else {
-            items(historyList) { item ->
+            items(historyList, key = { it.mangaId }) { item ->
                 Card(
                     shape = RoundedCornerShape(14.dp),
                     colors = CardDefaults.cardColors(containerColor = DarkSurface),
@@ -149,7 +149,7 @@ fun HistoryScreen(
                         }
 
                         Button(
-                            onClick = { onChapterClick(item.lastChapterId) },
+                            onClick = { onChapterClick(item.lastChapterId, item.mangaId) },
                             colors = ButtonDefaults.buttonColors(containerColor = PrimaryAccent),
                             shape = RoundedCornerShape(8.dp),
                             contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp),

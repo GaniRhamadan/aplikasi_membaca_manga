@@ -9,7 +9,16 @@ sealed class Screen(val route: String) {
     data object Detail : Screen("detail/{mangaId}") {
         fun createRoute(mangaId: String) = "detail/$mangaId"
     }
-    data object Reader : Screen("reader/{chapterId}") {
-        fun createRoute(chapterId: String) = "reader/$chapterId"
+    data object Reader : Screen("reader?chapterId={chapterId}&mangaId={mangaId}") {
+        fun createRoute(chapterId: String, mangaId: String? = null): String {
+            val encodedChapterId = java.net.URLEncoder.encode(chapterId, java.nio.charset.StandardCharsets.UTF_8.name())
+            val encodedMangaId = if (!mangaId.isNullOrBlank()) {
+                java.net.URLEncoder.encode(mangaId, java.nio.charset.StandardCharsets.UTF_8.name())
+            } else {
+                ""
+            }
+            return "reader?chapterId=$encodedChapterId&mangaId=$encodedMangaId"
+        }
     }
 }
+
